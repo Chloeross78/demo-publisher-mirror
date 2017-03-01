@@ -1,5 +1,5 @@
-http://www.londonbeautyqueen.com -www.londonbeautyqueen.com/search/* -r2 -%e1
-File generated automatically on Wed, 01 Mar 2017 10:30:49, do NOT edit
+www.getthegloss.com/listing/beauty-reviews-beauty-product-reviews -youtube.com -pinterest.com -plus.google.com -twitter.com -t.co -*.facebook.com -r3 -%e1 -P c440410aad0449588f0a3adf6d1c6176:@proxy.crawlera.com:8010 -F "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
+File generated automatically on Wed, 01 Mar 2017 11:37:19, do NOT edit
 
 To update a mirror, just launch httrack without any parameters
 The existing cache will be used (and modified)

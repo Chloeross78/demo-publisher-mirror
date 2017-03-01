@@ -1,0 +1,656 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.thebodycoach.com/90daysss.asp by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 11:55:44 GMT -->
+<head>
+	<title>90 Day SSS / The Body Coach</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="expires" content="-1" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="index, follow" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700,200" rel="stylesheet" type="text/css" />
+	<link href="https://www.thebodycoach.com/css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.thebodycoach.com/css/bloglayout.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.thebodycoach.com/css/ndlayout.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.thebodycoach.com/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.thebodycoach.com/css/owl.theme.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.thebodycoach.com/css/owl.transitions.css" rel="stylesheet" type="text/css" />
+	
+	<link href="https://www.thebodycoach.com/css/responsive.css" rel="stylesheet" type="text/css" />
+	
+	<link href="https://www.thebodycoach.com/css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/jquery.validate.js"></script>
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/jquery.livequery.js"></script>
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/admin.js"></script>
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/instafeed.min.js"></script>
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/jQueryRotate.js"></script>
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/retina.min.js"></script>
+	<script type="text/javascript" src="https://www.thebodycoach.com/scripts/owl.carousel.js"></script>
+	
+	<script>
+	$( document ).ready(function() {
+		$('#burger').toggle( 
+			function() {
+				$('#container').animate({ left: 237 }, 'slow', function() {
+					
+				});
+			}, 
+			function() {
+				$('#container').animate({ left: 0 }, 'slow', function() {
+					
+				});
+			}
+		);
+		
+		$('#qsub').click(function(){
+			$(this).attr('disabled');
+			$(this).css('background-color', '#cccccc');
+			$(this).css('border', '1px solid #cccccc');
+		});
+		
+		$(window).scroll( function(){
+    
+			/* Check the location of each desired element */
+			$('.tlitem').each( function(i){
+			
+				var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+				var bottom_of_window = $(window).scrollTop() + $(window).height();
+			
+				/* If the object is completely visible in the window, fade it it */
+				if( bottom_of_window > bottom_of_object ){
+				
+					$(this).animate({'opacity':'1'},500);
+					
+				}
+			
+			}); 
+	
+		});
+	});
+	</script>
+	<script>
+		var reCapLoad = function() {
+			grecaptcha.render('recap', {'sitekey' : '6LfQXwgUAAAAAMvk2H6wq98TKFAZUzUj4UA49wFX'});
+			grecaptcha.render('recap2', {'sitekey' : '6LfQXwgUAAAAAMvk2H6wq98TKFAZUzUj4UA49wFX'});
+			grecaptcha.render('recap3', {'sitekey' : '6LfQXwgUAAAAAMvk2H6wq98TKFAZUzUj4UA49wFX','callback' : recapThreeConf});
+		};
+	</script>
+	
+</head>
+<body>
+<script type="text/javascript">
+function checkDisc(discCode) {
+if (discCode.length > 0) {
+	$('#disccode').removeClass("dvback");
+} else {
+	$('#disccode').addClass("dvback");
+}
+var xmlhttp;
+xmlhttp=new XMLHttpRequest();
+ 
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    	newArray = xmlhttp.responseText;
+    	
+		if (newArray.length >= 1) {
+			$('#poplink').attr("href", "https://www.thebodycoach.com/90daysss-payment.asp?type=one&amp;dc=" + $('#disccode').val());
+			$('#disccode').css({'background-color' : '#ecfaa5'});
+			$('#theprice').html(147-xmlhttp.responseText);	
+			$('#amount').val(147-xmlhttp.responseText);
+		} else {
+			$('#disccode').css({'background-color' : '#ffd6d0'});
+			$('#poplink').attr("href", "https://www.thebodycoach.com/90daysss-payment.asp?type=one");
+			$('#theprice').html('147');	
+			$('#amount').val(147);
+			
+		}
+    }
+  }
+xmlhttp.open("https://www.thebodycoach.com/POST","https://www.thebodycoach.com/scripts/disccheck.asp",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("disccode=" + discCode + "&planis=90DAY&currency=GBP")
+}
+
+function showDiscBox() {
+	$("#discform").slideToggle( "slow", function() { });
+}
+
+function checkDiscDD(discCode) {
+if (discCode.length > 0) {
+	$('#disccodedd').removeClass("dvback");
+} else {
+	$('#disccodedd').addClass("dvback");
+}
+var xmlhttp;
+xmlhttp=new XMLHttpRequest();
+ 
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    	newArray = xmlhttp.responseText;
+    	
+		if (newArray.length >= 1) {
+			newPrice = 147-(xmlhttp.responseText*3);
+			newMonthPrice = 49 - xmlhttp.responseText;
+			$('#poplinkdd').attr("href", "https://www.thebodycoach.com/90daysss-payment.asp?type=dd&amp;dc=" + $('#disccodedd').val());
+			$('#disccodedd').css({'background-color' : '#ecfaa5'});
+			$('#thepricedd').html(newPrice.toFixed(2));
+			$('#newprice').css({'font-size' : '47px'});
+			$('#amount').val(newPrice.toFixed(2));
+			$('#monthprice').html(newMonthPrice.toFixed(2));
+		} else {
+			$('#disccodedd').css({'background-color' : '#ffd6d0'});
+			$('#poplinkdd').attr("href", "https://www.thebodycoach.com/90daysss-payment.asp?type=dd");
+			$('#thepricedd').html('147');
+			$('#newprice').css({'font-size' : '75px'});	
+			$('#amount').val(147);
+			$('#monthprice').html('49');
+		}
+    }
+  }
+xmlhttp.open("https://www.thebodycoach.com/POST","https://www.thebodycoach.com/scripts/disccheckdd.asp",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("disccode=" + discCode + "&planis=90DAY&currency=GBP")
+}
+</script>
+<div id="menu">
+	<ul>
+    	<li><a href="https://www.thebodycoach.com/index.asp">Home</a></li>
+		<li><a href="https://www.thebodycoach.com/transformations.asp">Transformations</a></li>
+		<li><a href="90daysss.html">90 Day SSS</a></li>
+		<li><a href="30daysas.html">30 Day SAS</a></li>
+		<li><a href="https://www.thebodycoach.com/blog.asp">Joe's Blog</a></li>
+		<li><a href="https://www.thebodycoach.com/about.asp">About Joe</a></li>
+		<li><a href="https://www.thebodycoach.com/media.asp">Media</a></li>
+		<li><a href="https://www.thebodycoach.com/contact.asp">Contact</a></li>
+    </ul>
+    <p class="toplean" onClick="showFGLG();">Free Get Lean Guide</p>
+    <a class="sideblue login" href="https://www.thebodycoach.com/90daysss/login.asp">Log In</a>
+    <a class="sideblue country" href="#">Currency : GBP <img src="https://www.thebodycoach.com/assets/flag_GBP.png" /></a>
+</div>
+
+
+<div id="container" class="nd">
+	<div class="sliceblue redjoe">
+		<div class="centered">
+			<script>
+function showNav() {
+	$("#fullnav").fadeToggle( "slow", function() {
+    	if ($("#fullnav").is(":visible")) {
+    		if ($("#ntmenu").is(":visible")) {
+				$("#ntmenu")
+					.fadeOut(400, function() {
+						$("#ntmenu").html('Close');
+					})
+					.fadeIn(400);
+			}
+  			$("#ntburger")
+				.fadeOut(400, function() {
+					$("#ntburger").attr('src','https://www.thebodycoach.com/assets/burgerwhiteclose.png');
+				})
+				.fadeIn(400);
+		} else {
+			if ($("#ntmenu").is(":visible")) {
+				$("#ntmenu")
+					.fadeOut(400, function() {
+						$("#ntmenu").html('Menu');
+					})
+					.fadeIn(400);
+			}
+			$("#ntburger")
+				.fadeOut(400, function() {
+					$("#ntburger").attr('src','https://www.thebodycoach.com/assets/burgerwhite.png');
+				})
+				.fadeIn(400);
+		}	
+  	});
+  	
+}
+
+function showHideNav() {
+	if ($("#container").position().left == 0) {
+  		$("#container").css("left","237px");
+  		$("#menu").css("left","0px");
+  		$("div.mobilenavcontain").css("left","237px");
+  	} else {
+  		$("#container").css("left","0px");
+  		$("#menu").css("left","-237px");
+  		$("div.mobilenavcontain").css("left","0px");
+  	}
+}
+</script>
+<div class="navcontain">
+	<div id="navsurround">
+		<p class="toplean" onClick="showFGLG();">Free Get Lean Guide</p>
+		<a href="https://www.thebodycoach.com/index.asp"><img src="https://www.thebodycoach.com/assets/logo.svg" alt="The Body Coach" class="primarylogo" /></a>
+		<div id="login">
+			<script>
+			function showCountries() {
+				if ($("ul.flag li.secondary").css("display") == "block") {
+					$("ul.flag li.secondary").css("display", "none");
+					$("ul.flag li").hover(
+						function () {
+							$(this).css("background-color","#010a15")
+					  	}, 
+					  	function () {
+							$(this).css("background-color","#010a15")
+					  	}
+					);
+				} else {
+					$("ul.flag li.secondary").css("display", "block")
+					$("ul.flag li").css("background", "#010a15");
+					$("ul.flag li").hover(
+						function () {
+							$(this).css("background-color","#010a15")
+					  	}, 
+					  	function () {
+							$(this).css("background-color","#010a15")
+					  	}
+					);
+				}
+			}
+			</script>
+			<p class="curr">Currency : </p>
+			<ul class="flag">
+				
+				<li class="primary" onClick="showCountries();"><span class="currtext">GBP</span> <img src="https://www.thebodycoach.com/assets/flag_GBP.png" /></li>
+				<li class="secondary"><a href="https://www.thebodycoach.com/country.asp?country=USD"><span class="currtext">USD</span> <img src="https://www.thebodycoach.com/assets/flag_USD.png" /></a></li>
+				
+			</ul>
+			<p id="ntlogin"><a href="https://www.thebodycoach.com/90daysss/login.asp">Log In</a></p>
+		</div>
+	</div>
+</div>
+<div class="subnavcontain">
+	<div class="centerednopad centerednopadsubnav">
+		<a href="https://www.thebodycoach.com/index.asp" >Home</a>
+		<a href="https://www.thebodycoach.com/transformations.asp" >Transformations</a>
+		<a href="90daysss.html" class="selected">90 Day SSS</a>
+		<a href="30daysas.html" >30 Day SAS</a>
+		<a href="https://www.thebodycoach.com/faqs.asp" >FAQs</a>
+		<a href="https://www.thebodycoach.com/blog.asp" >Blog</a>
+		<a href="https://www.thebodycoach.com/about.asp" >About Joe</a>
+		<a href="https://www.thebodycoach.com/media.asp" >Media</a>
+		<a href="https://www.thebodycoach.com/contact.asp" class="last ">Contact</a>
+	</div>
+</div>
+<div class="mobilenavcontain">
+	<div class="centerednopad">
+		<img src="https://www.thebodycoach.com/assets/burger.svg" class="burger" onClick="showHideNav();" />
+		<a href="https://www.thebodycoach.com/index.asp"><img src="https://www.thebodycoach.com/assets/tbc_blue.svg" alt="The Body Coach" class="primarylogo" /></a>
+	</div>
+</div>
+			<div class="whiteresp hlowerresp">
+				<div class="whiterespinner">
+					<div id="badge">
+						<p class="minititle">90 Day SSS</p>
+						<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Orange.png" class="accent" />
+						<h1>The UK's number one online tailored fat loss plan</h1>
+						<p class="black">The Shift, Shape and Sustain Plan will transform your body and the way you see nutrition forever. This is not a short term, low calorie diet, this is a lifestyle change that will educate you on how to exercise smarter and fuel your body to burn fat and build the body you’ve always wanted.</p>
+						<p><a href="#purchase" class="ctabutton solidred">Get Me Started</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slicewhite" id="innerintro" style="overflow: auto;">
+		<div class="centered onefifty">
+			<img src="https://www.thebodycoach.com/assets/90daysss/iPad.png" class="ipad" />
+			<div id="copy" class="left" style="float: none; width: 100%; margin-bottom: 10px;">
+				<h2 class="darkblue">What is the 90 Day SSS plan?</h2>
+				<p>The 90 Day SSS Plan is an online fitness and nutrition plan designed for men and women of all fitness levels who want to get fit, burn fat and build lean muscle. This tailored plan has already helped transform the lives of over 100,000 people around the world since it launched in 2014.</p>
+				<p>If you are truly ready to make a positive lifestyle change and you commit to this plan, you will transform your body and become fitter, healthier, and more confident.</p>
+			</div>
+			<br />
+			<div class="greydiv"></div>
+			<div class="getting">
+				<img src="https://www.thebodycoach.com/assets/90daysss/Recipes Img.png" class="right" />
+				<p class="miniorange">WHAT YOU’LL BE GETTING</p>
+				<h3>Awesome Recipes</h3>
+				<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Navy.png" class="accent" />
+				<p>You will get over 100 tasty, easy-to-prepare recipes that will get you lean. These include delicious meals such as banana protein pancakes, build-up bagels, curries, burgers, wraps, casseroles, and many more - because a happy meal plan is a sustainable meal plan.</p>
+			</div>
+			<div class="greydiv"></div>
+			<div class="getting">
+				<img src="https://www.thebodycoach.com/assets/90daysss/Training Img.png" class="left" />
+				<p class="miniorange">WHAT YOU’LL BE GETTING</p>
+				<h3>Training</h3>
+				<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Navy.png" class="accent" />
+				<p>We will recommend a new exercise structure each month which can be done at the gym or at home, with minimal equipment to use alongside your meal plan. Training throughout the three cycles will include a combination of short HIIT cardio workouts and resistance training that will burn fat and build lean muscle to shape your body. Whether you choose to do your own workout or follow one of ours; your support hero is on hand to help you smash those HIIT sessions.</p>
+			</div>
+			<div class="greydiv" id="mobsupport"></div>
+			<div class="getting" id="mobsupport">
+				<img src="https://www.thebodycoach.com/assets/90daysss/Support Mobile Img.png" class="left" />
+				<p class="miniorange">WHAT YOU’LL BE GETTING</p>
+				<h3>Support</h3>
+				<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Navy.png" class="accent" />
+				<p>When you sign up to the 90 Day SSS Plan you will get access to our support team of online heroes who will be on hand to answer all your questions throughout your journey. This will ensure you stay on track and feel motivated at all times.</p>
+			</div>
+			<div class="greydiv" id="mobsupport"></div>
+			<div class="greydiv blank" id="desksupport"></div>
+		</div>
+	</div>
+	<div class="sliceblue supportjoe" id="desksupport">
+		<div class="centered">
+			<div class="getting whitesurround">
+				<p class="miniorange">WHAT YOU’LL BE GETTING</p>
+				<h3>Support</h3>
+				<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Navy.png" class="accent" />
+				<p>When you sign up to the 90 Day SSS Plan you will get access to our support team of online heroes who will be on hand to answer all your questions throughout your journey. This will ensure you stay on track and feel motivated at all times.</p>
+			</div>
+		</div>
+	</div>
+	<div class="slicewhite" id="innerintro" style="overflow: auto;">
+		<div class="centered onefifty centeredcontent">
+			<h2>What makes us different?</h2>
+			<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Navy.png" class="accent" />
+			<div class="smallholder">
+				<p>The reason the 90 Day SSS Plan is so successful for so many people is because we know and understand that everybody is unique. We all require different amounts of calories and macronutrient ratios (fats, proteins and carbohydrates) to achieve maximum health, energy and fat loss.</p>
+				<p>This is why we only create tailored calorie meal plans to ensure that your body is getting the perfect amount of food in line with your own personal energy demands.</p>
+				<p>Broken into 3 unique cycles, this plan develops with your body’s needs at each stage through our bio feedback system. Put simply, this plan evolves as your body changes, based on how you look, feel and progress through each stage.</p>
+				<p>When you combine this level of tailored nutrition, with my proven training method and our awesome support heroes, you cannot fail and you will achieve an amazing transformation.</p>
+			</div>
+			<div id="timelineholder">
+				<div id="timeline">
+					<img src="https://www.thebodycoach.com/assets/90daysss/30 Day SAS Marker.png" class="lastdot" />
+				</div>
+				<div class="tlitem tlleft" id="tlitem1">
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Questionnaire Marker.png" class="dot" />
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Questionnaire Icon.png" />
+					<h4>Questionnaire</h4>
+					<p>Upon sign-up you will be sent a detailed questionnaire and food diary for you to complete. This will give us a clear picture of your overall health, nutritional history and lifestyle.  Once submitted we’ll crack on with creating your tailored plan.</p>
+				</div>
+				<div class="tlitem tlright" id="tlitem2">
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Tailored Marker.png" class="dot" />
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Tailored Icon.png" />
+					<h4>Tailored to you</h4>
+					<p>Our plan production team will assess your questionnaire and create your tailored calorie and macronutrient meal plan. Allergies, intolerances, existing training regimes all get taken into account to produce the perfect plan for you.</p>
+				</div>
+				<div class="tlitem tlleft" id="tlitem3">
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Plan Marker.png" class="dot dotlower" />
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Plan Icon.png" />
+					<h4>Receive your plan</h4>
+					<p>After 5 working days Cycle One will be sent via email from our online support team. Now your journey to lean land really begins.</p>
+				</div>
+				<div class="tlitem tlright" id="tlitem4">
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Submit Results Marker.png" class="dot" />
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Submit Results Icon.png" />
+					<h4>Submit results</h4>
+					<p>Congratulations you smashed it.  Once you have completed cycle one you enter all your results and feedback into your client login area and they get sent off for review.</p>
+				</div>
+				<div class="tlitem tlleft" id="tlitem5">
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Bio Feedback Marker.png" class="dot" />
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Bio Feedback Icon.png" />
+					<h4>Bio Feedback</h4>
+					<p>We now look at how you found the cycle, what you achieved and start getting a detailed insight into what your body needs.  This allows us to work out what type of macronutrient/calorie structure suits you best.</p>
+				</div>
+				<div class="tlitem tlright" id="tlitem6">
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/New Cycles Marker.png" class="dot" />
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/New Cycles Icon.png" />
+					<h4>New cycles</h4>
+					<p>After 3 working days you will be sent the next cycle of your plan.  Any questions at any time? Remember our team of support heroes are always on hand.</p>
+				</div>
+				<div class="tlitem tlleft" id="tlitem7">
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Graduation Marker.png" class="dot dotlower" />
+					<img src="https://www.thebodycoach.com/assets/90daysss/timeline/Graduation Icon.png" />
+					<h4>Graduation</h4>
+					<p>Bosh! You did it. You are now a fully-fledged graduate and lean winner. Based on the last 90 days and all of your results and feedback, you receive your graduate pack via email. This contains details of the perfect calories and macronutrient amounts needed to sustain your results.</p>
+				</div>
+			</div>
+			<div class="thirtydayicon"><img src="https://www.thebodycoach.com/assets/90daysss/timeline/30 Day SAS Icon.png" /></div>
+			<br />
+			<h4>The 30 Day SAS Plan</h4>
+			<div class="smallholder">
+				<p class="ntft">This doesn't need to be goodbye. All 90 Day SSS Plan graduates are eligible to begin the 30 Day SAS Plan. This plan can be the next phase in your journey to a fitter, stronger and leaner body. Each month you get 20 new recipes, a new training plan and access to our support heroes - your continued success is guaranteed.</p>
+			</div>
+			<p><a href="30daysas.html" class="morebutton">Find Out More&nbsp;&nbsp;></a></p>
+			<div id="findoutmore">
+				<p style="margin-top: 15px;">Want to know even more about the plan? <a class="ctabutton" href="https://www.thebodycoach.com/faqs.asp">Read Our FAQ's</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="sliceblue orange" id="innertrans">
+		<div class="centered">
+			<h2>Testimonials</h2>
+			<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - White.png" class="accent" />
+			<p>We receive thousands of amazing and inspiring transformation pictures and testimonials each week. Seeing the positive impact the plan has had on our client’s lives is the sole reason for creating the 90 Day SSS Plan.</p>
+		</div>
+	</div>
+	<div class="slicewhite">
+		<div class="centered onefifty">
+			<img src="https://www.thebodycoach.com/assets/90daysss/Testimonials iPhone GBP.png" class="iphone" />
+			<div class="testimonial">
+				<img src="https://www.thebodycoach.com/assets/90daysss/Testimonial Thumbnail 1.png" />
+				<h3>David</h3>
+				<p class="orange">"I’M OVER THE MOON WITH THE RESULTS"</p>
+				<p>"I have done every diet you can imagine and never seen the results I have from this plan. I love all the recipes and I am never hungry!"</p>
+			</div>
+			<div class="testimonial">
+				<img src="https://www.thebodycoach.com/assets/90daysss/Testimonial Thumbnail 2.png" />
+				<h3>Katherine</h3>
+				<p class="orange">"I SPEND HALF THE TIME IN THE KITCHEN NOW"</p>
+				<p>"The workouts are brilliant - I loved mixing HIIT and using weights and I could feel myself getting stronger each week."</p>
+			</div>
+			<div class="testimonial">
+				<a class="ctabutton" href="https://www.thebodycoach.com/transformations.asp">View More Transformations</a>
+			</div>
+			<br />
+		</div>
+	</div>
+	<div class="sliceblue fruitjoe fruitjoedesktop">
+		<div class="centered">
+			<div class="getting whitesurround">
+				<p class="quote">"This is not a traditional, low calorie, deprivation diet. It’s an education in fat loss, nutrition and macronutrients, where you eat more food than you ever thought possible and spend less time in the gym."</p>
+				<p style="margin: 0px;"><img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Orange.png" class="accent" style="margin-bottom: 25px;" /></p>
+				<p class="orange">Joe Wicks, The Body Coach</p>
+			</div>
+		</div>
+	</div>
+	<div class="fruitjoemobileslice">
+		<div class="centered"></div>
+	</div>
+	<div class="slicewhite fruitjoemobile">
+		<div class="centered">
+			<p class="quote">"This is not a traditional, low calorie, deprivation diet. It’s an education in fat loss, nutrition and macronutrients, where you eat more food than you ever thought possible and spend less time in the gym."</p>
+			<p style="margin: 0px;"><img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Orange.png" class="accent" style="margin-bottom: 25px;" /></p>
+			<p class="orange">Joe Wicks, The Body Coach</p>
+		</div>
+	</div>
+	<a name="purchase"></a>
+	<div class="slicewhite">
+		<div class="centered oneten centeredcontent">
+			<img src="https://www.thebodycoach.com/assets/90daysss/90 DAYSSS logo.png" class="accent" />
+			<h2>Start your 90 DAY SSS plan today</h2>
+			<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Navy.png" class="accent" />
+			<p>Regardless of your lifestyle or fitness level you can and will succeed with this plan.</p>
+			<p>To get started simply click on one of the WorldPay buttons below.</p>
+			<p><i>As you can only purchase the plan in either GBP or USD. Please note that if you bank in a different currency to either of these - your payments (both one off and monthly) will be subject to the exchange rate set by your bank on the day of transaction.</i></p>
+			<!--<h2>Important : We are currently experiencing some technical issues with our WorldPay payment processing gateway, and have therefore temporarily stopped accepting new clients. Please check back in 30 minutes.</h2>-->
+			<div class="purchase" id="prod1">
+				<div class="imholder"><img src="https://www.thebodycoach.com/assets/90daysss/purchase/Plan Img.png" /></div>
+				<p class="price">&pound;<span id="theprice">147</span><span class="vat">(INC VAT)</span></p>
+				<p class="orange">ONE OFF PAYMENT</p>
+				<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Orange.png" class="accent" />
+				<a href="https://www.thebodycoach.com/90daysss-payment.asp?type=one" id="poplink">BUY NOW</a>
+				<p id="hasdisccode" onClick="showDiscBox();">Have a discount code?</p>
+				<form action="#" method="post" id="discform">
+					<input type="text" maxlength="12" id="disccode" name="disccode" onKeyUp="checkDisc(this.value);" onPaste="checkDisc(event.clipboardData.getData('text/plain'));" value="" class="dvback" />
+				</form>
+			</div>
+			<div class="purchase" id="prod2">
+				<div class="imholder"><img src="https://www.thebodycoach.com/assets/90daysss/purchase/Plan Img.png" /></div>
+				<p class="price">&pound;<span id="theprice">49</span><span class="vat">(INC VAT)</span></p>
+				<p class="orange"><span id="monthprice">3 x monthly instalments</p>
+				<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Orange.png" class="accent" />
+				<a href="https://www.thebodycoach.com/90daysss-payment.asp?type=dd" id="poplink">BUY NOW</a>
+			</div>
+			<div class="purchase" id="prod3">
+				<div class="imholder" id="lastone"><img src="https://www.thebodycoach.com/assets/90daysss/purchase/Voucher Img.png" /></div>
+				<p class="price">&pound;<span id="theprice">147</span><span class="vat">(INC VAT)</span></p>
+				<p class="orange">ONE OFF PAYMENT</p>
+				<img src="https://www.thebodycoach.com/assets/90daysss/Text Accent - Orange.png" class="accent" />
+				<a href="https://www.thebodycoach.com/90daysss-payment.asp?type=voucher" id="poplink"">BUY NOW</a>
+			</div>
+			<br />
+		</div>
+	</div>
+	<div class="slicedarkblue"> 
+	<div class="centered">
+		<div id="subfooter">
+			<img src="https://www.thebodycoach.com/assets/logo-grey.png" alt="The Body Coach" />
+			<br />
+			<ul>
+				<li class="here"><a href="https://www.thebodycoach.com/index.asp">Home</a></li>
+				<li><a href="https://www.thebodycoach.com/transformations.asp">Transformations</a></li>
+				<li><a href="90daysss.html">90 Day SSS</a></li>
+				<li><a href="https://www.thebodycoach.com/blog.asp">Joe's Blog</a></li>
+				<li><a href="https://www.thebodycoach.com/about.asp">About Joe</a></li>
+				<li><a href="https://www.thebodycoach.com/media.asp">Media</a></li>
+				<li><a href="https://www.thebodycoach.com/contact.asp">Contact</a></li>
+			</ul>
+			<div id="social">
+				<p>Get Social</p>
+				<a href="https://twitter.com/thebodycoach" target="_blank"><img src="https://www.thebodycoach.com/assets/social-twitter.png" alt="" /></a>
+				<a href="http://instagram.com/thebodycoach" target="_blank"><img src="https://www.thebodycoach.com/assets/social-insta.png" alt="" /></a>
+				<a href="https://www.facebook.com/pages/The-Body-Coach/201801253227152" target="_blank"><img src="https://www.thebodycoach.com/assets/social-fbook.png" alt="" /></a>
+				
+				<a href="https://www.awin1.com/cread.php?awinmid=3196&amp;awinaffid=195947&amp;clickref=&amp;p=https%3A%2F%2Fwww.myprotein.com%2Fambassadors%2Fbody-coach.list" class="myprotein" target="_blank">Click Here for MyProtein Discounts</a>
+				
+			</div>
+			<br />
+		</div>
+		<div id="footer">
+			<p>&copy; 2017 The Body Coach Online Nutrition Ltd. All rights reserved. <a href="http://www.simonhix.co.uk/" style="color: #898989; text-decoration: none;" target="_blank">Website by Hix</a>. <a href="https://www.thebodycoach.com/privacy.asp" style="color: #898989;">Privacy Policy</a> / <a href="https://www.thebodycoach.com/cookiepolicy.asp" style="color: #898989;">Cookies Policy</a> / <a href="https://www.thebodycoach.com/termsofuse.asp" style="color: #898989;">Terms of Use</a>.<!--<br />Website by <a href="http://www.simonhix.co.uk" target="blank" style="text-decoration: none;  color: #898989;">Hix</a>.--></p>
+		</div>
+	</div>
+</div>
+<script>
+function showFGLG() {
+	$("#ndfreeguide.popup").css("display","block");
+	$("#overlay").css("display","block");
+}
+
+function popClose() {
+	$("#ndfreeguide.popup").css("display","none");
+	$("#overlay").css("display","none");
+}
+
+function validateEmail(sEmail) {
+    var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    if (filter.test(sEmail)) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+function recapThreeConf() {
+	var gcapdone = $("#gcapdone").val('true');
+	checkVals();
+};
+
+function checkVals() {
+	var firstname = $("#fgforename").val();
+	var surname = $("#fgsurname").val();
+	var emailaddress = $("#fgemailaddress").val();
+	var gcapdone = $("#gcapdone").val();
+	var greresponse = grecaptcha.getResponse();
+    if ((firstname.length > 1) && (surname.length > 1) && (gcapdone == "true") && (validateEmail(emailaddress))) {
+       	$("#fgsubmit").attr('disabled', false);
+    } else {
+        $("#fgsubmit").attr('disabled','disabled');
+    }
+};
+</script>
+<div id="overlay"></div>
+<div id="ndfreeguide" class="popup">
+	<img src="https://www.thebodycoach.com/assets/closepop.png" onClick="popClose();" class="popclose" />
+	<h2>Get your free<br />Get Lean Guide</h2>
+	<p class="topline">14 days of exclusive fat loss advice straight into your inbox every morning!</p>
+	
+		<form action="#" method="post" id="fourteen">
+			<input type="hidden" id="fourteensub" name="fourteensub" value="true" />
+			<input type="hidden" id="gcapdone" name="gcapdone" value="false" />
+			<input type="text" name="forename" id="fgforename" value="Firstname" onKeyUp="checkVals();" onfocus="javascript: if(this.value == 'Firstname'){ this.value = ''; }" onblur="javascript: if(this.value==''){this.value='Firstname';}" />
+			<input type="text" name="surname" id="fgsurname" value="Surname" onKeyUp="checkVals();" onfocus="javascript: if(this.value == 'Surname'){ this.value = ''; }" onblur="javascript: if(this.value==''){this.value='Surname';}" />
+			<input type="text" style="margin-bottom: 15px;" name="emailaddress" id="fgemailaddress" value="Email address" onKeyUp="checkVals();" onfocus="javascript: if(this.value == 'Email address'){ this.value = ''; }" onblur="javascript: if(this.value==''){this.value='Email address';}" />
+			<p><input type="radio" name="sex" value="1"><span style="">Male</span><input type="radio" name="sex" value="2" checked="checked" style="margin-left: 20px;"><span style="">Female</span></p>
+			<div style="clear: both;" id="recap3"></div>
+			<p style="margin-bottom: 0px;"><input type="submit" value="Sign Up" id="fgsubmit" style="border: none;" disabled /></p>
+		</form>
+	
+</div>
+<div id="popup">
+	<div class="popup-header" id="popup-header">
+		<a href="#" class="popup-close"><img src="https://www.thebodycoach.com/assets/close.png" /></a>
+	</div>
+	<div class="popup-body">
+	</div>
+</div>
+<script src="https://www.google.com/recaptcha/api.js?onload=reCapLoad&amp;render=explicit" async defer></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42760862-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','../connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '303589136649108'); // Insert your pixel ID here.
+	fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=303589136649108&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<!-- Hotjar Tracking Code for www.thebodycoach.co.uk -->
+<script>
+    (function(f,b){
+        var c;
+        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+        f._hjSettings={hjid:41289, hjsv:4};
+        c=b.createElement("script");c.async=1;
+        c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
+        b.getElementsByTagName("head")[0].appendChild(c);
+    })(window,document);
+</script>
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 7009231;
+window.__lc.group = 1;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+<!-- End of LiveChat code -->
+
+</div>
+</body>
+
+<!-- Mirrored from www.thebodycoach.com/90daysss.asp by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 11:55:44 GMT -->
+</html>

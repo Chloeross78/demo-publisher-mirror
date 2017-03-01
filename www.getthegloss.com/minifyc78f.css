@@ -1,0 +1,1957 @@
+@charset "UTF-8";article,aside,audio,b,canvas,center,dd,del,details,dfn,dl,dt,embed,fieldset,figdetails,figure,form,hgroup,i,img,ins,kbd,label,legend,li,mark,menu,nav,output,q,ruby,s,samp,section,small,strike,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}footer{border:0;font:inherit;vertical-align:baseline}body,header{padding:0;background-color:#fff}header{border:0;font:inherit;vertical-align:baseline;display:inline-block;width:100%;height:190px;border-bottom:1px solid #ccc;z-index:1000;font-size:1.063rem;position:fixed;max-width:1140px;margin:0
+0 10px;text-transform:uppercase;letter-spacing:.15em;transition:margin-left .5s;text-align:left}table{border-collapse:collapse;border-spacing:0}body{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:16px;color:#000;text-align:center;line-height:1;overflow-x:hidden}*{box-sizing:border-box}img{max-width:100%;height:auto}header
+.wrapper{width:100%;margin:0
+auto;position:relative}.logo,body{margin:0}.logo
+a{position:absolute;left:50%;margin-left:-176px;width:352px;height:120px;overflow:hidden;text-indent:-999em}.bigLogo{height:190px;background:#fff url(http://www.getthegloss.com/images/gtg-logo.png) no-repeat 50% 2px}.bigLogo .wrapper>.mainNav{margin-top:145px}.smallLogo{height:46px;background:#fff url(http://www.getthegloss.com/images/gtg-small-icon.png) no-repeat 50% 12px}.smallLogo .logo
+a{width:70px;height:47px;margin-left:-2%}.smallLogo .wrapper>.mainNav{margin-top:0}.search{float:right;width:100%}html.remodal-is-locked{overflow:hidden;-ms-touch-action:none;touch-action:none}.remodal,.rightNav li.shopRocket,[data-remodal-id]{display:none}.remodal-overlay,.remodal-wrapper{position:fixed;z-index:9999;top:-5000px;right:-5000px;bottom:-5000px;left:-5000px;display:none}.remodal-wrapper{z-index:10000;top:0;right:0;bottom:0;left:0;overflow:auto;text-align:center;-webkit-overflow-scrolling:touch}.remodal-wrapper:after{display:inline-block;height:100%;margin-left:-.05em;content:""}.remodal-overlay,.remodal-wrapper{-webkit-backface-visibility:hidden;backface-visibility:hidden}.remodal{position:relative;outline:none;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}.remodal-is-initialized{display:inline-block}.remodal-bg.remodal-is-opened,.remodal-bg.remodal-is-opening{filter:blur(3px)}.remodal-overlay{background:rgba(43,46,56,.9)}.remodal-overlay.remodal-is-closing,.remodal-overlay.remodal-is-opening{animation-duration:.3s;animation-fill-mode:forwards}.remodal-overlay.remodal-is-opening{animation-name:remodal-overlay-opening-keyframes}.remodal-overlay.remodal-is-closing{animation-name:remodal-overlay-closing-keyframes}.remodal{transform:translate3d(0,0,0);background:#fff}.remodal.remodal-is-closing,.remodal.remodal-is-opening{animation-duration:.3s;animation-fill-mode:forwards}.remodal.remodal-is-opening{animation-name:remodal-opening-keyframes}.remodal.remodal-is-closing{animation-name:remodal-closing-keyframes}.remodal,.remodal-wrapper:after{vertical-align:middle}.remodal-close{position:absolute;top:0;display:block;overflow:visible;width:35px;height:35px;margin:0;padding:0;cursor:pointer;transition:color .2s;text-decoration:none;color:#95979c;border:0;outline:0;background:0 0}.remodal-close:focus,.remodal-close:hover{color:#2b2e38}.remodal-close:before{font-family:Arial,"Helvetica CY","Nimbus Sans L",sans-serif!important;line-height:35px;position:absolute;top:0;left:0;display:block;width:35px;content:"\00d7";text-align:center}.remodal-cancel,.remodal-confirm{font:inherit;display:inline-block;overflow:visible;min-width:110px;margin:0;padding:12px
+0;cursor:pointer;transition:background .2s;text-align:center;vertical-align:middle;text-decoration:none;border:0;outline:0}.remodal-confirm{color:#fff;background:#81c784}.remodal-confirm:focus,.remodal-confirm:hover{background:#66bb6a}.remodal-cancel{color:#fff;background:#e57373}.remodal-cancel:focus,.remodal-cancel:hover{background:#ef5350}.remodal-cancel::-moz-focus-inner,.remodal-close::-moz-focus-inner,.remodal-confirm::-moz-focus-inner{padding:0;border:0}@keyframes remodal-opening-keyframes{0%{transform:scale(1.05);opacity:0}to{transform:none;opacity:1}}@keyframes remodal-closing-keyframes{0%{transform:scale(1);opacity:1}to{transform:scale(.95);opacity:0}}@keyframes remodal-overlay-opening-keyframes{0%{opacity:0}to{opacity:1}}@keyframes remodal-overlay-closing-keyframes{0%{opacity:1}to{opacity:0}}@media only screen and (min-width:641px){.remodal{max-width:700px}}.lt-ie9 .remodal-overlay{background:#2b2e38}.lt-ie9
+.remodal{width:700px}.sr-block{margin-bottom:50px}#sr-basket-widget,#sr-location-widget,.sr-modal .sr-btn:hover{background:#f94e1b}#sr-basket-widget{top:auto!important;right:10px;position:inherit!important;display:inline-block;color:#fff!important;border-radius:0!important;background:#333;text-transform:uppercase;letter-spacing:.18em;padding:10px!important;font-size:12px!important}#sr-basket-widget,.sr-modal
+*{text-shadow:none;font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif!important}.fa{font-family:FontAwesome!important}.sr-modal-body
+*{font-size:15px!important}.sr-modal,.sr-modal-header{border-radius:0!important}body .sr-modal .sr-modal-header{margin:0;background-color:none}.sr-modal .sr-primary-background{background:#fff}.sr-modal .sr-primary-background *,.sr-modal .sr-primary-font,.sr-modal .sr-secondary-font,.sr-modal
+a{color:#e64415}.sr-modal .sr-btn{background:0 0!important;background:#e64415!important;font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif!important;text-shadow:none!important;text-transform:uppercase}body .sr-modal-header
+h3{background:url(http://www.getthegloss.com/media/image/get-the-gloss.png);background-size:30%;background-repeat:no-repeat;background-position:center;font-size:0!important;padding:15px}.sr-add-text{color:#ff9d19}.sr-modal-body{text-align:left}.sr-modal
+select{font-size:12px;width:75%!important}.sr-modal
+a{text-decoration:none}@media only screen and (max-width:320px){.sr-modal .sr-btn{font-size:10px!important}}.flex-container a:active,.flex-container a:focus,.flexslider a:active,.flexslider a:focus{outline:none}.flex-control-nav,.flex-direction-nav,.slides{margin:0;padding:0;list-style:none}.flexslider{margin:0;padding:0;position:relative;zoom:1}.flexslider .slides>li{display:none;-webkit-backface-visibility:hidden}.flexslider .slides
+img{width:100%;display:block}.flex-pauseplay
+span{text-transform:capitalize}.slides:after{content:"\0020";display:block;clear:both;visibility:hidden;line-height:0;height:0}html[xmlns] .slides{display:block}* html
+.slides{height:1%}.no-js .slides>li:first-child{display:block}.flex-viewport{max-height:2000px;transition:all 1s ease}.loading .flex-viewport{max-height:300px}.flexslider
+.slides{zoom:1}.flex-direction-nav{*height:0}.flex-direction-nav a,.flex-pauseplay
+a{width:44px;height:44px;position:absolute;z-index:10;overflow:hidden;cursor:pointer}.flex-direction-nav
+a{float:left;margin:-20px 0 0;top:50%;color:rgba(0,0,0,.8);transition:all .3s ease;text-indent:-9999em;background:url(http://www.getthegloss.com/images/button-white-left.png) no-repeat 0 0;opacity:0}.flex-direction-nav .flex-prev{left:-50px}.flex-direction-nav a.flex-prev:hover{background-image:url(http://www.getthegloss.com/images/button-pink-left.png)}.flex-direction-nav .flex-next{right:-50px}.flex-direction-nav a.flex-next{background:url(http://www.getthegloss.com/images/button-white-right.png) no-repeat 0 0}.flex-direction-nav a.flex-next:hover{background-image:url(http://www.getthegloss.com/images/button-pink-right.png)}.flexslider .flex-prev{opacity:.7;left:5px}.flexslider .flex-next{opacity:.7;right:5px}.flex-direction-nav .flex-disabled{opacity:0!important;filter:alpha(opacity=0);cursor:default}.flex-pauseplay
+a{display:block;bottom:5px;left:10px;opacity:.8;color:#000}.flex-control-thumbs img:hover,.flex-pauseplay a:hover{opacity:1}.flex-control-nav{width:100%;position:absolute;bottom:10px;text-align:center}.flex-control-nav
+li{margin:0
+6px;display:inline-block;zoom:1;*display:inline}.flex-control-paging li
+a{width:11px;height:11px;display:block;background:#666;background:rgba(255,255,255,.5);cursor:pointer;text-indent:-9999px;border-radius:20px;-o-box-shadow:inset 0 0 3px rgba(255,255,255,.3);box-shadow:inset 0 0 3px rgba(255,255,255,.3)}.flex-control-paging li a:hover{background:#333;background:rgba(255,255,255,.7)}.flex-control-paging li a.flex-active{background:#000;background:rgba(255,255,255,.9);cursor:default}.flex-control-thumbs{margin:5px
+0 0;position:static;overflow:hidden}.flex-control-thumbs
+li{width:25%;float:left;margin:0}.flex-control-thumbs
+img{width:100%;display:block;opacity:.7;cursor:pointer}.flex-control-thumbs .flex-active{opacity:1;cursor:default}@media screen and (max-width:860px){.flex-direction-nav .flex-prev{opacity:1;left:10px}.flex-direction-nav .flex-next{opacity:1;right:10px}}.ath-viewport
+*{box-sizing:border-box}.ath-viewport{position:relative;z-index:2147483641;pointer-events:none;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none}.ath-modal{pointer-events:auto!important;background:rgba(0,0,0,.6)}.ath-mandatory{background:#000}.ath-container{pointer-events:auto!important;position:absolute;z-index:2147483641;background:#eee;background-size:100% auto;font-family:sans-serif;font-size:15px;line-height:1.5em;text-align:center}.ath-ios.ath-phone{bottom:1.8em;margin-left:-9em}.ath-ios6.ath-tablet{left:5em;top:1.8em}.ath-ios7.ath-tablet{left:.7em;top:1.8em}.ath-ios8.ath-tablet{right:.4em;top:1.8em}.ath-android{right:1.5em;top:1.8em}.ath-action-icon,.ath-container:before{background-position:50%;background-repeat:no-repeat;overflow:hidden}.ath-container:before{content:'';position:relative;float:right;margin:-.7em -.6em 0 .5em;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAMAAABmmnOVAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAeHAAAHhwFd+hRDAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAHVQTFRFAAAAOTk5MzMzOzs7Nzc3QUFBQEBAPz8/Pj4+QUFBQEBAPz8/Pj4+QUFBQEBAPz8/QUFBPj4+Pz8/Pz8/Pj4+Pz8/Pz8/Pz8/Pj4+Pz8/Pj4+Pz8/Pz8/Pz8/Pz8/Pz8/Pj4+Pz8/Pz8/Pz8/Pz8/QEBAPz8/n3QmjwAAACZ0Uk5TAAkKDQ4zODk6OzxBQkNERUusrbG0tba7vL3Excbu8fL19fb3+PgucqJgAAACqklEQVR42sXc23LCIBAGYKy2pgft0WpP2vTA+z9i0+goCZAs7O7P3oWZTL5ZYAh7sca0MXmYG3jM7yfu4/TV1jdow01tX6cdg4UrGoN1FNM3a+GK1nBSzPYGrOJgsPZt1hrerYUrjoa9wjHgFI7B2veZWVk3tpCdWm07H30y8+4AIhedPFj7cW7wioABrggawIqIAaroGbYXzlGCUvQNnc0IUgwaQIoRA0QxagAoCAZ1BcmgrCAaVBVkg6IiwaCmSDIoKRINKopkg4IiwyCuyDIIKzINoopsg6CCYRBTsAxCCqZBRLGo2RcrtkLAwFaIGJgKIQNLIWZgKAQN2QpRg1dKoCmEDVkKcUOGQsGQrFAxJCqUDEkKNUOCQtFAVqgaiAplg69YFDAQFADDqAJiGFGADI1iF1XADAOKvqHSLApHFFBDRAE2BBVwQ0BRwOApfn8LGDxFEcOQAmeIK5CGmAJrCCvQBq8A8r9Zrw08qp6irvAGs/zpIr4XBQxf3nQsyhvwipABrQgbsIqYAamIG3CKnqH+LKDoGXbVwD84zDB4E4AZ4IqgAayIGKCKqMGYS5RiwOArlgUMnuJrWcAAUYwaAAqCQV1BMigriAZVBdmgqEgwqCmSDEqKRIOKItmgoMgwiCv6hkvaa6KKTIOoItsgqGAYxBQsg5CCaRBRsA0CCgEDWyFiYCqEDCyFmIGhEDRkK0QNmQphQ5ZC3JChUDAkK1QMiQolQ5JCzZCguNUzkBV3P4oGokLZQFKoGwgKgGFUATGMKECGQQXMYMxVTAE0RBVQQ0QBNgQVcENI8QwoBo8cUiszWYPz4OVi3bQ9cBQoQ0exblsvTDZwg6PYHNo/tE0XmvVwa4BxWBentgtnL+A8HHPxcnYaaBRoQ6twDY3iEW5oFI8Hwx/QxSE448b+MwAAAABJRU5ErkJggg==);background-color:rgba(255,255,255,.8);background-size:50%;text-align:center;color:#a33;z-index:2147483642;display:block}.ath-container.ath-icon:before{position:absolute;top:0;right:0;margin:0;float:none}.ath-mandatory .ath-container:before{display:none}.ath-container.ath-android:before{float:left;margin:-.7em .5em 0 -.6em}.ath-container.ath-android.ath-icon:before{position:absolute;right:auto;left:0;margin:0;float:none}.ath-action-icon{display:inline-block;vertical-align:middle;text-indent:-9999em}.ath-android .ath-action-icon{width:1.2em;height:1.8em;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAADcBAMAAAAig/QJAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAFtDAABbQwH5xg68AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAB5QTFRFAAAA////cXFxaWlp////ZmZmnJycoaGhpqam////1D9b6wAAAAV0Uk5TAAgJERExZxYzAAAAYklEQVRYw+3WoQ2AUBAE0SsBOiBUQEIDCArA4FFoHBaJxNItFYz/x5+xz282VmwJTdM0rRzbsS1e7Pm9zdgUVn491rkFmqZpSezEjqo/Sos1HoAEjdjgFmiapiWxG7tq/igfnYteFlnOWZEAAAAASUVORK5CYII=);background-size:auto 100%}.ath-ios7 .ath-action-icon,.ath-ios8 .ath-action-icon{width:1.6em;height:1.6em;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAACtCAYAAAB7l7tOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAABa5AAAWuQBuyxkRwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAZoSURBVHja7d1ZbFRlGIfxzxVwl809goLgghrRoEaNSzQagrsRt8QYgzEG443SOQNSA0QTXHALcY2KMe7EuCB6YbxwiUtwA0VwQRSxqMimUNt5vOg5OEPL9Ew705m2zz95L5rOvOfr+8s3nZ6TOQ2hNyXiyhDxQpjADr3q5+4VyTIhRORCBCHijTCRPg6lZ+3c5hg3qZfdyT0D9/IQ0bQFblIvhnq2d0jdF3d8Edyknhe5O6aOs0PExnZwk3ooBLZxaN0lWcaFiE0pcVsqy+Ohnm0dXq0nYmzJuP8jPypyLSfDySFifYdwk8ow00HWYiZzeojY0Cnc/2uWA60t3FPLiJvU3Q62FpLl2BCxusy4SU1xwNVMhjEhYk2FcJOqd9DVSB3HhYi/KozrTq4S7ui0L8v9ppYJOUPk4LsiUxgVIlalQRl5D4x+oPhjrniuJOQ6ASqZiCNCREMajIPuhOV/wfGziz/uuz9gwtySdvPNQlQiGQ4LGX5LgzB0JixbDdA+8Pd/QnMOrnw+NXAuRNwgSDkzmUNDxMo0AENmwo8xLsCY2Zsv8m8VGKCpGS5/rgTkDNcLUx7cg0PE8jSD3/cOWPI7+fnj6PuLnwBZ1MCnyYObmmH8syUhXydQ53CHhoif0uIuXlWA+ydwzJH3sa7Y825/l7OAd5InNTbBeXNSIzeHDFcJ1ZHUMSRELEsz6L1vh28KcdcCJ4QQQnvAk+ZzCrAz8G7y5E1NMO6p1MhNIcsVgpWSLPuFiCVpBjxwOnyxshXuiUmrNMAhhADsBnyYjzz2yZKQLxMuTW5h3xDxbZrBDpgOn60owF0HnJTfLi1wjLw78FHS7O9GOOOxkpAvFbBYIvYJEYvTDLT/NFhQiLseOHnLlqUAx8h7AB8nTTc0wmmPpkZuDBnOFbKt3MzeIeLrNIPccxp8+ksB7j/AmW21LRU4D/mTfORTH0mNvClkGSdofjIMCBGfpxngrrfB+8ta4Z61tdYdAY6RBwFfbn552ASnPFwCcsRYYUMIoZ7+IWJBmsHtUg/vFeJuBM4u1r6jwDHyYOCr5GBrNsKY2amR/w6TOV3giKlpBtbnVnjz2wLcRuD89tp3BjgPeWFy0FUbYNS9qZEXhkvYrrfv4G1Dlsfbu+T39tJWuBemad9Z4Bh5L2BRcvDV/8DoB9vFXRKyHOAODiEsX06/8c+2fcaq760wv3Dn/gtcnLZ3OYBj5P2BpWl28oh7aHpmQdtv+npdgL7A/FwOJr7a+mV53uJWuJeU0r9cwPFaDwC+SxbTsB4On1XY7/BZsHJdy7eBIwSGqcnAcjm46bWWQe0wBeYuLMDNARNK7V9O4Hi9w4HNf6T9th4Oi5FH3dvydV4WQS//HQz0A97KR574Kjz9WcGgmoGrO9K/3MDxmg8EfkgWt2w1nPMErFhbsOZVwNG9fgfHA+sDvELbaQau6WjvSgDHax6Wv5O3yK/AocoWDmxHYO4Wg8oB13amb6WA4zUf0gbyL8BIRbeO/FIe7o2d7VlJ4HjNI4DkrPjPwAgliw9sO+Bp4KZy9Ks0cLzmkfEFiuEKphtY2T7C2RXA5V6zqUFgI7AR2AhsBBZYYIGNwEZgI3DFk+X1blX1DK4acD2Du928uugmJuWrOoZUDbjlA3Hda14CCyywwF1XF8zhqGoBXzCHowSucE2aV/jx0K4EnjSPkwQWWGCBawS4/7SW2yPUUi1tYFi1gJc2MKzW5tF/WieAB82gFlO1d9HAkFobxqAZAgsscC8FHjiDHHBRjdVOVQTeqdbmMXBG8Vs1FgUeMJ3m0M3T068mDZje6n8yCiywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMACCyywwAILLLDAHc+KtXz88xrYWjWsKe3+0wLXWIAP2rlh61CBBRZYYIGrBXwMcFqR6iuwEdgIbAQ2AhuBBRZYYIEFNgIbgY3ARmCBBRZYYIGNwEZgI7AR2AgssMACG4GNwEZgI7ARWGCBBRZYYCOwEdgIbAQWWGCBBRbYCGwENgIbgY3AAgsssMACG4GNwEZgI7DAHQGup69Vu9UpYKsHlEMQ2BLYEtgS2BLYKrWG3wVWz62A6dERWGAjsKnZ/Af2wMWISv7RmgAAAABJRU5ErkJggg==);margin-top:-.3em;background-size:auto 100%}.ath-ios6 .ath-action-icon{width:1.8em;height:1.8em;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAB0CAQAAADAmnOnAAAAAnNCSVQICFXsRgQAAAAJcEhZcwAAWwEAAFsBAXkZiFwAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAGaklEQVR42u3cfUxVZRwH8O8FRERRfNfKt4zM2UzNMszZFPMPW5KWzizJ0JJWitOU3mYs54ZuNRk6zblSaebUnKllSpopaRorJiqmtjRNK4sNEBR5+fbH45ELwrnn5Tnn3gPP7/cv9/7O/eyc5zyvAF6PrlgAFTrRHcQmtFIQekDEYXRRFA3GzP4gCOI39FcaDcQ7g24BEUUYrTz0gIhKvKZE9IAIIhNhSkUPiNiGaOWiB0Tko4eS0QMi/sQQZaMHRJRivNLRAyKqkKZ89IAIYg1aKCDq5l60U0D6WYDeCkg/r2KEAtLPG5iqgPSzBukKKFB+ikgFpJ+56KyA9PMcHjBXYYwjGRmyQMR/GGWmAqVnNV4N4TuIICowPXhA1ZgR0o+Y6Yk1uTyVeD7E26Da3GpsYk0iTwQ3kSS5nbLboAj0wnBMwGwsRhaysRO5yEMe8iJP2bjig+joIlALbhE86xguCWUgXkYmduMMbjrQVhLEWfRzCagldwmelfTZhOmM8ViGXJQ7hFI3iwK906SUieLXgifTFs9DeA/HUOMKjP87LdlhoFb8RvB8ZJHHhxHIxEWXYfzzY0Q4BtSG3wueDyzhxCAFvwSRJuA7zeYXx/CQ4LEy/3sPlqMkBHBEHkN36UBt+YPgWWgapzfWoiJkcERewECpQB2YR5I1nG/6PbUcN0IMR2QJxhkEWsi0gPkjSVYzxRROS6SjLCRxGplYa+QPq2goqjnTFM8wFIQwjpZZCJcDVMmppu6dTNf7OFbzEDoFAKrcx5yA+ZIJnh444hEckcfRUxcoXe5wMwH/eIqHIK7gUbeAklHlOR4xCElyA2iWR3mIGixyHijDoziMqRw8xflH7H2v8vTjKfIyhzoLNNurPM+xVHRksp0EesabbU84M1hDklVMo885oMdcmhGUnO25W9w7xUx0sh8Ui/Ne5InjCcFTwL4BetI2gbZ5kedZreXZwjYBx2K2gKZ7DydMa3mqRcvjJFAcrnmNJ5ZfiXunlBMNzgfZAPrSazx9eVzwnOB9hmcULQM96TWeCSwRPFv9Wx6ngMKQ3zRaHqeAXvQSTzttNfgaJ5leOLQE5EOhd3j6MF/wnGSchZVVS0Bj5f6ELhzKiZzLdC7nOm7nAebzPIvqZKHF7x7DfwXPNsZYWpu3BLTD/iptPFO4mnt5muWGVg0uW6ozj5UBWh4ngPpYHZxG8nGmcTPPsJpmwzxQK34mPlrGKTY2UFkAWmJ+y8wopnM/y/QEilnAQ9zJbGZxMedzBif559EF5mr24s/ie3/nIFtb8CwAnTV+md04hzm83hBIFQu5mUv5Op/mQMbK3YKXyGJR5Vt2NPqzZAH1N3aJrTmNu1lRn6WUOVzGJA5hlHN7FFNFy0N+yAjbu1xNA70duFOWwPXaeFmLIu7gmxxm5oKtAUVxvahYzhfMVZAFdES/GU7m6bo0Z7mMw2n7jLsxoB78SVQ9T9OHfeUARfluNv5QzeNFf5pCvssBbm4DHsm/ReXvaOGkhhyg+MbeU3N4pZamhGs53O190m/wprZ/0tKDLAdo7p3f4GMSL9Ti/MpZbO32RvIofiKqX2eS1QpSgMI+r//5+7mvFucgE+nQf9TQA7qbR0X9PzjUegUpQG1O1F04eau2j3OAw4JzFGGE9nDvYQc7FaQARRf7rwwc1nDOcbLtbeUWgVK0vtYK2jw5LwMo2nf7c8navVPORWY7fbKAorlRXMMNJtuvIAMoTusKLhXzc2QO74UrcSfQXdodfEnOwy0D6GGxY3qPNj+XBNeiPlCCNs+TY3y05ThQ7EiwK4+JCztjdJTsBFCaNtpaJe9AlgSgsVN6aQOJzWwLBAcokqu1lucVmRUkAC2eeElsKE+F66EBdWOuyXkeF4EYT7LCzZanPtBoXtXmeTrJriAD6AmW8SkgWEC3W541bCm/ggygRxiPIMWSB1cInAqTRyJcnw8KUrD7rXmewY5VaAJA++W3PE0JKMPUPE8MEpoXkLnBcBL+wqpmBWQiemIXCCqghiIcadoxvvYbFFD9GIDDtb9s3EkF5B9RyKj7jy0UkH+MvnNBXAFp0QEbGjoCqoC0mNPwL1NACshYhKUqIN2YvFEB6ca0LxSQAlJACkgBKSAFpICsADXdVEAKSAEpIAWkgBSQAlJACkgBKaDgA41hc8vUXHM3UPOLVQpIAbkH9D87oz0rvnJrOgAAAABJRU5ErkJggg==);margin-bottom:.4em;background-size:100% auto}.ath-container
+p{margin:0;padding:0;position:relative;z-index:2147483642}.ath-ios.ath-phone:after,.ath-ios.ath-tablet:after{content:'';background:#eee;position:absolute;width:2em;height:2em;left:50%;margin-left:-1em;transform:scaleX(.9) rotate(45deg)}.ath-ios.ath-phone:after{bottom:-.9em}.ath-ios.ath-tablet:after{top:-.9em;z-index:2147483641}.ath-android:after{background:-webkit-linear-gradient(-45deg,rgba(238,238,238,0) 0%,rgba(238,238,238,0) 50%,#eee 50%,#eee 100%);position:absolute;width:2em;height:2em;top:-1.5em;right:0}.ath-application-icon{padding:0;border:0;margin:0
+auto .2em;height:6em;width:6em;z-index:2147483642}.ath-container.ath-ios .ath-application-icon{border-radius:1em;box-shadow:0 .2em .4em rgba(0,0,0,.3),inset 0 .07em 0 rgba(255,255,255,.5);margin:0
+auto .4em}@media only screen and (orientation:landscape){.ath-container.ath-phone{width:24em}.ath-ios.ath-phone{margin-left:-12em}.ath-ios6:after{left:39%}.ath-ios8.ath-phone{left:auto;bottom:auto;right:.4em;top:1.8em}.ath-ios8.ath-phone:after{bottom:auto;top:-.9em;left:68%;z-index:2147483641;box-shadow:none}}@font-face{font-family:'BrandonGrotesqueRegular';src:url(http://www.getthegloss.com/fonts/brandon_reg-webfont.eot?#iefix) format("embedded-opentype"),url(http://www.getthegloss.com/fonts/brandon_reg-webfont.woff) format("woff"),url(http://www.getthegloss.com/fonts/brandon_reg-webfont.ttf) format("truetype"),url(http://www.getthegloss.com/fonts/brandon_reg-webfont.svg#BrandonGrotesqueRegular) format("svg");font-weight:400;font-style:normal}@font-face{font-family:'BrandonGrotesque-Bold';src:url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.eot?#iefix) format("embedded-opentype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.otf) format("opentype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.woff) format("woff"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.ttf) format("truetype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold) format("svg");font-weight:400;font-style:normal}@font-face{font-family:'BrandonGrotesque-Light';src:url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.eot?#iefix) format("embedded-opentype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.otf) format("opentype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.woff) format("woff"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.ttf) format("truetype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.svg#BrandonGrotesque-Light) format("svg");font-weight:400;font-style:normal}@font-face{font-family:'joebob';src:url(http://www.getthegloss.com/fonts/joebob.eot?#iefix) format("embedded-opentype"),url(http://www.getthegloss.com/fonts/joebob.woff) format("woff"),url(http://www.getthegloss.com/fonts/joebob.ttf) format("truetype"),url(http://www.getthegloss.com/fonts/joebob.svg) format("svg");font-weight:400;font-style:normal}#nav-toggle{left:50%;top:50%;width:30px;cursor:pointer;padding-left:0}#nav-toggle span,#nav-toggle span:after,#nav-toggle span:before{cursor:pointer;border-radius:1px;height:6px;width:30px;background:#000;position:absolute;display:block;content:''}#nav-toggle span:before{top:-10px}#nav-toggle span:after{bottom:-10px}.mainNav{width:100%;padding-top:3px;font-size:.875rem;text-transform:uppercase;z-index:100;border-top:1px solid #ccc}.mainNav,.mainNav
+nav{float:left}.mainNav
+a{padding:9px
+14px;display:inline-block}.mainNav a:hover{color:#e64415;text-decoration:none}.menuText{text-transform:none;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;padding-left:5px}.menuText
+a{color:#acabab}.rightNav{float:right;text-align:right;width:47%}.rightNav
+li{padding-left:10px}.rightNav .menuSearch
+a{background:url(http://www.getthegloss.com/images/search-icon.jpg) no-repeat 0 0;width:25px;height:22px;margin-bottom:-6px;text-indent:9999px;overflow:hidden}.mp-menu .userMenu,.mp-menu
+span{letter-spacing:.18em}.mp-menu
+span{border-bottom:3px double #fff;display:inline-block;width:90%;text-transform:uppercase;font-size:14px;text-align:left;padding:18px
+0 18px 15px}.userMenu
+span{border:0}.mp-pusher,.rightNav,.scroller,.scroller-inner{position:relative}.mp-level ul li ul
+li{padding-left:30px}.mp-level ul li ul li ul
+li{padding-left:80px}.mp-menu
+img{width:50px;float:left;margin-left:50px;padding-top:100px;padding-bottom:20px}.mp-menu
+p{padding-left:1em;padding-bottom:1em;font-size:18px}.mp-menu
+.slideNotice{margin-top:50px}.mp-menu
+h2{font-size:14px;margin-bottom:0;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;text-align:left}.mp-pusher{left:0;height:100%}.mp-level,.mp-menu{position:absolute;top:0;left:0;transform:translate3d(-100%,0,0)}.mp-menu{z-index:1;width:300px;height:100%}.mp-level{background:#f5f5f5}.mp-level::after,.mp-level::before,.mp-pusher::after{position:absolute;top:0;right:0;width:0;height:0;content:'';opacity:0}.mp-level::after,.mp-pusher::after{background:rgba(0,0,0,.3);transition:opacity .3s,width .1s .3s,height .1s .3s}.mp-level::after{z-index:-1}.mp-level,.mp-level.mp-level-overlay::after{width:100%;height:100%}.mp-level.mp-level-overlay{cursor:pointer}.mp-level.mp-level-overlay.mp-level::before{width:100%;height:100%;background:0 0;opacity:1}.mp-level,.mp-pusher{transition:all .5s}.mp-overlap .mp-level.mp-level-open{box-shadow:1px 0 2px rgba(0,0,0,.2);transform:translate3d(-40px,0,0)}.mp-menu.mp-overlap>.mp-level,.mp-menu.mp-overlap>.mp-level.mp-level-open,.mp-menu>.mp-level,.mp-menu>.mp-level.mp-level-open{box-shadow:none;transform:translate3d(0,0,0)}.mp-cover .mp-level.mp-level-open{transform:translate3d(0,0,0)}.mp-cover .mp-level.mp-level-open>ul>li>.mp-level:not(.mp-level-open){transform:translate3d(-100%,0,0)}.mp-menu
+ul{padding:0;list-style:none;margin:0
+0 0 10px}.mp-menu ul li>a,.mp-menu ul li>h2{display:block;padding:0
+1em 0 2.5em;outline:none;font-size:14px;text-transform:uppercase;text-align:left}.mp-menu ul li ul li>a,.mp-menu ul li ul li>h2{padding-left:4.5em}.mp-menu ul li ul li ul li>a{padding-left:7em}.mp-menu ul li::before{position:absolute;left:15px;z-index:-1;color:#000;line-height:3.5;content:'>';padding:5px
+0 0 5px;font-size:.8em}.mp-menu li:last-child
+span{border:0}.mp-back{font-size:34px;text-align:left;margin-left:-60%;padding:25px;line-height:45px;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.more h3 a,.mp-back:hover{text-decoration:none}.mp-menu .mp-level.mp-level-overlay>.mp-back,.mp-menu .mp-level.mp-level-overlay>.mp-back::after{background:0 0;box-shadow:none;color:transparent}.no-csstransforms3d .mp-pusher,.no-js .mp-pusher{padding-left:300px}.no-csstransforms3d .mp-menu .mp-level,.no-js .mp-menu .mp-level{display:none}.no-csstransforms3d .mp-menu>.mp-level,.no-js .mp-menu>.mp-level,.sideBarLinks.productLinks li:hover
+.itemOverlay{display:block}.more{float:left;width:100%;padding:40px
+0 0;margin:50px
+0 0;border-top:1px solid #acacac}.home
+.more{padding:0;margin:0;border:0}.more
+li{width:32.5%;float:left;margin:0;border-bottom:1px solid #ccc;overflow:hidden;padding-bottom:30px}.more li:nth-of-type(3n+1){padding-right:2.49%}.more li:nth-of-type(3n+2){width:35%;padding:0
+2.5%;border-left:1px solid #ccc;border-right:1px solid #ccc}.more li:nth-of-type(3n+3){padding-left:2.49%}.more li:nth-last-child(-n+3){padding-top:30px;border-bottom:0}.more li:nth-child(-n+3){padding-bottom:30px}.more.topPicks li:nth-last-child(-n+3){padding-top:0}.more.topPicks li:nth-child(-n+3){padding-bottom:0}.more
+p{margin:0}.more
+.image{margin-bottom:10px;position:relative}.more .image
+img{min-height:139px;max-height:206px;overflow:hidden}.more.videos .image
+img{max-height:253px}.moreLink{display:inline-block;width:100%;margin:0;text-align:center;position:absolute}.moreLink
+a{display:inline-block;width:50%;height:31px;overflow:hidden;text-indent:-9999em;background:url(http://www.getthegloss.com/images/more-link.png) no-repeat}.moreProductsLink
+a{height:31px;background-position:-667px 0}.moreProductsLink a:hover{background-position:-520px 0}.moreInspirationLink
+a{width:169px;height:31px;background:url(http://www.getthegloss.com/images/more-inspiration-link.png) no-repeat 0 0}.moreInspirationLink a:hover{background:url(http://www.getthegloss.com/images/more-inspiration-hover.png) no-repeat 0 0}.moreJobsLink
+a{width:169px;height:31px;background:url(http://www.getthegloss.com/images/more-jobs-link.png) no-repeat 0 0}.moreJobsLink a:hover{background:url(http://www.getthegloss.com/images/more-jobs-hover.png) no-repeat 0 0}.dailyGloss
+.moreLink{bottom:10px;left:0}.moreProductsLink{width:147px;top:40px;right:-15px}.moreProductsLink
+a{width:147px}.buyLink
+a{display:inline-block;width:65px;height:31px;background:url(http://www.getthegloss.com/images/buy-link.png) no-repeat 0 0;overflow:hidden;text-indent:-9999em}.buyLink a:hover{background-image:url(http://www.getthegloss.com/images/buy-hover.png)}.jobsHome
+.moreLink{bottom:10px;right:0;left:0}.moreJobsLink{bottom:20px;height:50px;background-color:#efefef}.remodal-overlay{background:rgba(0,0,0,.6)}.remodal{box-sizing:border-box;width:100%;max-width:801px;height:100%;max-height:600px;margin-bottom:0;padding:0;color:#000}.remodal-close{left:auto;right:0;z-index:999}.remodal-close:before{font-size:40px}.pullQuote:after,.pullQuote:before{content:'"'}.content p.pullQuote,.pullQuote{float:left;width:96%;text-align:center;padding:20px
+0;margin-left:2%;margin-right:2%;margin-bottom:20px;border-top:1px solid #acacac;border-bottom:1px solid #acacac;color:#ac9aa4;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:1.063rem;line-height:1.8em;text-transform:uppercase;letter-spacing:.18em}.home-top-featured{float:left;width:100%;margin-bottom:20px;text-align:center;position:relative}@media (min-width:32.5em){.home-top-featured{margin-bottom:30px}}.home-top-featured
+img{width:100%}.home-top-featured
+a{color:#000;text-decoration:underline}.gallery--next a,.home-top-featured a:hover{text-decoration:none}.home-top-featured__heading{display:inline-block;width:80%;text-align:center;font-family:'BrandonGrotesque-Light',Arial,Helvetica,sans-serif;font-weight:100;font-size:25px;letter-spacing:.18em;line-height:1.2em;padding:0
+0 10px;margin:0
+10% 45px;background:0 0!important;border-bottom:1px solid #acacac}@media (min-width:48em){.home-top-featured__heading{display:none}}.home-top-featured__text-wrapper{z-index:999}@media (min-width:32.5em){.home-top-featured__text-wrapper{position:absolute;bottom:10%;left:0;right:0;padding:0
+20px}}@media (min-width:48em){.home-top-featured__text-wrapper{padding:0
+70px}}.home-top-featured__text-wrapper--text{display:inline-block;color:#333}@media (min-width:32.5em){.home-top-featured__text-wrapper--text{background-color:rgba(250,250,250,.7);padding:10px
+40px 20px}}.home-top-featured__text-wrapper--heading{font-family:'BrandonGrotesque-Bold',Arial,Helvetica,sans-serif;font-size:1.125rem;letter-spacing:.1em;text-transform:uppercase;margin:5px
+0}.home-top-featured__text-wrapper--heading:hover{text-decoration:underline}@media (min-width:32.5em){.home-top-featured__text-wrapper--heading{line-height:1.1em;font-size:1.25rem;margin:0
+0 10px;text-decoration:underline;text-transform:uppercase;letter-spacing:.18em}.home-top-featured__text-wrapper--heading:hover{text-decoration:none}}.home-top-featured__text-wrapper--intro{font-size:1rem;line-height:1.4em;margin:0;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}@media (min-width:32.5em){.home-top-featured__text-wrapper--intro{font-size:1.25rem;line-height:1.1em}}.gallery,.gallery__item{float:left;width:100%}.gallery__item{padding:10px
+0 20px;border-bottom:1px solid #acacac}@media (min-width:58.75em){.gallery__item{padding:10px
+0 50px}}.gallery__column{float:left;width:100%}@media (min-width:58.75em){.gallery__column{width:50%}}.gallery__column--image{float:right}.gallery__column--text{width:100%}@media (min-width:58.75em){.gallery__column--text{width:48%;margin-right:2%;padding-right:20px}.gallery__text-wrapper{height:345px;overflow-y:hidden;position:relative}}@media (min-width:73.75em){.gallery__text-wrapper{height:385px}}.gallery__item-title{text-transform:uppercase;font-size:1.25rem;font-weight:400;padding-bottom:5px;line-height:31px;margin:0
+0 8px;font-family:'BrandonGrotesqueRegular',Arial,Helvetica,sans-serif}.gallery__image{float:left;width:100%}.gallery__image--source{margin:0
+0 0 -5px;font-size:.688em;line-height:1em}.gallery__next-heading{color:#acacac;font-size:1rem;float:right;margin:0}.gallery--next
+a{color:#acacac}.gallery__counter{font-size:1.2rem;color:#acacac;margin-bottom:5px;-webkit-font-smoothing:antialiased}.gallery__intro--link{color:#f04d22;text-decoration:none}.gallery__intro--link:hover{text-decoration:underline}.gallery__anchor{float:left;width:100%;height:30px}@media (min-width:58.75em){.gallery__anchor{height:50px}}.gallery__gradient,.shopEdit .pageTop h1,.shopSection.listingPage .pageTop
+h1{display:none}@media (min-width:58.75em){.gallery__gradient{display:block;position:absolute;float:left;width:100%;height:100px;left:0;right:0;bottom:0;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,#fff 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#00ffffff', endColorstr='#ffffff',GradientType=0 )}}.show-link{color:#f04d22;display:none}@media (min-width:58.75em){.show-link{display:block}}.banner img,.homeBase img,.image img,.imageWrapper img,.newsArticleImage
+img{max-width:auto;width:100%}hr{background-color:#ccc;height:1px;border-top:none;margin:30px
+0 10px}.contact .loggedIn a,.contact .notLoggedIn a,a{color:#000;text-decoration:underline;outline:none}.expertCover h2 a,.feedback a,.tabbedLinks .top .current a:hover,.tabbedLinks .top
+a{color:#e64415;text-decoration:underline}.categories li a:hover,.contact .loggedIn a:hover,.contact .notLoggedIn a:hover,.gallery h2 a,.homeBase a:hover,a:hover,footer
+a{text-decoration:none;color:#e64415}.brandArticle h1,.brandPage h1,.pageContent h1,footer a,h1,h2,h3{line-height:1.4em}a.readMore{color:#abacae}.categories li
+a{color:#666}.carousel a,.carouselStatic a,.categories li a,.contact a,.expertCover h2 a:hover,.listing p a,.mainNav a,.moreProducts .listing a,.paginate a,.productList .listing h2 a,a.readMore,nav
+a{text-decoration:none}.carousel a:hover span,.carouselStatic a:hover span,.contact a:hover,.listing p a:hover,.moreProducts .listing a:hover,.newsArticle .tabbedLinks .links a:hover,.paginate a:hover,.productList .listing h2 a:hover,.redLink a:hover,a.readMore:hover,footer a:hover,nav a:hover{text-decoration:underline}.homeBase
+a{color:#000}.homeBase a,.homeNews .listing h2 a,.listingItem h2 a,.picks h2 a:hover,h2.heading
+a{text-decoration:none}.redLink a,p.link
+a{color:#e64415}.redLink
+a{text-decoration:none}h1,h2,h3{margin:0
+0 15px;font-weight:400}h1{float:left;width:100%;background:#fff url(http://www.getthegloss.com/images/grey-brush-bg.png) no-repeat 0 0;padding-top:5px;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:28px;font-size:1.75rem}h2,h3{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:20px;font-size:1.25rem}h1,h2{letter-spacing:.18em}footer h3,h1,h2{text-transform:uppercase}#error h1,.expertTop
+h1{background:0 0}.newsArticle
+h1{margin-bottom:5px}.expertCover
+h1{width:auto;background:0 0;padding:30px
+60px;margin:70px
+15% 50px 25%;border:2px
+dotted #000;font-size:1.75em;line-height:1.8em}.expert header
+h1{font-size:28px;font-size:1.75rem;margin:0;font-weight:400}.jobPage h1,.pageTopFilter
+h1{text-transform:uppercase;background:0 0;letter-spacing:.28em;line-height:1em}.pageTopFilter
+h1{font-size:48px;margin:0
+0 31px}.jobPage
+h1{font-size:28px}.pageTopFilter
+h1{background:0 0!important}.brandArticle h1,.brandPage h1,.jobPage
+h1{margin:27px
+0 35px}.brandArticle h1,.pageContent
+h1{margin-top:0}.jobsSignUp h1,.shopEdit .shopHome
+.lineTwo{letter-spacing:.28em;text-transform:uppercase}.jobsSignUp
+h1{background:0 0;line-height:1em;font-size:48px;margin:0
+0 31px}.shopEdit .lineOne,.shopEdit
+.lineTwo{float:left;width:100%}.shopEdit
+.lineTwo{padding-right:5px;margin-top:10px;font-family:'joebob','Brush Script MT',Papyrus,cursive;font-size:120px;font-size:7.5rem;opacity:.8;text-transform:capitalize;letter-spacing:0;font-weight:400}.shopEdit .shopHome
+.lineTwo{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-size:36px;font-size:2.25rem;color:#000;opacity:1;padding:0;margin:0}.productPage
+h1{background:0 0;font-size:27px;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif}.expertsListing .listing
+h1{background:0 0;float:left;width:100%;text-align:center;font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:16px;font-size:1rem;line-height:1em}.expertsListing .listing h1:last-of-type{margin:-10px 0 35px}.expertsListing .pageTopFilter
+h1{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:23px;margin:0;text-transform:uppercase;letter-spacing:.21em;line-height:1em}.featured
+h2{margin:0;letter-spacing:.18em}.content .listing h2,.listingBlock .listing
+h2{font-size:18px;font-size:1.125rem;margin-bottom:2px;letter-spacing:.18em;line-height:1.4em;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;margin-top:10px}.home .listing
+h2{margin-top:0}.salonList .listing
+h2{letter-spacing:.18em}.comments h2,.reviews h2,.salonList .listing h2,.video
+h2{text-transform:uppercase}.productListing.listing
+h2{font-size:16px;font-size:1rem;line-height:1.5em;margin:0}.listingLatest h2.heading,.more h2.heading,.productListing.listing h2.heading,.video
+h2{width:100%;padding:0
+0 5px 5px;background:url(http://www.getthegloss.com/images/green-brush-stroke.png) no-repeat 0 0;margin:0
+0 22px;font-size:18px;font-size:1.125rem;font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;letter-spacing:.18em;line-height:1.4em}.productListing
+h2.heading{margin-bottom:55px}.homeBase
+h2{background:url(http://www.getthegloss.com/images/green-brush-stroke-small.png) no-repeat 0 0;letter-spacing:.18em}.carouselLite
+h2.heading{background:url(http://www.getthegloss.com/images/green-brush-stroke-long.png) no-repeat 0 0}.jobListing h1,.jobSection
+h2.heading{background:url(http://www.getthegloss.com/images/pink-brush-stroke.png) no-repeat 0 0;padding-top:0}.featuredJobs h2.heading,.sideBar .keyStats
+h2.heading{margin-bottom:25px}.carouselLite
+h2{margin:10px
+0 10px 10px}.moreProducts
+h2{font-size:16px;font-size:1rem;text-transform:inherit;letter-spacing:0;line-height:1.6em}#left .left h2,.videoPage #left
+h2{margin:0
+0 15px;letter-spacing:.18em}.relatedPeopleProducts
+h2{margin-bottom:0}#left .left .latestBookmarkList h2,#left .left .latestNotesList
+h2{font-size:.875em;letter-spacing:.05em;margin-bottom:10px}.emailSignup h2,.picks h2,.reviews .addComment h2,.twitter
+h2{font:1.188em "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif}.reviews .addComment
+h2{margin-bottom:0}.videoPage #left
+h2{font-size:1.188em;margin:0
+0 5px}.emailSignup h2,.picks h2,.twitter
+h2{text-transform:uppercase}.emailSignup
+h2{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:21px;font-size:1.313rem;margin:0
+0 10px;letter-spacing:.05em}.contentWide .emailSignup
+h2{font-size:32px;color:#fff;letter-spacing:.2em;-webkit-font-smoothing:antialiased}.pageText h2,.pageText
+h3{margin:20px
+0 5px}.productItem .left
+h2{font-size:16px;font-size:1rem;margin:0
+0 3px}.expertList .listing
+h2{word-wrap:break-word;margin-bottom:10px}.expertList .offline h2 a,.memberWrapper h2
+a{float:left;width:100%;background:url(http://www.getthegloss.com/images/blush-brush-bg.png) no-repeat 0 0;padding-top:5px;margin:25px
+0 0}.memberWrapper h2
+a{margin:0}.listingItem
+h2{margin:0}.expertList .online h2
+a{float:left;width:100%;background:url(http://www.getthegloss.com/images/blush-brush-online-bg.png) no-repeat 0 0;padding:31px
+0 0 15px;margin:0
+0 0 -15px;cursor:pointer}.expertCover h2,.homeMid .listingItem
+h2{letter-spacing:.18em}.shopSection .listingItem
+h2{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;margin-bottom:23px}.expertCover
+h2{margin:0
+93px 40px 172px;font-size:1.313em;line-height:1.5em}.newsArticle .base
+h2{margin:0
+0 10px;font-size:16px;font-size:1rem}.registerLogin form h2,.ui-tabs
+h2{font-size:16px;font:1rem "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;padding:10px;margin:10px
+0 20px;border-top:2px solid #ccc;background-color:#f8f8f8}.expertPosts
+h2{margin:0}.bookmarkList h2,.noteList
+h2{padding:0;margin:0
+0 10px;border-top:none;background:0 0}.timelineContainer
+h2{padding:0
+10px;margin:5px
+0 10px}.more h2,.popular
+h2{font-size:16px;font-size:1rem;letter-spacing:.05em;margin:0
+0 22px}.expert header
+h2{font-size:25px;font-size:1.563rem;margin:12px
+0 0;color:#fff;text-transform:none;letter-spacing:.18em;line-height:1.2em}.inPageLinks
+h2{color:#fff}.pageTopFilter
+h2{font-size:23px;margin:0
+0 56px;text-transform:uppercase;letter-spacing:.21em;line-height:1em}.sideBarLinks .listing h2,.subHeading{letter-spacing:0}#right .sideBarLinks h2.heading,.articleCarousel h2.heading,.pageTopFilterForm h2,.sideBar
+h2.heading{width:100%;text-align:center;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-weight:100;font-size:25px;letter-spacing:.18em;padding:0;background:0 0}#right .sideBarLinks h2.heading,.articleCarousel
+h2.heading{display:inline-block}.pageTopFilterForm h2,.sideBar
+h2.heading{margin:0
+0 35px}.sideBar
+h2.heading{display:inline-block}.articleCarousel
+h2.heading{margin:0;line-height:1.1em}#right .sideBarLinks h2.heading,.sideBar.right
+h2.heading{line-height:1.1em;margin:0
+0 5px;text-transform:uppercase;font-style:normal}#right .sideBarLinks h2.heading span,.articleCarousel h2.heading span,.sideBar.right h2.heading
+span{display:inline-block;width:100%;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-size:19px;letter-spacing:0;text-transform:capitalize;font-style:italic}.sideBar.right .inspiration h2.heading,.sideBar.right .sideBarLinks
+h2.heading{margin:5px
+0 25px}.sideBar .forward
+h2.heading{font-size:20px;font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;margin-bottom:30px}.latestNews
+h2{float:left;width:100%;margin-bottom:0;text-align:center}.sideBar .inspiration .listingItem h2,.sideBar .inspiration
+.text{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-style:italic;font-size:16px;font-size:1rem;letter-spacing:0;text-transform:inherit}.jobListing .content h2.heading,.jobPage .content
+hr{margin-bottom:20px}.jobDetails
+h2.heading{display:inline-block;width:100%;font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-weight:100;font-size:20px;letter-spacing:.18em;margin:0
+0 20px;padding:0;background:0 0}.jobPage .content
+h2{letter-spacing:.18em;margin:18px
+0 17px}.brandJobs
+h2.heading{margin-bottom:25px}.jobSection .more
+h2.heading{background:url(http://www.getthegloss.com/images/green-brush-stroke-medium.png) no-repeat 0 0}.shopSection nav .textCell,.shopSection nav
+h2{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:13px;font-size:.813rem;letter-spacing:.18em;margin:0
+0 10px;line-height:1em;text-transform:uppercase}.productListing .listingItem
+h2{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;min-height:98px}.listingPage h2,.shopSection.listingPage
+h2{margin-bottom:0;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif}.shopSection.listingPage
+h2{margin-bottom:15px}.subHeading{display:inline-block;font:72px "joebob",Palatino,serif;text-transform:capitalize;padding:0
+20px 0 25px;margin:-8px 0 0;background:url(http://www.getthegloss.com/images/gloss-bg.png) no-repeat 50% 50%;background-size:100%}.jobLinks .listing h2,.keyPeople h2,.latestNews h2,.sideBarLinks h2,.similar .listingItem
+h2{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;word-break:normal;letter-spacing:.1em}.keyPeople h2,.latestNews h2,.sideBarLinks h2,.similar .listingItem
+h2{font-size:16px;font-size:1rem}.jobLinks .listing
+h2{text-transform:uppercase;font-size:14px;font-size:.875rem;line-height:1.3em}.sideBarLinks
+h2{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-style:italic;text-transform:inherit;line-height:20px}.sideBarNews
+h2{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif}h2.subHeading{font-family:'joebob','Brush Script MT',Papyrus,cursive;text-transform:inherit;font-size:26px;font-size:1.625rem;margin:0
+0 10px;padding:0;letter-spacing:.1em;background:0 0}.comments
+h2{display:inline-block;width:100%;padding:11px
+0;margin:0;letter-spacing:.18em}.reviews
+h2{background:0 0}.popularVideos h2,footer
+h2{font-size:16px;font-size:1rem;margin:0
+0 20px;letter-spacing:.18em}.popularVideos
+h2{letter-spacing:.05em;margin:0
+0 22px;font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif}footer
+h3{font-size:13px;font-size:.813rem;margin:0}.relatedPeopleProducts h3,.ui-dialog-content
+h3{margin:0
+0 5px;font-size:16px;font-size:1rem}.newsArticle .tabbedLinks h3,.videoPage .tabbedLinks
+h3{font-size:16px;font-size:1rem;margin-top:10px}.more h3,.popular
+h3{margin:0
+0 5px}.popular
+h3{font-size:.97rem}.newsArticle #left .relatedPeopleProducts .products h3,.profile #left .relatedPeopleProducts .products
+h3{margin:5px}.reviews form
+h3{font:1rem "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:16px;margin:10px
+0 5px}.expertCover
+h3{margin:0
+95px 45px 155px;font-size:1.125em;letter-spacing:.18em;line-height:1.5em;text-transform:uppercase;color:#333}.newsArticle .base
+h3{margin:0
+0 10px;font-size:16px;font-size:1rem}.bookmarkList
+h3{margin-bottom:5px}.homeBaseVideoWrapper{float:left;width:100%}.homeBase
+h3{font-size:20px;font-size:1.25rem;text-transform:uppercase;margin:18px
+0 0;letter-spacing:.18em;line-height:1em}.homeBaseLeft
+h3{margin:14px
+0}.jobFilter
+h3{text-transform:uppercase;font-size:20px;letter-spacing:.18em;margin:0
+0 10px}.jobDetails
+h3{float:left;width:100%;font-size:16px;margin:15px
+0 10px;color:#acacac;line-height:1.2em}.more
+h3{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:18px;font-size:1.125rem;word-break:normal;letter-spacing:.1em;text-transform:uppercase}.homeBaseLeft .homeBaseVideoWrapper:nth-of-type(2) h3{margin:19px
+0 10px}.content p,.social
+h3{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.bookmarkList h5,.social
+h3{font-size:16px;font-size:1rem}.social
+h3{text-transform:uppercase;letter-spacing:.18em;margin:20px
+0}.bookmarkList
+h5{font-weight:400;margin:0}h6,p{margin:0
+0 15px}h6{font-weight:400}.expertList
+h6{font-size:1.5rem;font-family:"joebob",Palatino,serif}.tagFilter{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif}p{line-height:1.4em}.expertCover
+p{margin:0;font-size:.875em}.pageText
+p.intro{font-size:21px;font-size:1.313rem;line-height:1.4em;color:#333}.content
+p{line-height:1.6em;margin:0
+0 25px}.content .pageText p,.content
+p.intro{font-size:19px;font-size:1.188rem}.content
+p.intro{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif}#twitter_update_list,.aToZ ul,.actions ul,.articleCarousel ul,.base ul,.bookNote ul,.bookmarks .actions ul,.carousel ul,.carouselStatic ul,.controls,.dateAuthor ul,.details ul,.error ul,.expertTabs ul,.galleryGrid ul,.inline,.keyStats ul,.latestActivity ul,.latestBookmarkList
+ul{margin:0;padding:0;list-style:none}.latestNotesList
+ul{padding:0;list-style:none}.listingBlock ul,.mainNav ul,.more ul,.multiCheckbox ul,.notesList
+ul{margin:0;padding:0;list-style:none}.paginate
+ul{margin:0;list-style:none}.popular ul,.productListing ul,.relatedPeopleProducts ul,.reply ul,.social ul,.socialBar ul,.socialLinks ul,.tabbedLinks ul,.timelineContainer ul,footer ul,header ul,nav
+ul{margin:0;padding:0;list-style:none}ul.bookmarks{padding:0;list-style:none}ul.categories{margin:0}ul.categories,ul.following{list-style:none}ul.listing,ul.listingBlock,ul.otherImages,ul.socialMedia,ul.tagCloud{margin:0;padding:0;list-style:none}.aToZ li,.actions li,.alt .details li,.base li,.bookNote li,.bookmarks .actions li,.carousel li,.carouselStatic li,.categories li,.controls li,.dateAuthor li,.inline li,.listingBlock li,.mainNav li,.more li,.otherImages li,.paginate li,.profile .details li,.reply li,.rolodex li,.social ul,.socialMedia li,.tabbedLinks .top li,header
+li{display:inline}.tabbedLinks
+ol{display:inline-block;margin:0;padding:0
+0 0 20px;-webkit-font-smoothing:antialiased}#container{width:100%;max-width:1140px;margin:0
+auto;text-align:left}#left{float:left;width:65.9%;position:relative}#left
+.left{float:left;width:50%}#left
+.right{width:50%;float:right}#right,#right .sideBarLinks .listingItem
+.text{float:right}#right{width:31.9%}.center{float:left}#left.fullWidth,.center,.listingPage.expertsListing
+.content{width:100%}.standard
+#left{width:57.4%}.profile
+.content{float:right;width:66%}.profile #left
+.left{float:left;width:34%;padding:0
+20px 0 0;clear:left;overflow:hidden}.newsArticle #left,.profile
+#left{float:left;width:63%}.content p.intro,.pageText
+p{line-height:1.6em}.expertFinder,.threeColumnWrapper{float:left;width:100%;margin:0
+0 30px}.threeColumnWrapper{margin:0
+0 35px;background:url(http://www.getthegloss.com/images/3-column-bg.png) repeat-y 0 0}.twoColumnWrapper{float:left;width:100%;margin:20px
+0 0;background:url(http://www.getthegloss.com/images/2-column-bg.png) repeat-y 0 0}.content,.sideBar.left{float:left;width:22.5%}.sideBar.right{float:right;width:22.5%;padding-bottom:20px}.content{width:74%}.brandPage .content,.jobListing
+.content{width:55%;padding:0
+35px}.authorList,.contentPage,.picks span.image,.wrapper.home{float:left;width:100%}.authorList,.expertList{margin-top:20px}.newsArticle,.page,.solution,.videoPage{float:left;width:100%;margin-top:20px}.content p.intro,.shopSection nav,.slides
+h2{text-transform:uppercase;letter-spacing:.18em}.shopSection nav,.shopSection
+select{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:13px}.shopSection
+nav{padding-right:35px}.shopSection
+select{text-transform:uppercase;letter-spacing:.18em;padding:0}.shopSection nav
+li{margin-bottom:10px}.shopCategories,.shopEdits,.shopMarketplace{margin-bottom:90px}.closeBtn a,.content ol,.content ul,.slideNotice
+a{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.slideNotice
+a{display:none;color:#000;letter-spacing:.18em;font-style:italic;padding-left:10px;font-size:16px}.closeBtn
+a{float:right;margin:0;cursor:pointer;padding:15px;font-size:23px}.slideNotice{text-align:left}.wrapper{margin-top:200px;float:left}.wrapper.home{margin:200px
+auto 0}.homeBase,.homeMid,.homeTop{float:left;width:100%;margin-bottom:20px}.homeTop{margin-top:20px;margin-bottom:5px}.columnOne{float:left;width:67%}.homeMid
+.columnOne{width:37%;margin-left:-5%}.columnTwo{float:right;width:64.5%}.columnOne
+.video{float:left;width:48%;font-size:1.063rem}.columnOne .video .image,.slides
+li{position:relative}.homeTop
+.banner{float:right;width:48%;text-align:right}.slider{float:left;width:100%;margin-bottom:32px;text-align:center;background-color:#eee}.productPage
+.slider{background:0 0;margin:0
+0 20px}.picks p.author,.productPage
+.flexslider{width:55%;display:inline-block;margin:0
+auto}.textWrapper{padding:0
+70px;position:absolute;bottom:55px;left:0;right:0;z-index:999}.slides
+.text{display:inline-block;background:url(http://www.getthegloss.com/images/white-opaque-bg.png);padding:10px
+40px 20px;color:#333}.slides
+h2{font-size:1.25rem;margin:0
+0 10px;text-decoration:underline}.shopSection nav a:hover,.slides h2:hover{text-decoration:none}.slides p,p.introduction{margin:0;font-size:1.063rem}.picks h2,.slides h2,.slides
+p{line-height:1.1em;font-size:20px}.picks{width:100%;top:0}.picks
+.top{float:left;width:100%;padding:5px
+30px 10px 41px;background:url(http://www.getthegloss.com/images/top-five-tab.png) repeat-y 100% 0}.base{display:inline-block;width:100%;text-align:left}.picks
+h2{min-width:150px;padding:0
+15px;margin:7px
+0 0 -2%;background:url(http://www.getthegloss.com/images/top-five-h2-bg.png) no-repeat 100% 50%;letter-spacing:.18em;line-height:1.4em}.picks
+ul{margin:0;padding:0;list-style:none}.picks h2,.picks li
+a.productImg{float:left;width:50%}.itemText{float:right;width:50%;font-size:17px;font-size:1.063rem;color:#000}.itemText
+a{color:#e64415}.picks .itemText
+a{color:#520068}.picks .itemText
+.productIntro{font-size:1rem}.product1,.product2,.product3,.product4,.product5{float:left;width:100%;padding:35px
+41px 30px 43px;margin-top:-1px;background:url(http://www.getthegloss.com/images/top-five-tab.png) no-repeat bottom right;position:relative}.product5{background-image:url(http://www.getthegloss.com/images/top-five-last-tab.png)}.product1 .number,.product2 .number,.product3 .number,.product4 .number,.product5
+.number{position:absolute;right:12px;bottom:130px;width:15px;height:19px;background:url(http://www.getthegloss.com/images/1.png) no-repeat 0 0}.product2
+.number{background-image:url(http://www.getthegloss.com/images/2.png)}.product3
+.number{background-image:url(http://www.getthegloss.com/images/3.png)}.product4
+.number{background-image:url(http://www.getthegloss.com/images/4.png)}.product5
+.number{background-image:url(http://www.getthegloss.com/images/5.png)}.picks
+span.image{padding:0
+10px 0 0}.picks span.image
+img{border:3px
+solid #fff}.picks
+p.author{width:100%;margin:15px
+0;font:1.875rem "joebob",Palatino,serif;font-size:35px}#expertNews .showMorePosts a,.picks p.author
+a{color:#000}.picks
+a{text-decoration:none}.picks a:hover{text-decoration:underline}.picks p.author
+span{color:#abacad}.imageWrapper{float:right;width:40%;margin:5px
+0 0;text-align:right}.homeNews,.imageWrapper
+.image{position:relative}.imageWrapper
+span{width:8px;height:30px;background:url(http://www.getthegloss.com/images/picks-paperclip.png) no-repeat 0 0;position:absolute;top:-11px;left:5%}.picks
+.text{width:53%}p.introduction{font-size:17px}.homeNews{float:left;width:100%;margin:0
+0 20px;padding-bottom:30px;border-bottom:1px solid #999}.columnTwo
+.banner{float:left;width:48%;margin:0
+0 15px}.columnTwo .banner:last-child{float:right}.columnTwo .banner
+p{margin:0}.homeBase{position:relative}.homeBaseLeft,.homeBaseRight{float:left;width:31%;padding-top:20px}.homeBaseRight{float:right;width:66%}.homeBaseLeft p,.homeBaseRight
+p{width:100%;position:relative;margin:0;line-height:0}.homeBase p:last-child{margin:0}.homePage .content,.midPage{float:left;width:74%}.midPage{width:100%;padding:40px
+0}.midPage.bottom{background-color:#fff}.midPageWrapper{float:left;width:100%;border-top:40px solid #fff}.homeBanner,.midPageWrapper
+.midPage{border-top:1px solid #acacac;padding:0}.homeBanner{float:left;width:100%;padding:40px
+0;border-bottom:1px solid #acacac;position:relative;background-color:#fff}.homeBanner
+.text{width:275px;position:absolute;top:102px;left:50px;text-align:center}.home
+.more.videos{width:74%}.home .more.videos
+li{height:430px;padding-top:0}.more.videos
+p{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.home
+.popularVideos{float:left;width:100%;border-top:40px solid #fff;margin:0}.home .midPage+.midPage{padding-top:0}.home .popularVideos
+.sideBar.right{height:482px}.more.videos .text,.topPicks
+.text{text-align:center}.newsArticle
+.base{float:left;width:100%;margin:25px
+0 0}.newsArticle .base .product1,.newsArticle .base .product2,.newsArticle .base .product3,.newsArticle .base .product4,.newsArticle .base
+.product5{width:100%;padding:0;margin-top:0;background:0 0}.newsArticle .base
+.image{float:left;width:20%;padding:0
+20px}.newsArticle .base
+.itemText{float:left;width:80%;margin:0;color:#333;font-size:16px;font-size:1rem}.newsArticle .base
+.number{bottom:auto;top:0;left:0}.feedback,.newsArticle .base
+li{float:left;width:100%;margin:0
+0 25px}p.imageSource{margin-top:-20px}a.close,a.transition{display:none!important}a.label{cursor:default}a.label:hover{text-decoration:none}.feedback{clear:left;width:640px;margin:20px
+0 10px}.rating,.relatedPeopleProducts
+ul{display:inline-block;width:100%}.consultationRating
+p{margin-bottom:5px}.jobSection
+p.banner{float:right;width:86%;margin:0}.jobSection
+p.image{margin:0;line-height:0}.jobSection .inspiration
+p.image{margin-bottom:10px}.jobSection .sideBar
+.social{float:left;width:100%;margin:20px
+0 0;padding:20px
+0 0;border-top:1px solid #000}.jobSection .sideBar .social li
+a{width:100%;padding:5px
+0 5px 35px}.jobSection .sideBar .social li a,.menuSocial .social li
+a{float:left;margin:5px
+0;background:url(http://www.getthegloss.com/images/twitter-icon-white.png) no-repeat 0 0;text-decoration:none;text-transform:uppercase}.jobSection .sideBar .social .facebookLink a,.menuSocial .social .facebookLink
+a{background-image:url(http://www.getthegloss.com/images/facebook-icon-white.png)}.jobSection .sideBar .social .googlePlusLink a,.menuSocial .social .googlePlusLink
+a{background-image:url(http://www.getthegloss.com/images/google-icon-white.png)}.jobSection .sideBar .social .instagramLink a,.menuSocial .social .instagramLink
+a{background-image:url(http://www.getthegloss.com/images/instagram-icon-white.png)}.jobSection .sideBar .social .linkedInLink
+a{background-image:url(http://www.getthegloss.com/images/linkedin-icon-white.png)}.menuSocial .social .youtubeLink
+a{background-image:url(http://www.getthegloss.com/images/youtube-icon-white.png)}.jobSection .statsSocial
+.social{margin:0;padding:0;border-top:none}.forward,.statsSocial{float:left;background-color:#dedede;box-shadow:2px 2px 3px 0 rgba(171,171,171,.8)}.statsSocial{margin-top:-1px;width:95%;padding:10px
+15px 5px}.menuSocial .social,.statsSocial
+.social{text-align:justify}.jobPage p.buttonLink,.menuSocial .social a,.statsSocial .social
+a{display:inline-block}.menuSocial .social:after,.statsSocial .social:after{content:'';width:100%;display:inline-block}.jobSection .statsSocial .social li a,.menuSocial .social li
+a{padding:0;width:25px;height:25px;text-indent:-999em;overflow:hidden}.jobSection .buttonLink
+a{padding:5px
+15px;border-radius:15px;text-transform:uppercase;font:13px "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:.813rem;letter-spacing:.18em;background-color:#80cff1;text-decoration:none}.jobSection .buttonLink
+a.forwardJob{padding:5px
+25px;background-color:#d5cadb;margin-left:25px}.jobSection
+hr{background-color:#ababab}.jobSection
+.pageTop{width:100%;margin:0
+0 30px}.forward{width:85%;padding:25px
+15px}.latestNews{float:right;width:86%;padding:75px
+15px 35px;background:#e6e6e5 url(http://www.getthegloss.com/images/latest-news-bg.png) no-repeat 50% 20px;box-shadow:-2px 2px 3px 0 rgba(171,171,171,.8)}.jobsHome
+.left{float:left;width:48%}.jobsHome
+.right{float:right;width:48%}.jobsHome
+.slider{width:550px;height:358px;overflow:hidden;margin-bottom:36px}.inspiration,.jobsHome
+.featuredJobs{float:left;width:100%;position:relative;padding-bottom:55px}.jobsHome
+.featuredJobs{padding-bottom:50px}.homeMid .inspiration
+.listingItem{width:48%;padding:30px
+0 25px}.jobsHome .featuredJobs
+.listing{float:left;width:100%;padding:0
+15px 0 20px;background-color:#efefef}.jobsHome .featuredJobs
+.listingItem{width:100%;padding:30px
+0;border-bottom:1px solid #ababab}.jobsHome .featuredJobs .listingItem:last-child{border:none;padding-bottom:35px}.jobsHome .featuredJobs
+.image{float:left;width:25%}.jobsHome .featuredJobs
+.text{float:right;width:70%}.jobFilter{float:left;width:85%;padding:25px
+0;background-color:#eee}.jobFilter
+.group{float:left;width:100%;padding:0
+5px 0 20px;margin:0
+0 10px}.jobListing .content
+.listing{float:left;width:100%;margin-bottom:10px}.jobListing .content
+.listingItem{width:100%;padding:27px
+0 23px;border-bottom:1px solid #ababab}.jobListing .content .listingItem:first-child{padding-top:5px}.jobListing .content .listingItem:last-child{margin-bottom:18px;border-bottom:none}.jobListing .content
+.image{float:left;width:14%}.jobListing .content
+.text{float:right;width:83%}.sideBar
+hr{float:right;width:86%;border:none;height:1px;background-color:#ababab;padding:0;margin:20px
+0 40px}.jobPage
+hr{margin-bottom:30px}.jobDetails{float:left;width:100%;padding:15px
+170px 15px 20px;background-color:#f1f1f0;margin:0
+0 25px;position:relative}.jobDetails
+.left{float:left;width:48%}.jobDetails
+.right{float:right;width:48%}.jobDetails
+p{float:left;width:100%;margin:0
+0 10px}.jobDetails
+span{float:left;width:33%;color:#acacac}.jobDetails
+span.itemData{float:left;width:67%;color:#000}.jobDetails
+p.image{margin:0;position:absolute;bottom:25px;right:25px;width:auto}.jobPage .content p.buttonLink:last-child{margin-top:30px}.jobPage p.image
+img{width:auto;max-width:100%}.jobsSignUp
+p.image{margin:0
+0 20px}.jobsSignUpForm{float:left;width:66%;margin:0
+17% 20px;padding:20px
+0 30px;text-align:center;background-color:#f1f1f1}.jobsSignUpForm
+p{padding:0
+120px;margin:0
+0 20px;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:19px;font-size:1.188rem}.jobsSignUpForm
+.group{width:88%;margin:0
+6%;padding:35px
+0 10px;border-bottom:1px solid #ababab}.jobsSignUpForm .group:nth-of-type(3){border:none;padding-bottom:0}.jobsSignUp
+.pageTop{width:100%;padding:78px
+130px 0;background:url(http://www.getthegloss.com/images/top-filter-bg.jpg) no-repeat 0 0;background-size:cover;min-height:443px;text-align:center;color:#fff;font-size:23px}.jobsSignUp .pageTop
+p{margin:0
+0 25px;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.brandJobs{float:left;width:100%;padding:30px
+0;margin-top:30px;border-top:1px solid #ababab}.brandJobs
+.listing{margin-top:10px}.brandJobs
+.listingItem{width:100%}.brandFilter{float:left;width:100%;margin:0
+0 20px}.keyStats{float:left;width:85%}.jobSection .sideBar .latestNews .listingItem,.statsText
+li{width:100%;background:url(http://www.getthegloss.com/images/jobs-bullet.png) no-repeat 0 5px}.statsText
+li{float:left;padding-left:10px;margin:0
+0 7px}.statsText{float:left;width:100%;padding:25px
+15px 10px;background-color:#dedede;box-shadow:2px 2px 3px 0 rgba(171,171,171,.8);border-bottom-right-radius:10px}.keyStats
+p.link{display:inline-block;margin:20px
+0 0;font-size:16px;font-size:1rem}.keyStats .link a:hover{text-decoration:underline}.keyPeople{float:right;width:86%}.sideBar .keyPeople
+.listingItem{float:left;width:100%;padding-top:20px;padding-bottom:20px}.keyPeople
+img{display:inline-block;width:74px;max-width:74px;height:74px;border-radius:37px}.jobSection .sideBar .latestNews
+.listingItem{padding:0
+0 0 10px;margin:10px
+0;border-bottom:none;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.brandArticle p.image,.carouselLite{margin:0
+0 20px}.brandArticle .content
+strong{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif}.content
+.social{margin:25px
+0 50px}.brandArticle .content .more p,.carousel span,.keyStats .link a,.sideBarLinks.productLinks .itemOverlay
+p{font-size:16px;font-size:1rem}.carouselLite{float:left;width:100%;padding-top:25px;background:url(http://www.getthegloss.com/images/lines-divider.png) repeat-x 0 0;position:relative}.carouselWrapper{display:inline-block;width:100%;margin:10px
+0 0;padding-bottom:35px;background:url(http://www.getthegloss.com/images/lines-divider.png) repeat-x 0 100%;overflow:hidden}.carousel{float:left;width:100%;min-width:1140px;margin:0
+auto;padding:0
+0 10px;z-index:1}.carousel a:hover,.keyStats .link
+a{text-decoration:none}.carousel
+span{display:inline-block;width:160px;margin:5px
+0}.carousel
+li{width:160px;margin:0
+10px;min-height:295px;text-align:center;position:relative}.carousel li
+img{height:130px;width:130px}.carousel li a:hover
+img{border:none}.carouselLite a.next,.carouselLite
+a.prev{position:absolute;top:150px;width:44px;height:44px;text-decoration:none;z-index:100;outline:none}.carouselLite
+a.prev{left:5px;background:url(http://www.getthegloss.com/images/button-pink-left.png) no-repeat 0 0}.carouselLite
+a.next{right:5px;background:url(http://www.getthegloss.com/images/button-pink-right.png) no-repeat 0 0}.jobSection
+.carouselLite{padding-top:15px;background:0 0;border-top:1px solid #ababab}.jobSection .carouselLite
+ul{float:left;width:100%;height:130px;padding:0
+50px;margin:10px
+0 0;overflow:hidden;text-align:center;list-style:none}.jobSection .carouselLite .brandCarouselStatic
+ul{padding:0;height:auto;overflow:visible}.jobSection
+.carouselWrapper{padding-bottom:15px;background:0 0;border-bottom:none}.jobSection .carouselLite
+h2{margin:0
+0 10px}.formCell input,.jobSection .carouselLite
+p{width:50%}.jobSection .carouselLite
+li{float:left;width:130px;min-height:130px;height:130px;margin:0
+20px}.jobSection .carouselLite .brandCarouselStatic
+li{margin:0
+20px 0 0}.jobSection .carouselLite .brandCarouselStatic li:last-of-type{margin:0}.jobSection .carouselLite a.next,.jobSection .carouselLite
+a.prev{top:auto;bottom:65px}.jobsSignUp .carouselLite a.next,.jobsSignUp .carouselLite
+a.prev{bottom:85px}.jobsSignUp
+.carouselWrapper{border-bottom:1px solid #ababab;margin-bottom:20px}.shopHome #editorContent
+p{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-size:16px;font-size:1rem}.shopSection
+.divider{float:left;width:100%;border-top:35px solid #fff;border-bottom:35px solid #fff;margin:0;padding-top:1px;background:url(http://www.getthegloss.com/images/grey-pixel.gif) repeat-x 0 50%}.itemTop figure,.itemTop
+picture{display:inline-block;width:76%}.itemLinks a,.loadMore a,.readMore
+a{display:inline-block;width:100%;text-decoration:none}.itemLinks
+a{line-height:1em;padding:6px
+0;color:#f04d22}.itemOverlay,.listingItem .itemOverlay
+p{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif}.itemOverlay{width:100%;padding-top:70px;position:absolute;top:0;left:0;background:url(http://www.getthegloss.com/images/opaque-white-bg.png);animation-delay:.5s}@keyframes
+fadeIn{0%{opacity:0}to{opacity:1}}.itemImage:hover .itemOverlay,.productLinks li:hover
+.itemOverlay{width:100%;display:block;height:195px;opacity:0;animation:fadeIn ease-in 1;animation-fill-mode:forwards;animation-duration:.5s}.listingItem .itemOverlay
+p{font-size:20px;font-size:1.25rem;line-height:1.4em;text-transform:uppercase;letter-spacing:.18em}.itemOverlay a:hover{text-decoration:none!important}.itemDetails
+p.showHide{margin:10px
+0 0}.itemDetails p.showHide
+a{display:inline-block;width:26px;height:26px;position:relative;overflow:hidden;background:url(http://www.getthegloss.com/images/show-icon.svg) no-repeat 0 50%;text-indent:-9999em}.shopSection
+.twoColumnWrapper{margin:0
+0 35px;background:url(http://www.getthegloss.com/images/2-column-left-bg.png) repeat-y 0 0;background-size:100%}.shopSection
+.content{float:right;width:74%}.shopSection .pageTop,.shopSection
+.shopHome{float:left;width:100%;margin-bottom:42px;position:relative}.listingPage p.intro,.shopIntro p,.shopSection
+p.intro{font-size:16px;font-size:1rem;margin:0
+0 35px}.listingPage
+.pageTop{margin:0}.listingPage .oldListingPage,.listingPage
+.twoColumnWrapper{margin-top:42px}.productListing{margin:35px
+0 0}.listing.productListing{margin:0
+0 35px}.productListing
+.listingItem{width:33.333%;text-align:center;padding:0}.itemTop{padding:0
+12px;min-height:450px;overflow:hidden}.itemImage,.itemTop{float:left;width:100%;position:relative}.itemTop
+figure{width:100%;text-align:center}.itemTop
+img{width:76%}.itemOne .itemTop,.itemTwo
+.itemTop{border-right:1px solid #acacac}.itemDetails{float:left;width:101%;margin:10px
+-2px 0;background-color:#fff}.itemLinks{padding-top:5px;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.itemLinks a:hover{text-decoration:none}.itemLinks,.itemOverlay{display:none}.itemDetails p.showHide
+a.hideLink{transform:rotate(90deg)}.listingItem p.brandName,.listingPage p.intro,.shopIntro p,.shopSection p.intro,.sideBarNews .listingItem
+h2{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.listingItem
+p.brandName{display:inline-block;color:#acacac;margin:8px
+0 15px}.listingItem p.brandName
+a{color:#acacac}p.loadMore,p.readMore{float:left;width:100%;margin:35px
+0 0;text-align:center;text-transform:uppercase;letter-spacing:.18em;border-top:1px solid #acacac}.loadMore a,.readMore
+a{padding:20px
+0;color:#000}.home .readMore
+a{padding-bottom:0}.listingItem p.brandName a:hover,.loadMore a:hover,.readMore a:hover{text-decoration:none;color:#f04d22}.productPage
+.twoColumnWrapper{margin-top:35px}.productPage
+.pageTop{float:left;width:75%;margin:0
+12.5%;text-align:center;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.productPage .pageTop
+figure{display:inline-block;margin:0
+0 20px}.productPage .pageTop
+img{max-width:350px}.productPage
+.price{font-size:19px;margin:0
+0 15px;letter-spacing:.18em}.listingItem
+.price{font-size:16px;margin:0
+0 17px;letter-spacing:0}.productDetails div,.productDetails
+p{margin:0
+0 45px}.buy{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;letter-spacing:.18em}.buy
+a{display:inline-block;padding:9px
+25px;background-color:#fcb7ae;text-transform:uppercase;border-radius:14px}.buy a,p.buy a:hover{text-decoration:none}.productPage
+.social{border-top:1px solid #acacac;margin:30px
+0}.productPage
+.productListing{padding:35px
+0 0;margin:0
+0 50px;float:left;width:100%;border-top:1px solid #acacac}.productPage
+.more{padding:60px
+0 0}.sideBarLinks,.similar{float:right;width:86%;border:1px
+solid #ababab;padding:12px
+0 0;box-shadow:-2px 2px 3px 0 rgba(171,171,171,.5)}.sideBarNews{border:none;box-shadow:none;background-color:#f4fafc}.sideBarNews .listingItem
+h2{letter-spacing:0;line-height:16px;font-size:14px}#right
+.sideBarLinks{margin-bottom:20px}#label_opt_in p,.similar
+.jobTitle{display:inline}.sideBarLinks p.link,.similar
+p.link{float:left;width:100%;padding:18px
+0;margin:0;border-top:1px solid #adadad;text-align:center;font:19px "BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-style:italic;font-size:1.188rem}.sideBarNews p.link,Ligh .expertImages .galleria-thumbnails .galleria-image{border:none}.sideBarLinks p.link a,.similar p.link a,.tabbedLinks .top .current
+a{color:#000;text-decoration:none}.sideBarLinks p.link a:hover,.similar p.link a:hover{color:#e64415}.sideBar
+.inspiration{float:right;width:86%;border:1px
+solid #ababab;padding:12px
+0 0;margin:0
+0 20px;box-shadow:-2px 2px 3px 0 rgba(171,171,171,.5)}.sideBar .inspiration
+.listingItem{width:100%}.sideBar .inspiration .listingItem,.sideBarLinks
+.listingItem{height:103px;overflow:hidden;padding:0;border-bottom:none;border-top:1px solid #ababab}.sideBarNews
+.listingItem{border:none;overflow:visible;margin-bottom:10px;height:auto}.sideBarNews .listingItem:first-of-type{border-top:1px solid #ababab}.sideBarLinks.productLinks
+.listingItem{float:left;width:50.3%;line-height:0;margin:0;position:relative}.sideBarLinks.productLinks .listingItem
+img{line-height:0}.sideBarLinks.productLinks .listingItem:nth-of-type(even){border-left:1px solid #acacac;margin-right:-1px}.sideBarLinks.productLinks .listingItem:nth-of-type(odd){border-right:1px solid #fff;margin-right:-1px}.sideBarLinks.productLinks
+.itemOverlay{width:100%;padding-top:25px;position:absolute;top:0;right:0;bottom:0;left:0;text-align:center;background:url(http://www.getthegloss.com/images/opaque-pink-bg.png)}.sideBar .inspiration .text
+p{line-height:1.2em}#right .listingItem p.image,.sideBar .listingItem
+p.image{float:left;width:46%}.sideBar .keyPeople .listingItem
+p.image{width:30%}#right .listingItem .text,.sideBar .listingItem
+.text{float:right;width:50%;padding:10px
+0 0}.sideBar .keyPeople .listingItem
+.text{width:70%;padding:0
+0 0 12px}.sideBarLinks
+.listingItem{float:left;width:100%}.sideBarLinks .listingItem
+.text{width:50%;padding:5px
+0 0}.sideBarNews .listingItem
+.text{width:50%;padding:10px
+0 0}.homePage .sideBar .listingItem p.image,.listingPage .sideBarLinks .listingItem p.image,.sideBar .inspiration .listingItem
+p.image{width:47%;padding:0;margin:0;line-height:0}.sideBarLinks .listingItem
+img{width:100%}.sideBarLinks.jobLinks
+.listingItem{width:100%;height:auto;padding:30px
+5px 30px 10px}p.tag{text-transform:uppercase;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.sideBarLinks
+p.tag{display:none}.tabbedLinks
+.top{display:inline-block;font-size:.625em;text-transform:uppercase}.tabbedLinks .top
+li{float:left;margin:0
+12px 0 0}.tabbedLinks
+.links{display:inline-block;width:100%}.tabbedLinks .links
+li{margin:5px
+0 10px}.tabbedLinks{float:right;width:26%;margin:0
+0 20px 20px;padding:0
+0 0 19px;border-left:1px solid #ccc;background-color:#fff}.newsArticle .tabbedLinks .links,.tabbedLinks
+.top{width:100%}.tabbedLinks
+.top{padding:0;margin:0}.tabbedLinks
+.links{margin:0;padding:0
+0 18px;background:0 0;font-size:16px;font-size:1rem}.tabbedLinks .links
+ul{padding-bottom:10px}.tabbedLinks .links
+a{width:100%;padding:0;background:0 0;margin:7px
+0;line-height:1.5em;color:#999;text-decoration:none}header
+.banner{padding:10px
+0 9px;border-bottom:1px solid #abacae;margin:0;text-align:center}#right .expertFinder,#right .twitter,#right
+p.banner{float:right;width:86%;margin:0
+0 30px}#right .faceBook
+p.banner{margin:0
+0 5px}p.smallHeaderBanner{float:left;width:15.957446808510639%;margin:13px
+0}.comments,header
+.banner{display:inline-block;width:100%}.comments,.reviews{padding-top:12px}.comments
+a{text-decoration:underline}.comments a:hover{text-decoration:none}.post,.post .box,.reviews{display:inline-block;width:100%}.post{margin:10px
+0}.post
+p{line-height:1.4em}.post
+.box{padding:0
+8px;border:1px
+solid #abacae}.post .dateAuthor,.reply{display:inline-block;width:100%;padding:8px
+0 10px;margin:0
+0 10px;background-color:#fff}.reply{margin:0}.post .dateAuthor li,.reply
+li{padding:0
+10px;background:url(http://www.getthegloss.com/images/grey-divider.gif) no-repeat 100% 50%}.post .dateAuthor .first,.reply
+.first{padding-left:0}.post .dateAuthor .last,.reply
+.last{padding-right:0;background:0 0}.addComment,.addPost,.relatedPeopleProducts
+li{display:inline-block;width:100%;margin:10px
+0 20px}.addPost{padding:0
+10px}.reviews
+.dateAuthor{margin-bottom:0}.reviews
+.inline{margin:0
+0 20px}.reviews .inline li,ul.tagCloud
+li{margin-right:10px}.reviews .inline a,p.helpful
+a{margin-left:10px}.reviews .inline img,.reviews .socialMedia
+img{margin-bottom:-3px}.reviews
+.post{width:100%;padding:0;background:0 0}.reviews .post
+.box{width:100%;padding:5px;border-bottom:2px solid #d2c6c1;border-color:#efefef}.expertPosts{float:left;width:100%;margin:10px
+0 20px}.expertPosts .post
+.box{width:100%;padding:10px;border:1px
+solid #ccc}.expertPosts
+.post{width:100%}.expertPosts .post .dateAuthor,.expertPosts
+.reply{width:100%;padding:0}.reviews
+.reply{margin-top:0}p.helpful{margin:0
+0 10px}.reviews
+.socialMedia{margin-bottom:10px}.reviews .socialMedia li
+a{margin-left:2px}.reviews
+.addComment{width:580px;padding:10px
+20px 20px;background-color:#f1e4e0;color:#666}.reviews .addComment
+p.rating{padding:5px;background-color:#dab9af;border-radius:5px;color:#fff;font-weight:700}.relatedPeopleProducts{display:inline-block;width:100%;font-size:.875em;margin-bottom:10px}.relatedPeopleProducts
+li{margin:10px
+0}.relatedPeopleProducts
+p{float:left;width:75%}.profile #left .relatedPeopleProducts p.image,.relatedPeopleProducts
+p.image{float:left;width:25%;padding:0
+10px 0 0;background:0 0}.relatedPeopleProducts
+.products{padding:0;border-bottom:none}.related li,.relatedPeopleProducts .products
+li{margin:0;padding:5px
+0}.newsArticle #left .relatedPeopleProducts .products
+p{width:135px}.newsArticle #left .relatedPeopleProducts .products
+p.image{float:left;width:75px;padding:0;margin:0
+10px 0 0;background:0 0}.related
+.dateAuthor{margin:0
+0 5px}.related .dateAuthor
+li{display:block}.authorList #left p.image a,.related p.dateAuthor a,.related p.image a,.related p.video,.related p.video a,.relatedPeopleProducts p.image
+a{background:0 0;padding:0}.related
+p.video{width:100%;margin:0}.profile
+.relatedPeopleProducts{margin:0
+0 20px}.profile .relatedPeopleProducts
+li{font-size:1.125em}.authorList #left
+.content{margin-bottom:20px}.authorList
+.listingBlock{margin:0}.authorList .listingBlock
+.listing{float:left;width:48%;margin:10px
+0 30px}.authorList .listing
+img{width:auto;max-width:100%}.authorList .listing:nth-of-type(even){float:right}.authorList .listingBlock ul,.expertList .listingBlock
+ul{border:none;padding:0;margin:0
+0 5px}.expertList{float:left;width:100%}.expertCover,.expertListing{float:left;padding:0;box-shadow:3px 0 3px 0 rgba(0,0,0,.2)}.expertListing{background-color:#fdfaf9;position:relative;width:92.7%;min-height:1300px;margin:0
+0 25px -40px}.expertCover{width:90.7%;min-height:700px;margin:0
+0 25px -15px;background:#fcf3ec url(http://www.getthegloss.com/images/experts-cover-bg.png) repeat-y -25px 0;text-align:center;border-top-right-radius:60px;border-bottom-right-radius:60px}.expertList
+.listingBlock{float:left;width:100%;padding:0
+0 0 40px}.aToZExpertListing
+.listingBlock{padding:0;margin:0}.categories li p,.expertList #expertListing .listingBlock,.expertList .listing p,.latestNotesList #moreNotes ul,.listingImageWrapper
+p{margin:0}.expertList
+.listing{float:left;width:33.3%;padding:0
+5px 0 15px;margin:0}.expertList .listing
+p.image{width:100%;margin:0;display:none}.expertWrapper{min-height:1300px}.aToZ{float:left;width:100%;margin:10px
+0;color:#abacae;word-wrap:break-word}.aToZ
+li{margin:0
+10px 0 0}.available,.consultationRequest .loggedIn
+a{color:#2db200}.unavailable{color:#e64415}.expertTabs{float:right;width:10.6%;margin-top:75px}.expertTabs
+li{float:left;width:100%;padding:5px
+0;margin-bottom:3px;border-top-right-radius:8px;border-bottom-right-radius:8px;background-color:#fdfaf9;box-shadow:3px 3px 3px 0 rgba(0,0,0,.2);z-index:1;position:relative}.expertTabs
+a{display:inline-block;padding:15px
+5px 15px 8px;text-decoration:none}.expertTabs
+li.current{z-index:20;position:relative;margin-left:-3px;padding:5px
+0 5px 3px}.filterGroup,.galleryContainer
+h2.imageTitle{float:left;width:100%;margin:0
+0 10px}.filter{float:left;width:auto;margin-right:20px;padding-right:20px}.priceRating{width:auto!important}.filter:last-child{margin-right:0;border-right:none;padding-right:0}.resultsMessage{float:left;width:100%;margin:20px
+0}.filter h2,span.small{font-size:16px;font-size:1rem}.filter
+h2{margin:0;text-transform:inherit}.listingImageWrapper{width:33.3%;padding:15px
+0 0;position:absolute;top:-2px;right:20px;text-align:right}.listingImageWrapper
+img{box-shadow:3px 3px 3px 0 rgba(0,0,0,.2)}.listingImageWrapper
+span{width:13px;height:56px;background:url(http://www.getthegloss.com/images/experts-clip.png) no-repeat 0 0;position:absolute;top:0;right:130px}ul.categories{float:left;width:100%;text-align:center;padding:10px
+25px 60px 112px}.categories
+li{float:left;width:23%;margin:15px
+1%;padding:10px
+15px;background-color:#dab9af;font-size:1.125em;color:#666;letter-spacing:.09em}.categories li
+img{margin-bottom:2px}span.small{display:inline-block;margin-top:-20px}.memberWrapper{float:left;width:100%;margin:15px
+0}.memberWrapper
+.listing{float:left;width:50%;padding:0
+20px 0 0;margin:0}.expert{color:#333}.memberWrapper
+p.image{display:none}.latestActivity,.profile .images,.videos{float:left;width:100%;margin:10px
+0 20px}.profile
+.images{padding:0}.latestActivity{margin-bottom:40px}li.latestActivity{margin:0
+0 8px}.videos
+p.listing{float:left;width:33.3%;margin:0;text-align:center}#moreNotesToggler,#moreVideosToggle{float:left;text-decoration:none;color:#fff}#moreVideosToggle{width:98%;margin:0
+2% 0 0;padding:0
+3px}#moreNotesToggler{width:98%;padding:1%;margin:10px
+0}.latestActivity
+li{padding:5px
+0 9px;border-bottom:2px solid #efefef}.latestActivity
+.date{color:#abacae;display:block}.latestNotesList
+ul{margin:10px
+0 0}.profile #right
+.date{display:inline-block;width:100%;color:#f2f2f2}.profile .galleria-container{background-color:#fff;width:100%!important;height:460px!important}.profile .galleria-thumbnails .galleria-image{background-color:#fff;border:1px
+solid #999}.profile .galleria-counter{opacity:1!important;bottom:auto!important;top:0;color:#666!important}.profile .notouch .galleria-thumb-nav-left:hover,.profile .notouch .galleria-thumb-nav-right:hover,.profile .touch .galleria-thumb-nav-left:active,.profile .touch .galleria-thumb-nav-right:active{background-color:#fff!important}.profile .galleria-image-nav-left,.profile .galleria-image-nav-right,.profile .galleria-info-close,.profile .galleria-info-link,.profile .galleria-thumb-nav-left,.profile .galleria-thumb-nav-right{background-image:url(http://www.getthegloss.com/css/galleria/themes/classic/classic-map-dark.png)}#imageCaption{padding:10px
+10px 0}.profile .galleria-thumbnails-container{height:80px;bottom:0}.profile .galleria-thumbnails .galleria-image,.profile .galleria-thumbnails .galleria-image
+img{width:60px!important;height:80px!important}#imageCaption,.galleryPage{float:left;width:100%}.galleryContainer .myImages,.ui-tabs-nav
+a{position:relative}.galleryContainer{margin-bottom:20px;text-align:center}.gallery-image-and-thumbs,.galleryContainer{float:left;width:100%}.galleryContainer .myImages,.galleryContainer
+.myText{float:left;width:100%;text-align:center;border-top:1px solid #ccc}.galleryContainer
+.myText{border-bottom:1px solid #ccc;margin-bottom:10px;padding-top:15px}.galleryContainer
+.myImages{padding-top:10px;margin:0
+0 10px}.galleryContainer .gallery-thumbnails{display:inline-block;width:auto}.galleryContainer
+.galleryThumb{display:inline-block;width:53px;height:40px;margin:0
+3px 4px 0;position:relative}.galleryContainer .galleria-image-nav{float:left;width:100%}.galleryPage .galleryContainer .galleria-counter{display:none}.galleryContainer .galleria-image-nav-left{background-position:6px 3px}.galleryContainer .galleria-image-nav-left,.galleryContainer .galleria-image-nav-right{background-color:#ccc;border-radius:100%;-webkit-border-radius:100%;width:38px;height:38px;top:40%;opacity:.6}.galleryContainer .galleria-image-nav-left{left:0}.galleryContainer .galleria-image-nav-right{right:0;background-position:-286px 3px}.galleria-image-nav-right:hover,.galleryContainer .galleria-image-nav-left:hover{opacity:.8}.registerLogin .ui-tabs{float:left;width:100%;margin:20px
+0 0}.registerLogin .ui-tabs-nav{float:left;width:100%;margin:10px
+0;border-bottom:1px solid #ccc;position:relative;z-index:1}.ui-tabs-nav
+a{float:left;padding:5px
+20px;border:1px
+solid #ccc;background-color:#efefef;text-decoration:none;margin:0
+1px -1px;z-index:100}.ui-state-active
+a{background-color:#fff;border-bottom-color:#fff}.registerLogin .ui-tabs-panel{float:left;width:100%;padding:10px
+0 0}#userText
+.content{padding:9px;border:1px
+dashed #ccc}#profileUserImage,#userImages,#userText,#userVideos,.profilePageImage,.profilePageVideo{float:left;width:100%;margin:0
+0 20px;padding:0
+0 10px;clear:both}.profilePageImage,.profilePageVideo{border-bottom:1px solid #ccc}.profilePageImage
+.imageDetails{float:left;width:410px}.profilePageVideo
+p{float:left;width:50%}.actions,.profilePageImage
+p{float:left;width:110px}.profilePageImage .imageDetails
+p{float:none;width:auto}.actions{width:100%;padding:0;border:none}.actions li,.bookmarks li .actions
+li{float:left;width:auto;padding:0;margin:0
+10px 0 0;clear:none}.actions li:last-child{margin-right:0!important}#profileUserImage .profilePageUserImage
+.actions{width:100%}.profilePageUserImage .actions
+li{margin-left:3px}.actionCrop{margin:0!important}.profile
+.myImages{float:left;width:100%;padding-bottom:10px;border:2px
+solid #eee}.activityList,.bookmarkList,.following{float:left;width:100%;padding-bottom:0;margin-bottom:10px;border-bottom:1px solid #ccc}.bookmarkItem,.noteList{float:left;width:100%;padding:10px
+0 20px;border-bottom:1px solid #ccc}.noteList:first-child{border-top:1px solid #ccc}.noteStatus
+.label{display:inline-block;width:75px;font-weight:700}ul.bookmarks{float:left;width:100%;margin:20px
+0 0;padding-top:10px;border-top:1px solid #ccc}ul.following{margin:20px
+0 0;border:none;padding:0}.followingPeople,.listing,.listingBlock,.listingPage,ul.following{float:left;width:100%}.following
+.image{float:left;width:15%;padding:10px
+10px 0 0}.following
+.text{float:left;width:85%}#profileThumbnails{max-width:none}#cropBox,#savedThumbnail{width:220px;height:295px;float:left}#cropBox{overflow:hidden}#cropBoxImage{max-width:none}#cropBox{display:none}#original{max-width:700px;overflow:hidden}.listingPage
+.content{float:left;width:74%}#original,.shopSection.listingPage
+.content{float:right}.listingBlock{margin-bottom:20px}.expertsListing
+.listing{margin:0}.listing
+.image{margin-bottom:10px}.row,.twoColumnRow{float:left;width:100%}.twoColumnRow{background:url(http://www.getthegloss.com/images/2-column-row-bg.gif) repeat-y center top}.threeColumnRow{float:left;width:100%;background:url(http://www.getthegloss.com/images/3-column-row-bg.gif) repeat-y center top}.fourColumnRow{float:left;width:100%;background:url(http://www.getthegloss.com/images/4-column-row-bg.gif) repeat-y center top;background-size:100%}.twoColumnRow
+.listingItem{float:left;width:46%;margin:0
+4%}.threeColumnRow
+.listingItem{float:left;width:30%;margin:0
+2.5%}.fourColumnRow
+.listingItem{float:left;width:21%;margin:0
+2.66%}.row .listingItem:first-of-type{margin-left:0}.row .listingItem:last-of-type{margin-right:0}.row
+p{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}.listingPage
+.listingBlock{float:left;width:100%;padding:35px
+0;margin-top:15px;border-top:1px solid #acacac;border-bottom:1px solid #acacac}.listingPage .listingBlock
+.listing{float:left;width:48%}.listingPage .listingBlock .listing:nth-of-type(odd){float:left}.homeNews .listing:nth-of-type(even),.listingPage .listing:nth-of-type(even),.listingPage .listingBlock .listing:nth-of-type(even){float:right}.divider{float:left;width:100%;border-top:35px solid #fff;border-bottom:35px solid #fff;margin:0;padding-top:1px;background:url(http://www.getthegloss.com/images/grey-pixel.gif) repeat-x 0 50%}.sideBar
+.divider{float:right;width:86%;border-top:30px solid #fff;border-bottom:30px solid #fff}.listingPage .content .divider:last-of-type{border-bottom-width:15px}.dateAuthor{color:#abacae;margin:0
+0 10px;padding:0}.dateAuthor span
+a{color:#e64415;text-decoration:none}.dateAuthor span a:hover{text-decoration:underline}.categoryPage
+.listing{padding-bottom:10px;margin-bottom:25px!important;border-bottom:1px solid #aaabad}.categoryPage .home .listingBlock ul,.home .listingBlock
+ul{font-size:.875em}.categoryPage .home .listingBlock ul a,.home .listingBlock ul
+a{display:inline-block;width:100%;margin:6px
+0;padding-left:10px;color:#e64415;background:url(http://www.getthegloss.com/images/red-arrow.gif) no-repeat 0 7px}.listingPage
+.listing{float:left;width:100%}.searchResults{width:100%}.searchResultsContainer
+.listingItem{margin:0
+0 20px;width:100%}.listingBlock .listing h2 a,.listingItem h2 a:hover,.listingPage h2 a,.listingPage h2 a:hover,.popular a,.shopSection.listingPage h2
+a{text-decoration:none}.listingItem p,.listingPage .listing
+p{margin:0}.listingBlock.listingItem p.image,.listingPage .listingBlock .listing
+p.image{width:100%;margin:0
+0 8px;line-height:0}.listingItem{float:left;padding-bottom:0}.jobSection .listingItem p.details,.listingItem h2
+a{margin-bottom:10px}.listingItem
+p{font-size:16px;font-size:1rem;line-height:1.4em}.listingItem
+p.details{margin-bottom:17px}.jobSection .content
+.listingItem{padding:30px
+0 25px;width:100%}.jobSection .listingItem:nth-of-type(even){float:right}.jobSection .brandJobs
+.listingItem{width:100%;padding:10px
+0}.listingPage p
+a{line-height:1.4em}.listingPage
+.featured{display:inline-block;width:100%;padding-bottom:35px;border-bottom:1px solid #abacae}.listingPage .featured p,.reviews .addComment
+label{margin-bottom:0}.image p a,.listingPage .image a,.popular .image
+p{line-height:0}.expertList .sort,.listingPage
+.dateAuthor{margin-bottom:10px}.sort,div.clear,span.clear{display:inline-block;width:100%}div.clear,span.clear{height:1px;background-color:#abacae;padding:0}.sort{margin:10px
+0 0}.expertList
+.sort{width:66%;padding:20px
+0 0 50px}.listingBlock span.clear:last-child{display:none!important}.aToZExpertListing
+.sort{padding-left:0}.popular{float:left;width:100%;padding:0
+0 20px;border-bottom:1px solid #ccc;margin:0
+0 20px}.popularVideos{padding:0;border-bottom:none;margin:0
+0 20px}#right
+.popularVideos{float:right;width:86%}.popular
+li{float:left;width:100%;margin:0
+0 20px}.popular .image,.video{float:left;width:54%}.popular
+.text{float:right;width:46%;padding-left:10px}.popular
+p{margin:0}.video{width:23.4%;font-size:.875em;position:relative}.expertTop a:hover,.video h2
+a{text-decoration:none}.video
+p{margin:0
+0 5px}.video
+p.image{width:100%;margin:10px
+0}.video
+p.link{margin:2px
+0}.video p.link
+a{padding-right:15px}.right
+.video{width:100%;margin-bottom:20px}.categoryPage .right .video
+p.image{width:100%;padding:0}.newsletterContent .formCell input,.salonList
+.listing{text-align:left}.shopSection.listingPage
+.listing{width:100%}.shopSection
+.listingItem{padding:0}.shopSection .listingItem:nth-of-type(even){float:left}.paginate{display:inline-block;width:100%;margin:0
+0 15px;font-size:14px;font-size:.875rem;text-transform:uppercase;letter-spacing:.15em;text-align:center;border-top:1px solid #acacac;border-bottom:1px solid #acacac;padding:12px
+0}.listingPage
+.paginate{padding:0;margin:0;border:none}.listingPage .oldListingPage .paginate:first-of-type{border-top:1px solid #acacac;padding-top:15px}.searchResultsContainer .paginate:last-child{margin-top:20px}.paginate p,.paginate
+ul{display:inline}.paginate
+ul{padding:0
+0 0 10px}.paginate ul
+a{display:inline-block;padding:0
+15px;color:#000;background:0 0}.shopEdit
+.paginate{margin:0
+0 35px}.shopEdit
+.basePaginate{margin:0;border-bottom:none}.paginate
+li.current{padding:0
+15px;color:#acacac}.paginate
+li{background:url(http://www.getthegloss.com/images/pagination-divider.gif) no-repeat 0 55%}.paginate
+li.next{margin-left:0}li.next,li.previous,li.start{background:0 0;padding:0;margin:0}li.disabled{padding:0
+15px}.paginate li:nth-of-type(2){background:0 0}.reviews
+.paginate{margin:10px
+0}.brandJobs .paginate,.detailsRight
+p{margin:0}.expert .header,.expertTop{width:100%;height:auto;margin-bottom:10px}.expert
+.header{background:0 0;float:left;background-color:#dbdbdb;text-align:center;padding:5px
+0}.expertTop{display:inline-block;padding:0
+0 20px;border-bottom:1px solid #999;font-size:1.125rem}.expert
+.wrapper{float:left;width:73%;margin-top:0}.detailsContent{float:left;width:98%;margin-left:2%;background-color:#dbd4e1;position:relative}.detailsLeft{float:left;width:35%}.detailsRight{float:left;width:65%;padding:25px
+10px 10px 35px;font-size:16px;font-size:1rem}.detailsContent
+.image{float:left;padding:0
+5px 5px 0;background-color:#fff;line-height:0}.expertTop .contact,.expertTop
+.socialMedia{float:left;width:100%;padding:0
+10px 5px;margin:0}.expert
+.price{color:#000;margin-bottom:10px}.expert
+.title{color:#fff;padding-right:5px}.expertNews
+hr{display:inline-block;width:50%;margin:10px
+25%;height:1px;border:none;background-color:#999}.expertTop
+.bookNote{float:left;width:100%;text-align:left;padding-left:10px}.consultationRequest{float:left;width:100%;margin-bottom:10px;padding-left:10px}.gtgApproved{width:112px;height:106px;background:url(http://www.getthegloss.com/images/gtg-approved.png) no-repeat 0 0;position:absolute;top:-60px;left:-50px;z-index:999}.expert
+ul{padding:0;margin:0;list-style:none}.expert .socialMedia
+li{display:inline-block;margin-right:5px}.expert .socialMedia li:last-child,ul.tagCloud li:last-child{margin:0}.expertNews
+p{margin:10px
+0}.expertDetails{float:left;width:100%;margin:0
+0 10px}.data,.label{float:left;width:20%}.data{width:80%}.price p,.quality
+p{color:#53006a;font-style:italic}.detailsLeft a,.expert .expertVideos .showMore
+a{color:#fff}.expertTop
+a{text-decoration:underline}.expertLinks{float:left;width:27%;padding:0
+0 0 20px}.inPageLinks{float:left;width:100%;padding:50px
+0 0 40px;margin:0
+0 20px;min-height:325px;background:url(http://www.getthegloss.com/images/expert-links-bg.png) no-repeat 0 0}.expertLeft{float:left;width:73%;padding-top:10px}.expertRight{float:left;width:27%;padding:0
+0 0 30px}.expertAbout,.expertArticles,.expertBookmarks,.expertImages,.expertNews{float:left;width:100%;margin-bottom:30px}.expertNotes{float:left;margin-bottom:30px}.expertQuestions,.expertReviews{float:left;width:100%;margin-bottom:30px}.expertVideos{margin-bottom:30px}.expertAbout{padding:0
+10px}.expertNews{padding:20px
+20px 10px;background-color:#ead8d1}.expertVideos{float:left;width:100%}.expertNotes,.expertQuestions{position:relative}.expertNotes{width:100%;background:#fbf8f7 url(http://www.getthegloss.com/images/notes-bg.png) no-repeat 0 0;padding:18px
+10px 30px 50px;box-shadow:1px 1px 5px 0 rgba(0,0,0,.2)}.expertArticles{position:relative;padding:30px
+0 0}.expertBookmarks{position:relative;margin-top:20px}.expert
+.twitter{margin-top:20px}.expertVideos
+.left{float:left;width:62%;padding-left:30px}.expertVideos
+.right{float:left;width:38%;padding:2px
+0 0 10px}.expertVideos .right
+.listing{float:left;width:50%;padding:0
+5px;margin:0
+0 10px;position:relative}.expertVideos
+img{border:5px
+solid #fff}.expertVideos .right
+img{border-width:1px}.expertVideos
+.videos{margin:0}.expertVideos
+.featured{float:left;width:100%;position:relative}.expertVideos .listing .playVideo,.featured
+.playVideo{width:17%;position:absolute;top:40%;left:42.5%;z-index:100}.playVideo
+img{border:none;cursor:pointer}.expertVideos .listing
+.playVideo{top:35%}.expertVideos
+.showMore{padding-right:10px}.expert
+.myImages{background-color:#dbdbdb}.expert .myImages,.myQuestions,.videoWrapper{float:left;width:100%}.videoWrapper{background-color:#dbdbdb;padding:15px
+0 10px}.myQuestions{padding:20px
+80px 40px 20px;min-height:300px;background-color:#d0c7d6;position:relative}.question{text-transform:uppercase;color:#fff}.myVideos{padding:0
+20px}.myQuestions
+.showMore{margin:0;position:absolute;bottom:0;right:10px}.myQuestions
+.normal{padding:0;background:0 0;font-weight:700}.myQuestions
+.messages{float:left;width:100%}.messageAnswered,.messageAsked{font-weight:700;color:#000}.myQuestions .messages
+p{margin:0
+0 5px}.myQuestions .messages
+li{display:inline-block;width:100%;margin:15px
+0}.myQuestions
+.date{opacity:.6}.expertRight
+li{margin:5px
+0}.expert
+h2.heading{letter-spacing:.18em;background:url(http://www.getthegloss.com/images/short-grey-brush-bg.png) no-repeat 0 0}.expert .expertLeft
+h2.heading{background-image:url(http://www.getthegloss.com/images/grey-brush-bg.png);padding-top:3px}.expert .expertNotes
+h2.heading{background:0 0}.expert
+.showMore{float:left;width:100%}.expert .showMore,.showMorePosts{text-align:right;text-transform:none;letter-spacing:0;margin:0}.expert .showMore a,.showMorePosts
+a{text-transform:none;letter-spacing:0;padding:0;font-size:1rem}.expert .showMore
+a{color:#666}.showMorePosts
+a{text-decoration:none}.expert .expertNews .showMore a,.expert .expertQuestions .showMore a,.showMorePosts
+a{color:#fff}.expert .showMore a,.expertRight li
+a{text-decoration:none}.addReview .formCell,.addReview textarea,.expertBadgeGenerator .formCell
+select{width:100%}.expert .showMore a:hover,.expertRight li a:hover{text-decoration:underline}.expertNews
+.date{color:#fff}.tabletPhone{display:none}.splash{width:104px;height:118px;background:url(http://www.getthegloss.com/images/questions-splash.png) no-repeat 0 0;position:absolute;top:0;right:-20px}.notesIcon{height:39px;width:9px;background:url(http://www.getthegloss.com/images/paper-clip.png) no-repeat 0 0;position:absolute;top:-16px;left:12px}.articlesIcon{height:53px;width:43px;background:url(http://www.getthegloss.com/images/pencil-icon.png) no-repeat 0 0;position:absolute;top:0;right:-25px}.bookmarksIcon{height:30px;width:33px;background:url(http://www.getthegloss.com/images/bookmarks-icon.png) no-repeat 0 0;position:absolute;top:-5px;right:-20px}.expert .note
+a{margin-left:-5px}.placeholder{padding:20px;font-style:italic}.expertNews
+.placeholder{padding:0
+0 20px}.expertImages
+.myImages{background:0 0}.expertImages .galleria-container{width:100%!important;height:335px!important;background-color:#e9e8e9}.expertImages .galleria-stage{width:100%!important;padding:0
+39% 0 50px;left:0;top:15px;bottom:80px}.expertImages
+#imageCaption{display:none!important}.expertImages .galleria-counter{display:block!important}.expertImages .galleria-image-nav{width:67%;height:40px}.expertImages .galleria-image-nav-left,.expertImages .galleria-image-nav-right{opacity:1;width:22px;height:40px;top:60%}.expertImages .galleria-image-nav-right{left:auto;right:5px;background:url(http://www.getthegloss.com/images/expert-gallery-arrow-right.png) no-repeat 0 0}.expertImages .galleria-image-nav-left{left:15px;background:url(http://www.getthegloss.com/images/expert-gallery-arrow-left.png) no-repeat 0 0}.expertImages .galleria-thumbnails{text-align:center;margin:0
+auto}.expertImages .galleria-thumbnails-container{width:63%;height:57px;bottom:12px;left:20px;right:auto}.expertImages .galleria-thumbnails .galleria-image{float:none;display:inline-block;width:57px!important;height:57px}.expertImages .galleria-thumbnails .galleria-image
+img{width:57px!important}.expertImages .galleria-thumb-nav-left,.expertImages .galleria-thumb-nav-right{opacity:1;width:11px;height:20px;top:30%}.expertImages .galleria-thumb-nav-right{left:auto;right:15px;background:url(http://www.getthegloss.com/images/expert-gallery-t-arrow-right.png) no-repeat 0 0}.expertImages .galleria-thumb-nav-left{left:10px;background:url(http://www.getthegloss.com/images/expert-gallery-t-arrow-left.png) no-repeat 0 0}.expertImages .galleria-image{background-color:#fff}.expertImages .galleria-info{width:33%;padding:55px
+0 0 30px;left:auto;right:10px}.expertImages .galleria-info-text{background:0 0;padding:0;color:#333}.expertImages .galleria-info-title{font:1.188em "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;text-transform:uppercase;margin-bottom:10px;color:#333;letter-spacing:.09em}.expertImages .galleria-counter,.expertImages .galleria-info-description{font-size:16px;font:1rem "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif}.expertImages .galleria-info-description{font-style:normal;color:#333}.expertImages .galleria-counter{position:absolute;bottom:auto;left:auto;top:15px;right:25.5%;text-align:left;color:#666}.expertImages .galleria-thumb-nav-left:active,.expertImages .galleria-thumb-nav-left:hover,.expertImages .galleria-thumb-nav-right:active,.expertImages .galleria-thumb-nav-right:hover{background-color:#e9e8e9}.articleCarousel{float:left;width:100%;max-width:1140px;height:135px;margin:25px
+0 20px;position:relative;overflow:hidden;padding-left:130px}.articleCarousel .buttons,.articleCarousel
+.header{position:absolute;top:0;bottom:0;z-index:999;background-color:#e7e7e6}.articleCarousel
+.header{height:auto;border:none;text-align:center;background:0 0;margin-bottom:0;left:0;width:130px;padding-top:35px}.articleCarousel
+.buttons{width:50px;padding-top:20px;right:0}.articleCarousel
+img{height:135px}.articleCarousel li,.pageTopFilter{float:left;width:244px;position:relative;padding:0
+1px}.articleCarousel a,.siteSearchModal .remodal-close:active.remodal-close:after,.siteSearchModal .remodal-close:hover.remodal-close:after{color:#000}.articleCarousel .itemOverlay,.pageTopFilterForm
+h2{display:none}.articleCarousel a:hover
+.itemOverlay{text-align:center;display:block;width:100%;min-height:135px;padding:20px
+10px 10px;position:absolute;top:0;left:0;right:0;bottom:0;background:url(http://www.getthegloss.com/images/opaque-white-bg.png);font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:19px;transition:transform 350ms ease-in-out}.articleCarousel
+.readMore{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-style:italic;font-size:18px}.articleCarousel
+.category{display:inline-block;width:100%;background:0 0}.buttons
+a{display:inline-block;width:50px;height:47px;background:url(http://www.getthegloss.com/images/next-arrow.png) no-repeat 50% 50%;overflow:hidden;text-indent:-999em}.prev
+a{background-image:url(http://www.getthegloss.com/images/previous-arrow.png)}.pageTopFilter{width:100%;height:440px;padding:81px
+0 0;margin:18px
+0 36px;background:#000 url(http://www.getthegloss.com/images/top-filter-bg.jpg) no-repeat 0 0;background-size:cover;color:#fff;text-align:center}.expertsListing
+.pageTopFilter{height:342px;padding:105px
+0 0;background:#000 url(http://www.getthegloss.com/images/experts-top-filter-bg.jpg) no-repeat 0 0}.pageTopFilter p.link,.pageTopFilterForm{position:absolute;left:0;right:0;width:100%;text-align:center}.pageTopFilterForm{top:245px;color:#fff}.expertsListing
+.pageTopFilterForm{top:188px}.pageTopFilter
+p.link{bottom:27px;margin:15px
+0 0}.pageTopFilter a,.pageTopFilter p.link
+a{color:#fff;text-decoration:none}.pageTopFilter p.link
+a{font-size:23px;letter-spacing:.21em;font-weight:400}.pageTopFilter a:hover,.pageTopFilter p.link a:hover{color:#e64415}.category,p.image{display:inline-block}p.image{line-height:0;position:relative;width:100%}.category{margin:0;background-color:#fff;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif!important;font-style:italic;text-transform:uppercase}p.image
+.category{padding:15px
+10px;position:absolute;left:0;bottom:0}.content
+p.category{margin:0;font-size:19px;font-size:1.188rem;width:100%;text-align:left;font-style:italic}.listingLatest{padding-top:25px;margin:40px
+0 0;border-top:1px solid #acacac}.listingLatest
+p.image{float:left;width:67%;line-height:1em;position:relative}.listingLatest
+.text{float:left;width:33%;text-align:center;padding-top:60px;padding-left:30px}.listingLatest .listingItem:nth-of-type(even) .text{float:left;padding-left:0;padding-right:30px}.listingLatest .listingItem:nth-of-type(even) p.image{float:right}.listingLatest
+.listingItem{float:left;width:100%;padding:35px
+0 28px;border-top:1px solid #acacac}.listingLatest .listingItem:first-of-type{padding-top:0;border-top:none}.listingLatest .listingItem:last-of-type{padding-bottom:0}.itemIcon{position:absolute;margin:0;top:0;left:0;right:0;bottom:0;text-align:center;background:url(http://www.getthegloss.com/images/play-icon.png) no-repeat 50% 50%;background-size:10%;text-indent:-999em}.galleryItem
+.itemIcon{background-image:url(http://www.getthegloss.com/images/gallery-icon.png)}.sideBar
+p.banner{float:right;width:86%;margin:0}.sideBar
+p.brandBanner{margin-bottom:20px}.expertBadgeGenerator{float:left;width:100%;margin:20px
+0;padding:20px;border:10px
+solid #eee}.expertBadgeGenerator
+.left{float:left;width:50%}.expertBadgeGenerator
+.formCell{float:left;width:100%;margin:5px
+0}#right .newsletterContent .formCell,.popUpCta.newsletterContent .formCell,.registerLogin .expertBadgeGeneratedCode .formCell .inputCell,.sideBar .newsletterContent
+.formCell{width:100%}.expertBadgeGenerator
+textarea{width:100%;padding:5px;margin-top:20px}.expertBadgeImage{float:right;width:50%;text-align:center}.expertBadgeImage
+img{width:125px;height:125px}.twitter{float:left;width:100%;margin:0
+0 30px;background:url(http://www.getthegloss.com/images/twitter-bg.gif);border:1px
+solid #ccc;border-radius:5px;min-height:660px}.twitterLinkText{float:left;width:60%;margin:10px
+0;padding-left:5px}.twitterLinkImage{float:right;width:40%;margin:10px
+0}.profile
+.twitterLinkImage{display:none}.profile
+.twitterLinkText{width:100%;margin-top:0}.twitterLinkImage
+a{float:right;width:100%;height:31px;overflow:hidden;text-indent:-9999em;background:url(http://www.getthegloss.com/images/header-icons-sprite.gif) no-repeat 100% -75px}.twitterLinkImage a:hover{background-position:100% -109px}.twitter
+iframe{padding:0
+5px}.emailSignup,.emailSignupTop{float:left;width:100%;position:relative}.emailSignupTop{margin:-16px 0 10px}.emailSignup:first-child{border-bottom:none;padding-bottom:0;overflow:hidden}.emailSignupTop
+h2{font-size:32px;color:#fff;letter-spacing:.2em;-webkit-font-smoothing:antialiased}#left
+.emailSignup{margin:10px
+0 25px}.listingPage
+.emailSignup{margin-bottom:10px}.newsletterContent{float:left;width:100%;padding:20px
+10px 10px 15px;background-color:#dab6ba;background-size:100%}.newsletterContent
+.formCell{width:60%}.popUpCta .newsletterContent .formCell
+input{width:100%;font:19px "BrandonGrotesque-Light",Arial,Helvetica,sans-serif!important;letter-spacing:.18em;text-transform:uppercase;background:0 0;text-align:center;padding:12px;border:1px
+solid #000;color:#000;-webkit-font-smoothing:antialiased}.popUpCta .newsletterContent .formCell input::-webkit-input-placeholder{color:#000!important}.popUpCta .newsletterContent .formCell input:-moz-placeholder,.popUpCta .newsletterContent .formCell input::-moz-placeholder{color:#000!important}.popUpCta .newsletterContent .formCell input:-ms-input-placeholder{color:#000!important}#right .newsletterContent .formCell input,.sideBar .newsletterContent .formCell
+input{text-align:center}.newsletterImage{float:left}.newsletterText{line-height:1.5em;font-size:14px}#promotionSignup,.emailSignup .form,.newsletterText,figure{float:left;width:100%}.emailSignupTop
+.form{float:left;width:100%;padding-left:55px}.emailSignupTop
+.newsletterText{float:left;width:50%;line-height:1.5em;font-size:22px;margin:15px
+0 15px 55px;-webkit-font-smoothing:antialiased}#multiNewsletterComponent
+.newsletter{width:300px;padding-left:0;text-align:center}.newsletterPreferences{float:left;width:100%;margin:10px
+0;font-weight:700}#left .emailSignup .form,#left
+.newsletterContent{max-width:300px;clear:both}.emailSignupTop .closeButton,p.close
+a{width:11px;height:11px;background:url(http://www.getthegloss.com/images/close.png) no-repeat}.emailSignupTop
+.closeButton{display:inline-block;position:absolute;top:10px;right:10px;cursor:pointer}.popUpContent{position:relative}.popUpContent
+p.close{position:absolute;top:10px;right:10px;z-index:999}p.close
+a{overflow:hidden;text-indent:-9999em}#right .emailSignup,.sideBar
+.emailSignup{float:right;width:86%;position:relative;background-color:#dab6ba;background-size:cover;margin-bottom:20px}.sideBar
+.emailSignup{margin-bottom:0}.galleryPage #right .emailSignup,.popUpCta{width:100%}#right .newsletterContent,.sideBar
+.newsletterContent{float:left;width:100%;padding:50px
+20px 15px;background:url(http://www.getthegloss.com/images/black-email-icon.png) no-repeat 50% 7%!important;background-size:31px 24px!important;text-align:center}#right .newsletterText,.sideBar
+.newsletterText{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;float:left;line-height:1.3em;font-size:15px;font-size:.938rem}#popUpCta
+iframe{position:absolute;top:0;left:0}.popUpCta{padding:13% 36% 2% 6%;height:600px;text-align:center;background-color:#dab6ba;background-repeat:no-repeat;background-position:50% 50%;background-size:cover}.popUpCta
+.newsLetter{float:left;width:100%;height:100%}.popUpCta
+h2{margin:0
+0 30px;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:31px;color:#c25262;letter-spacing:.18em;-webkit-font-smoothing:antialiased;line-height:1.3em}.popUpCta .baseText p,.popUpCta
+p.newsletterSubHeading{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif}.popUpCta
+p.newsletterSubHeading{text-transform:uppercase;margin:0
+0 50px;font-size:24px;letter-spacing:.18em}.popUpCta .baseText
+p{margin:0
+0 10px;letter-spacing:.1em;font-size:20px;padding:0
+5%}.popUpCta
+.newsletterContent{padding:0;background:0 0!important}.contentWide
+.newsletterContent{float:left;padding:20px
+10px 25px;margin:0
+0 20px;width:100%;background-color:#dab6ba;background-repeat:no-repeat;background-position:0 0;background-size:100%}.contentWide
+.newsletterText{float:left;width:100%;line-height:1.5em;font-size:22px;padding:15px
+0 15px 45px;-webkit-font-smoothing:antialiased}.contentWide .newsletter
+.form{float:left;width:50%;padding-left:45px;clear:both}.contentPage .sideBar .details,.footerSocialLinks img,.popUpCta .newsletterContent .formCell,.popUpCta
+.newsletterText{width:100%}.fb-like{display:inline-block;width:300px}#promotionSignup{background-color:#fff;padding:20px;margin:20px
+0 40px;border:10px
+solid #eee}.tagFilter,.tagFilter
+.sort{float:left;width:100%;margin:0
+0 20px}.tagFilter
+form{width:100%;padding:0}.tagFilter
+.sort{border:1px
+solid #ead8d1;margin:15px
+0 0;border-radius:10px}.tagFilter form,.tagFilter
+p.showHide{float:left;margin:0}.tagFilter .showHide
+a{float:left;width:100%;padding:5px
+10px;color:#fff;background:#ead8d1 url(http://www.getthegloss.com/images/white-arrow-down-16px.png) no-repeat 98% 50%;text-transform:uppercase;text-decoration:none;letter-spacing:.05em}.tagFilter
+a.showLink{border-radius:0 0 8px 8px}.tagFilter
+a.hideLink{background-image:url(http://www.getthegloss.com/images/white-arrow-up-16px.png)}.companiesListing .sort,.drugsListing .sort,.eventListing .sort,.reportListing
+.sort{border:none;margin-top:0}.sort .tagCloud,p.tagCloud{float:left;width:100%;margin:10px
+0 0}.nli p.tagCloud,footer .column.left
+ul{margin-bottom:20px}.listingBlock
+ul.tagCloud{float:left;width:100%;margin:5px
+0;clear:both}footer ul,p.close a,ul.tagCloud
+li{display:inline-block}.sort
+.tagCloud{margin:0;padding:10px;background-color:#f9f4f1;border-radius:0 0 10px 10px}.sort
+.currentTags{border:none;margin:0;padding-left:25px;background-color:#fff;border-radius:10px}.currentTags
+p{float:left;width:auto;line-height:1em;margin:5px
+20px 0 -12px;text-transform:uppercase;font-size:1rem;font-style:normal}.currentTags p:nth-of-type(2){font-weight:700}.currentTags
+a{padding-right:20px;background:url(http://www.getthegloss.com/images/delete-icon.png) no-repeat 92% 50%}.tagCloud
+a{display:inline-block;color:#e64415;-webkit-font-smoothing:antialiased}.tagCloud a:hover{text-decoration:none!important}.currentTag,.emailSignup .multiCheckbox .checkbox input,.tagCloud
+a{margin-right:10px}footer{width:100%;clear:both;padding:35px
+0 5px;margin:20px
+0 0;text-align:left;font-size:16px;font-size:1rem;border-top:1px solid #acacac;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif}footer
+.wrapper{display:inline-block;width:100%;margin:0
+auto;background:url(http://www.getthegloss.com/images/footer-bg.png) repeat-y 50% 0}footer,footer
+.column{float:left}footer
+.column.left{width:22.5%;padding:0
+38px 0 0}footer
+.column.mid{width:55%;padding:0
+38px}footer
+.column.right{width:22.5%;padding:0
+0 0 38px}.footerSocialLinks{margin-left:-5px}.footerSocialLinks
+li{float:left;width:50%;padding:0
+5px 5px}.profile .first,header .socialLinks
+li{padding-left:0}.dateAuthor .last,.profile
+.last{padding-right:0;background:0 0}.keywords{display:inline-block;width:100%;margin:5px
+0;color:#abacae}.keywords
+li{display:inline-block;margin:2px
+10px 2px 0}.profile p.rating,.radio
+input{margin:0}.profile .pageText p.rating
+img{border-left:none}.pageText
+p.imageSource{margin:0
+0 0 -5px;font-size:.688em;line-height:1em}.newsArticle
+.dateAuthor{float:left;margin-top:10px}#profile-text,.detailsWrap{float:left;width:100%}.detailsWrap
+.details{margin:0;padding:0}.newsArticleImage{display:inline-block;width:100%;margin:5px
+0 20px}.details{float:left;width:100%;margin:5px
+0 10px}.contentPage
+.details{width:75%}.listingPage .featured p.details,.listingPage .listing
+p.details{margin:0
+0 10px}.author,.details,.expertsListing .location,.keyPeople
+.jobTitle{color:#abacae}.author a,.tagCloud
+a{text-decoration:none}.author a:hover{text-decoration:underline}.jobTitle,.location{display:inline-block;width:100%;color:#000}.location{line-height:1.2em}.jobTitle{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:16px;font-size:1rem;line-height:1.4em}#message a,#pollingMessages a,.author a,.keyPeople .details
+a{color:#e64415}.sideBarLinks .listing
+p.details{margin:0;font-size:15px;font-size:.938rem;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-style:italic}.sideBarLinks.sideBarNews .listing
+p.details{font-size:14px;font-size:.875rem}.socialBar{position:fixed;left:0;width:auto;margin-top:106px}.mobile
+.socialBar{display:none}.social a,.socialBar
+a{display:inline-block;width:46px;height:46px}.facebookIcon
+a{background:url(http://www.getthegloss.com/images/facebook-icon.svg) no-repeat 0 0}.twitterIcon
+a{background:url(http://www.getthegloss.com/images/twitter-icon.svg) no-repeat 0 0}.gplusIcon
+a{background:url(http://www.getthegloss.com/images/gplus-icon.svg) no-repeat 0 0}.pinterestIcon
+a{background:url(http://www.getthegloss.com/images/pinterest-icon.svg) no-repeat 0 0}.emailIcon
+a{background:url(http://www.getthegloss.com/images/email-icon.svg) no-repeat 0 0}.social
+li{display:inline-block;padding-right:5px}.socialLinks{float:left;z-index:999}.socialLinks
+a{display:inline-block;width:33px;height:25px;margin:0
+6px;overflow:hidden;text-indent:-999em;background:url(http://www.getthegloss.com/images/social-icons-top.png) no-repeat 7px 0;cursor:pointer}.socialLinks a:hover{background-position:7px -30px}header
+.socialLinks{display:none;margin-right:30%;margin-top:-33px;text-align:left;z-index:101;background-color:#fff;position:absolute;right:0;height:30px}.socialLinks li:first-child
+a{margin-left:0}.socialLinks li:last-child
+a{margin-right:0}.socialLinks
+a.facebookLink{width:24px;background-position:-45px 1px}.socialLinks a.facebookLink:hover{background-position:-45px -29px}.socialLinks
+a.twitterLink{width:30px;background-position:-82px 0}.socialLinks a.twitterLink:hover{background-position:-82px -31px}.socialLinks
+a.instagramLink{width:24px;background-position:-125px 1px}.socialLinks a.instagramLink:hover{background-position:-125px -29px}.socialLinks
+a.youtubeLink{width:29px;background-position:-162px 0}.socialLinks a.youtubeLink:hover{background-position:-162px -30px}.socialLinks
+a.gPlusLink{width:29px;background-position:-201px 0}.socialLinks a.gPlusLink:hover{background-position:-201px -30px}.bookNote{float:right;width:25%;text-align:right}#videoIframe iframe,.expert .bookNote,.productItem
+.bookNote{width:100%}.bookNote
+a{display:inline-block;width:35px;height:0;padding:34px
+0 0;overflow:hidden;background:url(http://www.getthegloss.com/images/article-icons.png) no-repeat 0 1px}.bookmark
+a{margin-left:2px}.bookmark
+.contentUnbookmark{background-image:url(http://www.getthegloss.com/images/article-icons.png);background-position:0 -32px}.follow .unfollowUser,.follow a,.followIcon,.note
+a{background-image:url(http://www.getthegloss.com/images/article-icons.png);background-position:0 -62px}.follow .unfollowUser,.note
+a{background-position:0 -94px}.note
+a{background-position:0 -128px;margin-left:2px}span.followIcon{overflow:hidden;padding:34px
+0 0;width:35px;height:0;display:inline-block}.socialButtons{float:left;width:100%;margin:10px
+0 0;position:relative}.socialButtons
+span{box-sizing:content-box}.newsArticle .socialButtons,.profile
+.socialButtons{margin-bottom:20px}.contact,.latestBookmarkList,.latestNotesList{float:left;width:100%;padding:0
+10px 0 0;margin:0
+0 20px}.latestBookmarkList li,.latestNotesList
+li{margin-bottom:10px}.redFont{color:#c02b14}#videoIframe,.cta{display:inline-block;width:100%;margin-bottom:20px}.vlog{float:right;width:57.4%;margin-right:18%}.vlog
+p.banner{margin:0;line-height:0}.clearfix:after{visibility:hidden;display:block;font-size:0;content:' ';clear:both;height:0}.clearfix{display:block}* html
+.clearfix{height:1%}.tabletMobile{display:none}p.link{margin:10px
+0;font-size:14px;font-size:.875rem}.comments p.link,.iconMessage{font-size:16px;font-size:1rem}.iconMessage{float:left;width:100%;text-align:center;font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif;color:#acacac}span.icon{display:inline-block;width:16px;height:21px;background:url(http://www.getthegloss.com/images/show-icon.svg) no-repeat 0 5px;margin:0
+0 -3px 5px}.ui-dialog{text-align:left;background-color:#dab6ba;padding:20px
+30px}.ui-dialog .ui-dialog-content{padding:0!important;clear:both;overflow:hidden!important}.ui-icon-closethick{float:left;width:10px;height:10px;background:url(http://www.getthegloss.com/images/close.png) no-repeat 0 0;text-indent:-9999rem}.ui-dialog
+textarea{padding:4px;width:100%;box-sizing:border-box}.ui-dialog-content
+.checkbox{margin:3px
+0}.ui-dialog-content .button
+input{background:0 0;font:11px "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;text-transform:uppercase;padding:7px
+12px;margin-top:15px;cursor:pointer;letter-spacing:.18em;text-decoration:none;border:1px
+solid #000}.ui-dialog-content
+textarea.tinymce{border:1px
+solid #ccc}.ui-dialog-titlebar{padding:0!important;background:0 0!important}.ui-icon{padding-top:5px}.ui-dialog-titlebar{margin:15px
+0}.ui-dialog .ui-dialog-title{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:1.313rem;letter-spacing:.18em;text-transform:uppercase;line-height:1.2em}#popUpSubscribe.ui-dialog-content.ui-widget-content{height:350px!important}.popUpCtaDialog,.popUpSubscribeDialog{border:none;padding:0;overflow:hidden!important;border-radius:0;background:0 0}#popUpSubscribe{padding:0!important;overflow:hidden}.popUpCtaDialog .ui-dialog-titlebar,.popUpSubscribeDialog .ui-dialog-titlebar,legend{display:none}.ui-resizable-handle{display:none!important}.ath-application-icon{float:left;position:initial;margin-right:5px}.ath-container
+p{font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:14px;text-transform:uppercase;text-shadow:none;padding-top:15px}.ath-container{padding:.8em .7em;width:90%}.ath-container:before{background:url(http://www.getthegloss.com/images/phoneCloseBtn.png) no-repeat;width:2.2em;height:2.5em}.ath-android:after{content:'';background:#eee;background:-webkit-linear-gradient(-32deg,rgba(242,242,242,0) 0%,rgba(242,242,242,0) 50%,#f2f2f2 50%,#f2f2f2 100%)}.ath-container,.ath-ios.ath-phone:after,.ath-ios.ath-tablet:after{box-shadow:none;background:#f2f2f2}.registerForm
+.showHide{display:inline-block;width:100%;font-size:1.188em}.registerForm .showHide
+.checkbox{margin:10px
+0;font-size:.875em}.multiInputContainer,.multiLinkContainer{float:left;width:100%}.multiLinkContainer
+.checkbox{width:90%}.displayMore{float:left;width:14px;background:url(http://www.getthegloss.com/images/grey-arrow-right.png) no-repeat 0 10%}.expanded{background-image:url(http://www.getthegloss.com/images/grey-arrow-down.png)}.multiLinkContainer a,.multiLinkContainer a:hover{text-decoration:none}.multiCheckbox .checkbox,.multiInputContainer{padding-left:14px}.emailSignup .multiCheckbox
+.checkbox{padding:5px
+0;border-bottom:1px solid #eee}.multiCheckbox .multiLinkContainer
+.checkbox{padding-left:0}.twoColumnCheckbox{margin:10px
+0 20px;padding:20px
+0 0;border-top:1px solid #ccc;border-bottom:1px solid #ccc}.twoColumnCheckbox
+.column{float:left;width:30%;padding-right:20px}.form,.login,.registerLogin,.twoColumnCheckbox{float:left;width:100%}input{outline:none}.button,.formCell,.radio{float:left;width:100%;margin:5px
+0}.formCell .inputCell input,select,textarea{border:1px
+solid #ccc;font:16px "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif}.checkbox,.checkbox .inputCell,.checkbox .textCell,.radio .inputCell,.radio
+label{float:left;width:auto}.checkbox{width:100%;line-height:1em;margin:0
+0 5px}.checkbox
+.textCell{padding-left:10px}.checkbox .inputCell
+input{margin:0;padding:0}.multiCheckbox{float:left;width:100%;margin-bottom:20px}.emailSignup
+.multiCheckbox{margin:0}.multiCheckbox
+.checkbox{margin:0
+0 15px}.jobFilter
+.checkbox{padding:0
+0 0 10px;margin:0
+0 10px;line-height:1.2em;position:relative}.jobFilter .checkbox
+.inputCell{position:absolute;top:0;left:0}.forward .form,.forward .form .button,.jobsSignUp .form,.jobsSignUp .form
+.button{float:left;width:100%}.forward .textCell,.jobsSignUp
+.textCell{display:none}.forward
+.formCell{float:left;width:100%;margin:0
+0 20px}.jobsSignUp
+.formCell{float:left;width:100%;padding:0
+120px;margin:0
+0 30px}.brandFilter .formCell
+select{width:100%}.forward .formCell input,.jobsSignUp .formCell input,.jobsSignUp select,.jobsSignUp
+textarea{width:100%;padding:4px;border:none;border-radius:15px;text-transform:uppercase;font-size:12px;font-size:.75rem;text-indent:10px;letter-spacing:.18em}.jobsSignUp
+textarea{text-indent:0;text-transform:inherit;min-height:50px;padding:10px}.jobsSignUp
+select{float:left;margin-bottom:20px;background-color:#fff}.forward
+.button{float:left;width:100%;text-align:right}.jobsSignUp
+.button{float:left;width:100%;margin:-5px 0 0}.forward .button input,.jobsSignUp .button
+input{border:none;background-color:#ababab;padding:5px
+15px;border-radius:15px;text-transform:uppercase;font:12px "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;font-size:.75rem;letter-spacing:.18em;cursor:pointer}.jobsSignUp .button
+input{padding:8px
+20px;border-radius:20px;font-size:18px;font-size:1.125rem;background-color:#ff8263}.brandFilter
+.formCell{width:31%;margin:0
+3.5% 0 0}.brandFilter .formCell:nth-of-type(3){margin:0}.ath-ios.ath-phone{left:45%}.menuSubscribe
+#wrap{display:none;position:absolute;height:45px;padding:0;width:80%;text-align:right;right:0;top:-3px;bottom:-3px}.menuSubscribe
+.formCell{margin:0}.menuSubscribe .formCell
+input{border:none;background-color:#f7f7f7;height:43px;padding-left:10px;width:100%;text-transform:uppercase;letter-spacing:.15em;font-size:10px;font-size:.625rem}.menuSubscribe
+.button{float:right;margin-top:-42px;margin-bottom:0;width:11%;margin-right:-2%}.menuSubscribe .button
+input{background:url(http://www.getthegloss.com/images/search-btn.png) no-repeat;border:none;height:45px;width:100%;cursor:pointer;text-indent:-999em;font-size:0}.search .formCell .inputCell
+input{border:none;float:left;padding-left:6%;padding-bottom:20px;width:100%;letter-spacing:.05em}#Search_standard
+input{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;text-transform:uppercase}#Search_standard input::-webkit-input-placeholder{font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif!important;font-style:italic;text-transform:none;font-weight:400;color:#000}.search
+fieldset{border:none;border-bottom:3px double #ababab}.addComment label,.addPost label,.search
+.button{display:none}.remodal-wrapper{opacity:.96;padding:0}.remodal-overlay{background:0 0}.siteSearchModal{background:#fff;max-width:100%;height:100%;max-height:100%;margin:0;border-radius:0;padding:15vh 20vw}.siteSearchModal .remodal-close{right:20%;left:initial;top:12%;border:none;border-radius:0;width:60px;height:28px}.siteSearchModal .remodal-close:before{font-size:16px;letter-spacing:.06em;color:#000;content:'Close X';font-family:"BrandonGrotesque-Light",Arial,Helvetica,sans-serif!important;width:auto}.siteSearchModal .remodal-close:hover{background:#fff}.emailSignup
+.formCell{float:left;margin:0}.popUpContent
+.formCell{float:left;width:60%;padding-bottom:5px;padding-left:20px}.popUpContent .popUpCta
+.formCell{float:left;width:100%;padding:0;margin-bottom:30px}.ContentWide .formCell,.emailSignupTop
+.formCell{float:left;width:30%;margin-bottom:30px}.contentWide .formCell input,.emailSignupTop .inputCell
+input{width:100%;padding:4px;font:.625rem "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;text-indent:5px;text-transform:uppercase;letter-spacing:.05em}.jobSection .formCell
+input{border-radius:10px}.emailSignup .inputCell
+input{width:100%;padding:7px
+5px;font:11px "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.05em;border:none}.popUpCta .emailSignup .inputCell
+input{font-size:24px!important;background:0 0;text-align:center}.contentWide .emailSignup .inputCell
+input{text-align:left}#multiNewsletterComponent .button,.emailSignup
+.button{float:left;width:100%;margin:3px
+0 0}.popUpCta .emailSignup
+.button{margin:0
+0 23px}.contentWide .button,.emailSignupTop
+.button{float:left;width:70%}#multiNewsletterComponent .button a,.emailSignup .button a,.emailSignup .button input,.emailSignup button,.emailSignupTop .newsletterCloseButton,.promotion .button
+input{background:0 0;font:11px "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;text-transform:uppercase;padding:7px
+12px;margin-top:15px;cursor:pointer;letter-spacing:.18em;text-decoration:none;border:1px
+solid #000}.popUpCta
+.button{margin:0}.popUpCta .button
+input{font:19px "BrandonGrotesque-Light",Arial,Helvetica,sans-serif!important;-webkit-font-smoothing:antialiased;text-transform:uppercase;background-color:#c6626e;padding:6px
+15px;color:#fff;border:none;letter-spacing:.18em;margin:0
+0 30px}#multiNewsletterComponent .button a:hover,.emailSignup .button a:hover,.emailSignup .button input:hover,.emailSignup button:hover,.emailSignupTop .button a:hover,.emailSignupTop .button input:hover,.emailSignupTop .newsletterCloseButton a:hover,.emailSignupTop .newsletterCloseButton button:hover .emailSignupTop .newsletterCloseButton input:hover,.emailSignupTop button:hover,.promotion .button input:hover{background-color:rgba(255,255,255,.3)}.popUpCta .button input:hover{background-color:#a8545e}.emailSignupTop .button input,.emailSignupTop .newsletterCloseButton
+input{background-color:#eb344a!important;font-size:14px;font:.625rem "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;text-transform:uppercase;padding:5px;border:none;cursor:pointer;letter-spacing:.18em;text-decoration:none;border-radius:10px}.addComment .formCell,.addPost .formCell,.registerLogin .addPost .formCell .inputCell,.registerLogin .addPost .formCell .textCell,.reviews .addComment textarea,.reviews .formCell .inputCell
+input{width:100%}.addComment textarea,.addPost
+textarea{width:100%;height:150px;padding:4px;border-color:#c2c9cf}.addComment
+.button{margin:10px
+0 0}.addComment .button,.addPost
+.button{width:100%;text-align:right}.addComment .button input,.addPost .button
+input{padding:6px
+18px;border:none;color:#000;background-color:#a7d8db;border-radius:15px;cursor:pointer;text-transform:uppercase;font:13px "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;letter-spacing:.05em}.reviews
+.formCell{margin-bottom:10px}.reviews .formCell .inputCell
+input{padding:4px}.group,.reviews
+.radio{display:inline-block;width:100%}.reviews
+.radio{width:60px;margin:0}.sort .inputCell
+select{width:100%;padding:3px;font-size:.875em}.sort
+.formCell{width:34%;padding:0
+10px 0 0;margin-bottom:20px}.sort .formCell:last-of-type{width:32%;padding:0}.sort
+.checkbox{margin-top:5px}.togglerAvailability{float:left;width:100%;margin:0
+0 15px}.togglerAvailability
+a{padding:5px
+15px;background-color:#333;text-decoration:none;color:#fff;border-radius:5px}.autoCompleteMemberSearch,.autocompleteExpertSearch{margin:0;padding:4px;font:.875em "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif}.autocompleteExpertSearch{width:35%}.ui-autocomplete{width:17.3%!important;padding:5px!important;margin:0!important;list-style:none;background-color:#fff!important;border:1px
+solid #ccc!important;border-radius:0!important;text-align:left;font-size:.875em}.autoCompleteMemberSearch{width:300px}.ui-menu,ui-widget,ui-widget-content{background-color:#fff!important;color:#000!important}.ui-autocomplete
+a{cursor:pointer}.searchByTagUl{padding-top:50px!important;border:none!important;margin:0
+3.4vw!important;background-color:initial!important;font-size:16px!important;letter-spacing:.08em;left:20%!important}.searchByTagUl
+li{padding-bottom:10px}.searchByTagUl
+a{text-decoration:none}.searchNotice{padding-left:6%;font:1em "BrandonGrotesque-Light",Arial,Helvetica,sans-serif;font-style:italic;text-align:left;margin-top:1%;float:left}.promotion
+.formCell{width:70%;margin-right:30%;margin-bottom:10px}.promotion
+.checkbox{width:100%;padding-left:16.5%;margin-bottom:10px}.promotion .formCell input,.shopSection nav
+select{width:100%}.promotion
+.button{width:70%;padding-left:16.5%}.promotion .formCell
+.textCell{float:left;width:24%;text-align:right;padding-right:10px}.promotion .formCell
+.inputCell{float:left;width:76%}#countryid{max-width:350px}.registerLogin
+fieldset{margin:10px
+0}.password .formCell,.registerLogin
+.formCell{width:100%;margin:5px
+0}.registerLogin .addPost
+.formCell{float:left;width:100%;margin:0;padding:0;text-align:left}.registerLogin .login
+.textCell{width:10%;text-align:left}.password .inputCell,.registerLogin .formCell
+.inputCell{float:left;width:85%}.password .inputCell input,.registerLogin .formCell .inputCell
+input{width:30%;padding:4px}.registerLogin
+select{padding:4px;text-transform:uppercase}.login
+.checkbox{width:85%;margin-left:15%}p.forgottenPassword{display:inline-block;width:85%;margin:10px
+0 0 15%}.formText,.registerLogin .login .button
+input{margin-left:15%}.password .textCell,.registerLogin .formCell
+.textCell{float:left;width:15%;padding:5px
+10px 0 0;text-align:right}.registerLogin .longText
+.textCell{width:27%;text-align:left}.registerLogin .longText
+.inputCell{float:left;width:73%}.resetPassword
+.textCell{width:15%}.password .button,.registerLogin
+.button{width:100%;margin:10px
+0;text-align:left}.addPost
+.button{margin:0}#multi_newsletter_submit{padding:6px
+30px;background-color:#e64415;text-decoration:none}.actionAdd a,.actionCrop a,.actionEdit a,.actionMakePrivate a,.actionMakePublic a,.actionRemove a,.actionUpload
+a{padding:6px
+30px}#multi_newsletter_submit,.actionAdd a,.actionCrop a,.actionEdit a,.actionMakePrivate a,.actionMakePublic a,.actionRemove a,.actionUpload a,.bookmarkList h5 a,.password .button input,.postsActions a,.registerLogin .button input,.ui-dialog
+#save{border:none;color:#fff;font:.875em "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;border-radius:15px;cursor:pointer;text-transform:uppercase}.password .button input,.postsActions a,.registerLogin .button input,.ui-dialog
+#save{padding:6px
+30px;background-color:#e64415;text-decoration:none}.viewProfile a,a.actionReply{padding:6px
+30px;text-decoration:none}.viewProfile
+a{border:none;color:#fff;font:.875em "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;border-radius:15px;cursor:pointer;text-transform:uppercase}a.actionReply{background-color:#e64415}a.actionReply,a.replyLink{border:none;color:#fff;font:.875em "BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;border-radius:15px;cursor:pointer;text-transform:uppercase}.action
+a{display:inline-block}.actionEdit
+a{text-decoration:none;background-color:#39c}.actionRemove a,.bookmarkList h5
+a{text-decoration:none;background-color:#f09}.bookmarkList h5
+a{font-size:.688em;padding:2px
+7px}.actionAdd a,.actionReply a,.actionUpload
+a{text-decoration:none;background-color:#6c9}.profilePageImage .actionUpload
+a{background-color:#c7cf63}.actionCrop a,.actionMakePrivate
+a{text-decoration:none;background-color:#ccc}.actionMakePublic a,a.unfollowForumPost{text-decoration:none}a.unfollowForumPost{background-color:#ccc}.actionMakePublic a,.viewProfile a,a.followForumPost,a.replyLink{background-color:#999}a.replyLink{text-decoration:none;font-size:.75em;margin:0
+0 5px;padding:3px
+15px}.postsActions
+li{margin-right:5px}.postsActions li:last-child{margin:0}p.privacy{margin:20px
+0 0}.registerLogin .login .checkbox
+.textCell{width:auto}.registerLogin .login .button
+input{padding:3px
+15px}.password .button
+input{margin-left:90px}.resetPassword .button input,.resetPassword
+p{margin-left:135px}.resetPassword
+.message{margin-bottom:15px}.registerLogin #userTwitter .formCell
+.textCell{width:100%;text-align:left;margin-bottom:3px}.registerLogin #userTwitter
+.checkbox{float:left;width:100%;margin:10px
+0}#message li,#pollingMessages
+li{font-weight:400;margin:5px
+0}.consultationMessages ul,.normal ul,.validation
+ul{margin:0;padding:0;list-style:none}.consultationMessages{background-color:#f2f2f2;border:2px
+solid #c8c8c8}.consultationMessages,.error,.normal,.validation{padding:5px
+15px;z-index:100;margin-bottom:10px}.normal,.validation{background-color:#f2f2f2;border:2px
+solid #c8c8c8}.validation{padding:20px
+15px 5px;background-color:#fff;border:1px
+solid red}.emailSignup
+.error{margin:0;width:100%}#forumListing .listingBlock,#postListing .listingBlock,.consultationMessages{float:left;width:100%}#commentsMessage{display:inline-block;width:100%;margin-bottom:5px}.error{color:#000;border:1px
+solid red;background-color:#fff}.popUpCta
+.error{border:none;background:0 0}.error ul,.validation
+ul{color:red}#newsletterMessage{float:left;width:100%;font-size:.875em}.markMessageRead{padding:0
+5px;border-radius:2px;margin:0
+5px;text-decoration:none;color:#fff;background-color:#e64415;font-size:.75rem}.tree,forumListing
+ul{margin:0;padding:0;list-style:none}.forumItem
+p{margin:25px
+0}.treeChild0{padding:0;margin:0
+0 10px;border:1px
+solid #ccc;border-top:none}#forumListing .box,.forum
+.box{padding-bottom:10px}.forum .forumItem .box,.forum-post .forumItem
+.box{float:right;width:87%}.forum .forumItem .image,.forum-post .forumItem
+.image{float:left;width:12%}.forumItem,.subTree,.treeChild0{float:left;width:100%}.subTree{list-style:none;margin:0;padding:0}.forumItem{clear:both;border-top:1px solid #ccc;padding:20px
+0;margin:0
+0 10px}.forumListing div.forumItem:first-of-type{border-top:none;padding-top:5px}.treeChild1
+.forumItem{padding-left:25px}.treeChild2
+.forumItem{padding-left:50px}.treeChild3
+.forumItem{padding-left:75px}.treeChild4
+.forumItem{padding-left:100px}.treeChild5
+.forumItem{padding-left:125px}.treeChild6
+.forumItem{padding-left:150px}.treeChild7
+.forumItem{padding-left:175px}.treeChild8
+.forumItem{padding-left:200px}.treeChild9
+.forumItem{padding-left:225px}.treeChild10
+.forumItem{padding-left:250px}.forumListing .actions
+a{color:#333!important;padding:5px
+10px 5px 0!important;margin:0!important;background:0 0!important;text-transform:inherit;font-size:1rem!important;font-size:16px;border:none!important;text-decoration:underline;border-radius:0!important}.forumListing .actions a:hover,.forumListing .actions li:hover{text-decoration:none!important;color:#333!important}p.postRemoved{color:#666;font-style:italic}p.originalPost{margin:-5px 0 -20px;color:#666}.breadcrumb{float:left;width:100%;margin:20px
+0 30px;text-transform:uppercase;font-size:.75em;letter-spacing:.15em;color:#999}.topPost{float:left;width:100%;padding:20px;margin-bottom:20px;border:1px
+solid #ccc;background-color:#f8f8f8}#progressBar{height:25px;background:#6c9}.required{color:red}.clear{clear:both}.siteBy{display:inline-block;margin:5px
+0;color:#abacae;font-size:.813em}#message,.siteBy,.ui-dialog
+.formCell{width:100%}.ui-dialog .formCell
+.inputCell{margin:10px
+0}.ui-dialog .formCell .inputCell
+input{width:100%;padding:4px;box-sizing:border-box}.ui-dialog
+.tinymce{width:580px!important;height:200px!important}.wysiwyg
+label{color:#999}#left iframe,.ui-dialog
+.mceLayout{width:100%!important}.ui-dialog .ui-dialog-titlebar-close{position:absolute;top:5px;right:5px;height:30px;padding:5px}#message{float:left}.pageTopFilterForm
+.form{width:56%;margin:0
+22% 20px}.pageTopFilterForm
+.formCell{width:33.333%;padding:0
+12px}.pageTopFilterForm .button,.pageTopFilterForm .formCell .inputCell,.pageTopFilterForm .formCell
+select{width:100%}.pageTopFilterForm .button
+input{font-size:15px;background-color:#f07a94;padding:10px
+20px;margin:30px
+0 0;text-transform:uppercase;border:none;border-radius:20px;letter-spacing:.18em;font-family:"BrandonGrotesqueRegular",Arial,Helvetica,sans-serif;line-height:1em;cursor:pointer}.highlight{font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif}.threeColumnRow{background-size:97%}@media (min-width:48em){.threeColumnRow{background-size:97%}}@media (min-width:73.75em){.threeColumnRow{background-size:auto}}@charset "UTF-8";@font-face{font-family:'BrandonGrotesqueRegular';src:url(http://www.getthegloss.com/fonts/brandon_reg-webfont.eot?#iefix) format("embedded-opentype"),url(http://www.getthegloss.com/fonts/brandon_reg-webfont.woff) format("woff"),url(http://www.getthegloss.com/fonts/brandon_reg-webfont.ttf) format("truetype"),url(http://www.getthegloss.com/fonts/brandon_reg-webfont.svg#BrandonGrotesqueRegular) format("svg");font-weight:400;font-style:normal}@font-face{font-family:'BrandonGrotesque-Bold';src:url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.eot?#iefix) format("embedded-opentype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.otf) format("opentype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.woff) format("woff"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.ttf) format("truetype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold) format("svg");font-weight:400;font-style:normal}@font-face{font-family:'BrandonGrotesque-Light';src:url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.eot?#iefix) format("embedded-opentype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.otf) format("opentype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.woff) format("woff"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.ttf) format("truetype"),url(http://www.getthegloss.com/fonts/BrandonGrotesque-Light.svg#BrandonGrotesque-Light) format("svg");font-weight:400;font-style:normal}@font-face{font-family:'joebob';src:url(http://www.getthegloss.com/fonts/joebob.eot?#iefix) format("embedded-opentype"),url(http://www.getthegloss.com/fonts/joebob.woff) format("woff"),url(http://www.getthegloss.com/fonts/joebob.ttf) format("truetype"),url(http://www.getthegloss.com/fonts/joebob.svg) format("svg");font-weight:400;font-style:normal}.pullQuote:after,.pullQuote:before{content:'"'}.content p.pullQuote,.pullQuote{float:left;width:96%;text-align:center;padding:20px
+0;margin-left:2%;margin-right:2%;margin-bottom:20px;border-top:1px solid #acacac;border-bottom:1px solid #acacac;color:#ac9aa4;font-family:"BrandonGrotesque-Bold",Arial,Helvetica,sans-serif;font-size:1.063rem;line-height:1.8em;text-transform:uppercase;letter-spacing:.18em}@media only screen and (max-width:1530px){.twoColumnWrapper{background-size:98.5%}}@media only screen and (max-width:1024px){body,html{width:100%}.jobsSignUpForm p,.wrapper{padding:0
+10px}.socialBar
+a{width:30px;height:30px}header
+.socialLinks{margin-right:38%;width:260px}.homeMid
+.columnOne{width:32%;margin-left:0}.pageTopFilter
+p.link{margin-top:20px}.pageTopFilter
+.form{width:90%;margin:0
+5% 20px}footer
+.wrapper{background-size:100%}.emailSignupTop
+.button{padding-left:15px}.jobsHome
+.slider{width:100%;height:auto}.jobsSignUpForm{width:100%;padding-left:20%;padding-right:20%;margin:0
+0 20px}.jobsSignUpForm
+.group{width:100%;margin:0}.jobsSignUpForm .group:first-of-type{padding-top:0}.jobsSignUp
+.formCell{padding:0;margin-bottom:20px}.sideBar .keyPeople .listingItem
+p.image{width:35%}.sideBar .keyPeople .listingItem
+.text{width:65%}.threeColumnWrapper{background-size:98.7%}.twoColumnWrapper{background-size:98.5%}.sideBar
+h2.heading{letter-spacing:.03em}.shopEdit
+h1{top:30px;right:20px}.shopEdit .shopHome
+h1{top:30px;left:60px}.itemOverlay{display:none!important}.articleCarousel a:hover
+.itemOverlay{display:block!important}}@media only screen and (max-width:940px){body{padding:0}.mobile
+.socialBar{display:block;position:relative!important;top:0!important}.desktop
+.socialBar{display:none}.socialBar{float:left;width:100%!important;height:auto!important;position:relative;left:auto;margin:25px
+0}.socialBar
+li{display:inline-block;width:auto}.socialBar
+a{width:40px;height:40px}.newsArticle .tabbedLinks,.sideBar .keyPeople .listingItem
+p.image{width:40%}header{height:auto}.headerLinks{width:15%}.expertListing{width:94.2%}.expertListing .sort
+.formCell{width:50%}.ui-autocomplete{width:34.2%!important}h1{float:left}.barometer{background-image:url(http://www.getthegloss.com/images/daily-gloss-v2-bg.gif)}.categories
+li{height:180px;overflow:hidden}.popular .image,.popular .text,h1{width:100%}.popular
+.image{margin-bottom:5px}.imageWrapper{width:30%}.popUpContent
+.newsletterContent{background-size:100%!important}.emailSignup
+.form{width:100%}.pageTopFilter
+.form{width:100%;margin:0
+0 20px}.jobSection .formCell
+.inputCell{width:100%!important}.jobsHome
+.slider{width:100%;height:auto}.sideBar
+h2.heading{letter-spacing:0}.sideBar .keyPeople .listingItem
+.text{width:60%}.paginate p,.paginate
+ul{display:inline-block;width:100%}}@media only screen and (max-width:800px){.productListing .listingItem
+h2{min-height:120px}.jobsSignUp
+.pageTop{padding:60px
+5px 0 0}.jobsSignUp .pageTop
+p{padding:0
+10px}.jobsHome
+.left{width:60%}.jobsHome
+.right{width:38%}.twoColumnWrapper
+.content{width:73%}.twoColumnWrapper
+.sideBar{width:25%}.sideBar .inspiration .listingItem
+p.image{width:40%}.sideBar .inspiration
+.text{width:60%;padding-left:10px}.threeColumnWrapper
+.sideBar{width:30%}.threeColumnWrapper
+.content{width:40%;padding:0}.brandFilter
+.formCell{width:100%;margin:0
+0 10px}.jobDetails .left,.jobDetails .right,.sort .inputCell
+select{width:100%}.threeColumnWrapper{background-size:81%;background-position:center top}.twoColumnWrapper{background-size:98%}.jobSection .more
+li{height:350px}#container,body,html{overflow-x:hidden}.aToZ
+li{margin:0
+8px 0 0}.aToZ li:last-child{margin:0}.profile
+#left{width:100%;padding-bottom:20px;border-bottom:1px solid #ccc}.profile
+#right{width:100%;margin:5% 0}.mainNav ul li
+a{padding:9px
+5px}.mainNav ul .first a,.mainNav ul .first a:hover{padding-left:0}.mainNav ul .last a,.mainNav ul .last a:hover{padding-right:0}.expertCover
+h1{float:left;width:78%;padding:10px;margin:20% 5% 5% 17%}#original{float:right;width:100%;max-width:100%;overflow:visible;margin-top:10px}.glossWorld{width:100%;margin:0;height:2880px}.glossWorld
+div{transition:all 1s ease-in-out}.gwAccount,.gwTicket{width:305px;left:104px}.gwTicket{height:135px;top:0}.gwAccount{height:225px;top:150px}.gwSignup{width:226px;height:375px;top:0;left:429px}.gwExpertsBook{width:390px;height:481px;top:395px;right:189px}.gwPosts,.gwfeaturedExpert{width:226px;top:886px}.gwfeaturedExpert{height:466px;left:138px}.gwPosts{height:816px;left:384px}.gwChat{width:226px}.gwExpertJoin,.gwForums{width:226px;left:138px}.gwForums{top:1366px}.gwChat,.gwExpertJoin{height:428px;top:2202px;right:auto}.gwChat{left:384px}.gwReview,.gwVideo{width:466px;height:226px;right:146px}.gwVideo{top:1717px}.gwReview{top:1958px}.gwAsk,.gwAskNotLoggedIn{width:466px;height:226px;top:2648px;left:136px}.gwSignup .formCell .inputCell,.gwSignup .formCell .inputCell
+input{width:170px!important}.expertList .sort .formCell,.sort
+.formCell{width:100%;margin-bottom:15px}.profile .galleria-container{height:520px!important}.expertNotes{width:100%;margin:20px
+0;padding:18px
+10px 30px;background:0 0;background-color:#fbf8f7}.gtgApproved{top:-60px;left:-10px}.promotion{padding-right:20px}.promotion
+.checkbox{width:100%;padding:0}.promotion .button,.promotion
+.formCell{width:100%;margin-right:0}.promotion .formCell
+.textCell{width:100%;text-align:left;padding-right:0}.expertBadgeGenerator .formCell .inputCell,.promotion .formCell .inputCell,.promotion .formCell .inputCell
+input{width:100%!important}.label{width:25%}.data{width:75%}.ui-tabs-nav
+li{float:left;width:100%}.ui-tabs-nav
+a{width:100%;padding:5px;margin:0
+0 2px}.ui-state-active
+a{border-color:#ccc}.homeMid
+.columnOne{width:32%;margin-left:0}.picks
+.top{padding:5px
+15px 10px}.picks
+.text{width:75%}.imageWrapper{width:25%}.product1,.product2,.product3,.product4,.product5{padding-left:15px}.homeBaseLeft{width:30%}.galleryItem
+.left{border-top:none;width:100%}.galleryItem
+.right{width:100%}.showGrid{display:none}.rsDefault.rsHor
+.rsArrowLeft{left:0;top:0;margin-left:0}.rsDefault.rsHor
+.rsArrowRight{right:0;top:0;margin-right:2%}.galleryArrows{visibility:visible;float:left;width:100%;padding:0
+55px;margin:10px
+0 0;position:relative;height:51px}.galleryLeftArrow,.galleryRightArrow,.nextGalleryRightArrow{background:url(http://www.getthegloss.com/images/button-white-left.png) no-repeat 0 0;height:51px;width:51px;display:inline-block;padding-right:5px;cursor:pointer}.galleryLeftArrow,.galleryRightArrow{position:absolute;top:0}.sliderArrowLeft,.sliderArrowRight{position:absolute}.galleryLeftArrow{left:0}.galleryRightArrow{right:0}.sliderArrowLeft{top:12px;left:45px}.sliderArrowRight{top:12px;right:55px}.galleryRightArrow,.nextGalleryRightArrow{background:url(http://www.getthegloss.com/images/button-white-right.png) no-repeat}.galleryLeftArrow:hover{background:url(http://www.getthegloss.com/images/button-pink-left.png) no-repeat}.galleryRightArrow:hover,.nextGalleryRightArrow:hover{background:url(http://www.getthegloss.com/images/button-pink-right.png) no-repeat}.sliderArrow{text-transform:uppercase;color:#acacac;-webkit-font-smoothing:antialiased;cursor:pointer}.galleryItem .desktopSocial,.mainNav .menuText~li{display:none}.shopEdit
+h1{top:10px;right:20px}.shopEdit .shopHome
+h1{top:10px;left:60px}.mainNav
+.menuText{padding-left:30px}.search .formCell
+.inputCell{width:100%!important}.search .formCell .inputCell
+input{text-align:center;padding-left:0}.listingLatest
+.text{padding-top:10px}.sideBar .inspiration
+.listingItem{height:auto}.sideBarLinks
+h2{font-size:.875rem;line-height:1em}.sideBarLinks .listing
+p.details{line-height:1.1em}.sideBarLinks .listingItem
+.text{padding:0}.sideBarNews .listingItem:first-of-type{border-top:none}.sideBar .formCell
+.inputCell{width:100%!important}.itemOverlay{display:none!important}.listingLatest .text,.listingLatest
+p.image{width:100%}.productPage
+.slider{display:block}.productPage
+.flexslider{width:100%;text-align:center}.productPage .pageTop
+img{max-width:100%}#popUpCta,.popUpCta{background:0 0!important}.popUpCta{width:100%;padding:10%;height:auto;background-color:#fff!important}}@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){.siteSearchModal{padding:0}.searchByTagUl{display:none!important}.remodal{padding:0;padding-top:10vh}.siteSearchModal .remodal-close{top:1%;right:1%}.siteSearchModal
+.button{display:block;margin:0;padding:25px;border-top:3px double #ababab;text-align:center}.siteSearchModal
+fieldset{border:none}.dailyGloss div.image,.picks .productIntro,.siteSearchModal
+.searchNotice{display:none}.menuSubscribe .formCell .inputCell,.search .formCell
+.inputCell{width:100%!important}.search .formCell .inputCell
+input{text-align:center}.mp-menu{height:1024px}.tabletMobile{display:none!important}input{-webkit-appearance:none;border-radius:0}.galleryContainer .myImages
+img{max-height:620px;width:auto}.dailyGloss
+div.text{width:auto}.dailyGloss
+li.ipadLandscape{display:block}.showGrid{display:none}.galleryLeftArrow,.galleryRightArrow,.nextGalleryRightArrow{height:51px;width:51px;display:inline-block;vertical-align:middle;cursor:pointer}.galleryLeftArrow{background:url(http://www.getthegloss.com/images/button-white-left.png) no-repeat;padding-right:5px}.galleryRightArrow,.nextGalleryRightArrow{background:url(http://www.getthegloss.com/images/button-white-right.png) no-repeat;padding-left:5px}.galleryLeftArrow:hover{background:url(http://www.getthegloss.com/images/button-pink-left.png) no-repeat}.galleryRightArrow:hover,.nextGalleryRightArrow:hover{background:url(http://www.getthegloss.com/images/button-pink-right.png) no-repeat}.sliderArrow{text-transform:uppercase;color:#acacac;-webkit-font-smoothing:antialiased;cursor:pointer}.rsDefault.rsHor .rsArrowLeft .rsArrowIcn:hover{background:url(http://www.getthegloss.com/images/button-white-left.png) no-repeat}.rsDefault.rsHor .rsArrowRight .rsArrowIcn:hover{background:url(http://www.getthegloss.com/images/button-white-right.png) no-repeat}.jobPage
+h1{background:0 0;margin:0}}@media screen and (min-device-width:768px) and (orientation:portrait){input{-webkit-appearance:none;border-radius:0}.formCell
+.textCell{width:25%!important;margin:0}.formCell
+.inputCell{width:75%!important}.jobSection .formCell .inputCell,.newsletter .form .formCell .inputCell,.ui-dialog .formCell
+.inputCell{width:100%!important}.shopSection
+p{display:inline-block;width:100%}.promotion .button,.promotion
+.formCell{width:100%;margin-right:0}.promotion .formCell .inputCell,.promotion .formCell .inputCell input,.promotion .formCell
+.textCell{width:100%!important;text-align:left}.profile #right .banner,.profile #right
+.expertFinder{width:70%;margin-left:15%;margin-right:15%;text-align:center}.shelf{background-position:0 160px}.twoColumnCheckbox
+.column{width:50%}.sort .formCell
+.inputCell{width:100%!important}.galleryContainer .myImages
+img{max-height:900px;width:auto}.filterGroup{margin:0}.glossWorld{width:100%;margin:0;height:2880px}.glossWorld
+div{transition:all 1s ease-in-out}.gwAccount,.gwTicket{width:305px;left:104px}.gwTicket{height:135px;top:0}.gwAccount{height:225px;top:150px}.gwSignup{width:226px;height:375px;top:0;left:429px}.gwExpertsBook{width:390px;height:481px;top:395px;right:189px}.gwPosts,.gwfeaturedExpert{width:226px;top:886px}.gwfeaturedExpert{height:466px;left:138px}.gwPosts{height:816px;left:384px}.gwChat{width:226px}.gwExpertJoin,.gwForums{width:226px;left:138px}.gwForums{top:1366px}.gwChat,.gwExpertJoin{height:428px;top:2202px;right:auto}.gwChat{left:384px}.gwReview,.gwVideo{width:466px;height:226px;right:146px}.gwVideo{top:1717px}.gwReview{top:1958px}.gwAsk,.gwAskNotLoggedIn{width:466px;height:226px;top:2648px;left:136px}.gwSignup .formCell .inputCell,.gwSignup .formCell .inputCell
+input{width:170px!important}header{background:url(http://www.getthegloss.com/images/gtg-logo.png) no-repeat 50% 10px}.picks li
+a.productImg{width:45%}.dailyGloss
+.image{display:none}.dailyGloss
+.text{width:100%}.emailSignupTop
+.inputCell{width:103%!important}.emailSignupTop
+.newsletterContent{background-position:-160px 0;background-size:150%}.rsDefault.rsHor .rsArrowLeft .rsArrowIcn:hover{background:url(http://www.getthegloss.com/images/button-white-left.png) no-repeat}.rsDefault.rsHor .rsArrowRight .rsArrowIcn:hover{background:url(http://www.getthegloss.com/images/button-white-right.png) no-repeat}.jobPage
+h1{background:0 0;margin:0}.socialBar{margin-top:25px}.remodal,.siteSearchModal{padding:0}.remodal{padding-top:10vh}.siteSearchModal .remodal-close{top:1%;right:1%}.siteSearchModal
+.button{display:block;margin:0;padding:25px;border-top:3px double #ababab;text-align:center}.siteSearchModal
+fieldset{border:none}.siteSearchModal
+.searchNotice{display:none}.menuSubscribe .formCell .inputCell,.search .formCell
+.inputCell{width:100%!important}.search .formCell .inputCell
+input{text-align:center}.mp-menu{height:1024px}.tabletMobile{display:none!important}.jobLinks .listingItem h2
+a{margin-bottom:5px}}@media only screen and (max-width:767px){html{-webkit-text-size-adjust:100%}.productListing .listingItem
+h2{min-height:1px}.aToZ li
+a{display:inline-block;padding:5px}.contentWrapper{padding-top:40px}.wrapper.home{margin-top:0}.expertTop{padding:0
+10px}.expertTop .wrapper,.profilePageImage p,.profilePageVideo
+p{width:100%}.detailsContent{float:left;width:100%;margin-left:0}.wrapper{margin-top:0}.expertLinks,p.image
+.category{width:100%;padding:0}.expertTop
+.banner{display:none}p.image
+.category{text-align:center;top:0;bottom:initial}.inPageLinks{padding:20px
+10px;margin:10px
+0;min-height:0;background:url(http://www.getthegloss.com/images/expert-links-bg2.png) no-repeat 0 0}.inPageLinks
+li{display:inline-block;padding-right:10px}.inPageLinks
+h2{padding-left:35px}.expertLeft{width:100%;padding:0
+10px;margin-bottom:20px}.articlesIcon,.bookmarksIcon{right:0}.expertRight{width:100%;padding:0
+10px}.tabletPhone{display:inline-block;margin:10px
+0 0}.twitter{width:70%;margin:0
+15% 30px}.twitter
+.tabletPhone{margin:5px
+0 10px 5px}.addReview .formCell
+.inputCell{width:100%!important}header{position:fixed;max-width:1140px;height:46px;top:0}.mainNav{margin-top:0}.subNav{display:none}.content
+p.category{text-align:center}.glossWorld{width:100%;margin:0;height:2880px}.glossWorld
+div{transition:all 1s ease-in-out}.gwAccount,.gwTicket{width:305px;left:50px}.gwTicket{height:135px;top:0}.gwAccount{height:225px;top:150px}.gwSignup{width:226px;height:375px;top:0;left:370px}.gwExpertsBook{width:390px;height:481px;top:395px;right:130px}.gwPosts,.gwfeaturedExpert{width:226px;top:886px}.gwfeaturedExpert{height:466px;left:70px}.gwPosts{height:816px;left:310px}.gwForums{width:226px;top:1366px;left:70px}.gwChat,.gwExpertJoin{width:226px;height:428px;top:2202px;right:auto}.gwExpertJoin{left:70px}.gwChat{left:310px}.gwReview,.gwVideo{width:466px;height:226px;right:90px}.gwVideo{top:1717px}.gwReview{top:1958px}.gwAsk,.gwAskNotLoggedIn{width:466px;height:226px;top:2648px;left:70px}.gwSignup .formCell .inputCell,.gwSignup .formCell .inputCell
+input{width:170px!important}.sideBarNews{background:0 0}.formCell
+input{-webkit-appearance:none;border-radius:0}.formCell
+select{width:100%;max-width:100%}#countryid,img{max-width:100%}.columnOne,.columnTwo{height:auto}#left,#left .left,#left .right,#right,.banner,.columnThree,.columnThree .banner,.left,.memberWrapper .listing,.newsArticle #left,.profile #left,.profile #left .left,.profile .content,.right,.standard #left,.video,.voucher{width:100%;height:auto}.barometer,.smallHeaderBanner{display:none}.search .inputCell
+input{border:none}.expertList .listingBlock,.profile #left
+.left{padding:0}.userNav,header
+p.date{float:left;width:100%;text-align:left;margin:0
+0 10px}header
+.wrapper{height:auto;padding:0;margin:0}.banner,.expertFinder,.jobPage .content hr,.video{margin:0
+0 20px}.home .right
+.listingBlock{padding:20px
+0;border-top:1px solid #acacac;border-bottom:1px solid #acacac}footer .column.left,footer .column.mid,footer
+.column.right{width:100%;padding:10px
+0}footer
+.column.mid{padding-top:20px}.footerSocialLinks{margin:0}.video
+h2{background-position:50% 0}.expertCover
+h1{float:left;width:90%;padding:10px;margin:20% 5% 5%}.expertCover h2,.expertCover
+h3{float:left;width:90%;margin:5%}ul.categories{padding:10px;margin-bottom:50px}.categories
+li{width:48%;margin:15px
+1%;height:205px;overflow:hidden}.expertCover,.expertListing{padding:0;margin:0
+0 25px}.expertListing{width:79.4%}.expertCover{width:79.3%;background:0 0;background-color:#fbf2ed}.sort{padding:20px
+0 20px 10px}.expertList
+.listing{width:100%;padding:0
+10px 0 20px;margin:0}.expertTabs,.jobDetails
+span{width:20%}.autoCompleteMemberSearch,.autocompleteExpertSearch{width:98%}.ui-autocomplete{width:96%!important}.profilePageImage
+.imageDetails{float:left;width:410px}.productItem .left,.productItem
+.right{float:left;width:100%!important;clear:both}.productItem
+p.price{margin-top:10px}.listingImageWrapper{display:none}.expertList
+.sort{width:100%;padding:20px
+0 0}.expertListing{margin-left:0!important}.shopEdit .pageTop h1,.sideBarLinks.jobLinks .text
+h2{display:block}.profile
+#right{width:100%;margin:0}.profile #right .banner,.profile #right .newsletter,.profile #right
+.twitter{width:70%;margin-left:15%;margin-right:15%}.profile #left
+.image{float:left;width:100%;padding:15px
+0 10px;border-top:1px solid #ccc;border-bottom:1px solid #ccc}.moreProducts .listing,.productList
+.listing{width:100%;padding:10px}.latestNotesList{border-top:1px solid #ccc;padding-top:10px}.profile .contact,.profile
+.relatedPeopleProducts{border-top:1px solid #ccc;padding-top:15px}.registerLogin .login
+.textCell{width:25%}.password .inputCell,.registerLogin .formCell
+.inputCell{float:left;width:75%}.password .inputCell input,.registerLogin .formCell .inputCell
+input{width:100%}.login .checkbox,p.forgottenPassword{width:75%;margin-left:25%}.formText,.registerLogin .login .button
+input{margin-left:25%}.password .textCell,.registerLogin .formCell .textCell,.resetPassword
+.textCell{width:25%}.registerLogin .longText .inputCell,.registerLogin .longText
+.textCell{width:100%}.registerLogin .checkbox
+.textCell{width:95%}.registerLogin .checkbox
+.inputCell{width:5%}#profileUserImage .actions
+li{float:left;width:100%;margin:0
+0 15px}#profileUserImage .actions li:last-child{margin:0}.memberWrapper
+.listing{padding:10px
+0}.aToZ
+li{margin:0
+7px 0 0}.twitter{min-height:auto}.twoColumnCheckbox
+.column{width:100%;padding-right:0}.shelf{background-position:0 180px}.ui-dialog{width:100%!important;height:auto!important}.expertImages .galleria-thumbnails-container{display:none}.expertImages .galleria-stage{width:100%!important;padding:0
+40px 0 30px;bottom:95px}.expertImages .galleria-image-nav{width:100%}.expertImages .galleria-image-nav-right{right:5px}.expertImages .galleria-image-nav-left{left:5px}.expertImages .galleria-info{width:100%;padding:0
+50px;top:250px}.expertImages .galleria-counter{top:0;right:5px}.popular,.tagFilter
+.sort{padding:0}.authorList #right,.listingPage #right,.newsArticle #right,.productList
+#right{padding-top:20px}.popular{margin:0
+0 20px}.popular
+.image{float:left;width:30%}.popular
+.text{float:right;width:70%;padding-left:10px}.dailyGloss,.socialLinks{display:none}.columnOne,.columnTwo,.homeMid
+.columnOne{float:left;width:100%;margin-left:0}footer
+.wrapper{background:0 0}.hide{display:none}.tabletMobile{display:block!important}.logo{width:100%;margin:0}.logo
+a{position:absolute;top:10px;left:0;margin:0
+20%;width:60%;height:80px;overflow:hidden;text-indent:-999em;z-index:1}.search{padding:5px}.moreLink{display:inline-block;width:100%;margin:10px
+0;position:relative!important;text-align:center}.moreLink
+a{width:147px;height:31px;text-indent:-9999em;position:relative;overflow:hidden}.dailyGloss
+.moreLink{bottom:auto;left:auto}.homeBase{margin-top:20px}.homeBase
+.moreLink{width:100%;top:auto;right:auto}.homeBase .moreLink
+a{width:121px}.homeNews
+.moreLink{width:100%;bottom:auto;right:auto}.homeNews .moreLink a,.moreProductsLink
+a{width:147px}.moreProductsLink{width:100%;top:auto!important;right:auto!important;position:relative}.homeBaseLeft,.homeBaseRight{width:100%}.homeBaseLeft
+.playIcon{position:absolute;width:31px;height:30px;top:50%;left:50%;margin-left:-18px;margin-top:-18px;background:url(http://www.getthegloss.com/images/play-icon-small.png) no-repeat 0 0;background-size:100%}.homeBaseLeft
+.homeBaseVideoWrapper{float:left;width:48%;margin:0
+0 20px}.homeBaseLeft .homeBaseVideoWrapper:nth-of-type(2){float:right}.homeBaseLeft .homeBaseVideoWrapper
+h3{margin:19px
+0 0}.emailSignupTop
+.newsletterContent{background-position:-160px 0;background-size:150%}.jobPage
+h1{width:100%;min-height:10px}.jobDetails
+h2.heading{width:100%;margin:0;border:none;text-align:left}.jobSection .sideBar
+h2.heading{width:80%;margin-left:10%!important;margin-right:10%!important;margin-bottom:30px}.brandJobs
+h2.heading{margin-bottom:20px}.sideBar
+h2.heading{letter-spacing:.18em;padding-bottom:15px}.jobsSignUp .pageTop
+p{float:left;width:100%;font-size:18px;margin:0;padding:0
+10px}.pageTopFilter h1,.pageTopFilter
+h2{float:left;width:100%}.sideBar .keyPeople .listingItem
+p.image{width:12%}.sideBar .keyPeople .listingItem
+.text{width:88%}.jobSection .moreLink a:hover,.moreJobsLink,.threeColumnWrapper,.twoColumnWrapper{background:0 0}.listingPage .oldListingPage,.listingPage
+.twoColumnWrapper{margin-top:0}.jobSection
+.moreLink{position:relative;font-family:'BrandonGrotesque-LightItalic',Arial,Helvetica,sans-serif;font-size:20px;padding:10px
+0;border-bottom:1px solid #adadad}.jobSection .moreLink
+a{width:100%;height:auto;overflow:visible;text-indent:0;background:0 0;text-decoration:none}.moreJobsLink{bottom:auto;height:auto;border-top:1px solid #acacac;padding:10px
+0;margin:30px
+0 0}.jobListing
+.content{padding-top:20px!important}.pageTopFilter{text-align:right!important;min-height:200px;height:200px;padding:40px
+5px 0 0}.pageTopFilter
+h1{text-align:right;font-size:27px;margin:0
+0 20px;padding:0}.pageTopFilter
+h2{padding-left:40%;font-size:11px;margin:0}.jobListing .pageTopFilter p.link,.jobsHome .pageTopFilter
+.formCell{display:none}.jobsHome
+.pageTopFilterForm{top:auto;bottom:20px;text-align:right;padding-right:10px}.pageTopFilter .button
+input{margin:25px
+0 0}.pageTopFilter
+p.link{bottom:-45px}.pageTopFilter p.link
+a{text-decoration:none;letter-spacing:.18em;font-family:'BrandonGrotesqueRegular',Arial,Helvetica,sans-serif;font-size:15px;background-color:#ded4d8;color:#000;text-transform:uppercase;padding:10px
+20px;border-radius:20px}.jobsHome
+.left{padding-top:20px;border-top:1px solid #acacac;margin-top:50px}.jobListing .pageTopFilter
+p.link{margin-top:42px}.jobListing
+.pageTopFilter{height:240px;margin-bottom:370px}.jobListing
+.pageTopFilterForm{top:275px;padding:10px;background-color:#f2f2f1}.jobListing .pageTopFilterForm
+h2{display:inline-block;width:100%;text-align:center;font-family:'BrandonGrotesque-Light',Arial,Helvetica,sans-serif;font-weight:100;font-size:25px;letter-spacing:.18em;margin:12px
+0 33px;padding:0;background:0 0;color:#000}.jobListing .pageTopFilterForm
+.formCell{width:100%;margin:0
+0 25px}.jobListing .pageTopFilter .button
+input{margin:-10px 0 0}.jobListing
+.content{border-top:1px solid #acacac;margin-bottom:40px}.jobDetails h2.heading,.jobSection
+.slider{display:none}.jobListing .content .image,.sideBar .inspiration .listingItem
+p.image{width:30%}.jobListing .content
+.text{width:65%}.ui-dialog .formCell
+.inputCell{margin:0!important}.jobPage
+p.buttonLink{width:100%;text-align:center}.jobSection .buttonLink a.forwardJob,.slides
+h2{margin:0}.jobsSignUp
+.pageTop{background-position:25% 50%}.jobsHome .left,.jobsHome
+.right{width:100%}.moreInspirationLink
+a{width:169px}.jobSection
+.content{padding:0}.jobSection
+p.banner{width:100%;margin:20px
+0}.brandArticle .sideBar hr:first-child{display:none}.brandArticle .content,.brandPage .content,.forward,.jobListing .content,.jobPage .content,.latestNews,.sideBar .inspiration,.sideBar hr,.sideBar.left,.sideBar.right,.similar{width:100%}.jobSection .paginate li,.sideBar
+.jobFilter{display:none}.sideBar .inspiration,.similar{border:none;margin:0;box-shadow:none}.sideBar
+.inspiration{margin-top:20px}.sideBar .inspiration
+.text{width:72%;padding:10px
+20px 0}.jobSection
+.paginate{text-align:center;padding:10px
+0;border-top:1px solid #acacac;border-bottom:1px solid #acacac;color:#666;font-size:14px;font-size:.875rem}.jobSection .paginate
+a{color:#000}.jobSection .paginate li.current,.jobSection .paginate li.next,.jobSection .paginate li.previous,.paginate li.next,.paginate
+li.previous{display:inline-block}.jobsHome .featuredJobs
+.listing{background:0 0}.jobListing .content .listingItem:last-of-type{border:none}.hideItem{display:none}.jobSection
+.carouselLite{text-align:center;padding-top:0;background:0 0;border:none}.jobPage,.jobPage .content,.jobPage .sideBar.left,.jobsSignUp
+.carouselLite{margin-top:0}.jobSection .carouselLite
+h2.heading{margin-bottom:30px}.jobSection .carouselLite
+p{display:none;width:100%}.forward{display:none}.brandArticle .content,.keyStats{border-bottom:1px solid #acacac;margin-bottom:20px}.keyStats{float:left;width:100%;padding:0
+10px 25px;margin-bottom:25px}.similar
+p.link{float:left;width:110%;padding:18px
+0;border-top:1px solid #adadad;text-align:center;font:19px 'BrandonGrotesque-LightItalic',Arial,Helvetica,sans-serif;font-size:1.188rem;margin:0
+-20px}.banner img,.statsSocial .social:after{width:auto}.keyPeople{width:100%;padding:0
+20px}.brandPage .sideBar hr:first-of-type{margin:0
+0 20px}.jobsSignUpForm{padding-left:10px;padding-right:10px}.jobPage .content p.image,.jobSection .buttonLink,.jobSection .carouselLite .brandCarouselStatic
+ul{text-align:center}.brandArticle .content
+p{font-size:16px;font-size:1rem}.jobDetails
+span.itemData{width:80%}.jobSection
+.latestNews{margin:20px
+0 0}.jobSection
+.carouselLite{margin-top:0}.jobSection .carouselLite .brandCarouselStatic
+li{float:none;display:inline-block}.slides
+.text{padding-bottom:10px}.slides .text
+p{display:none}.emailSignupTop{margin-top:10px}.shopEdit .shopHome h1,.shopEdit h1,.shopSection .lineTwo,.shopSection .shopHome .lineTwo,.shopSection.listingPage .pageTop
+h1{font-family:'BrandonGrotesque-Light',Arial,Helvetica,sans-serif;font-weight:100;font-size:25px;letter-spacing:.18em;color:#000}.shopEdit .shopHome h1,.shopEdit h1,.shopSection
+h2.heading{display:inline-block;width:80%;text-align:center;line-height:1.4em;padding:0
+0 10px;background:0 0!important;border-bottom:1px solid #acacac}.shopEdit .shopHome h1,.shopEdit h1,.shopSection.listingPage .pageTop
+h1{position:relative;top:auto;left:auto;right:auto;margin:0
+10%}.shopSection.listingPage .pageTop
+h1{width:80%;text-align:center;padding:0
+0 10px;background:0 0!important;border-bottom:1px solid #acacac;line-height:1.4em;display:block}.shopSection
+.lineOne{display:inline-block;width:100%;font-family:'BrandonGrotesque-LightItalic',Arial,Helvetica,sans-serif;font-size:19px;font-size:1.188rem;letter-spacing:0;text-transform:capitalize}.shopSection
+.lineTwo{text-transform:uppercase}.pageTop figure,.shopSection nav .formCell .textCell,.shopSection nav h2,.shopSection nav label,.shopSection nav p.link,.shopSection nav ul,.shopSection.listingPage .content
+h1{display:none}.shopSection
+h2.heading{font-family:'BrandonGrotesque-Light',Arial,Helvetica,sans-serif;font-weight:100;font-size:25px;letter-spacing:.18em;margin:0
+10% 30px}.filterShowHide a,.shopSection h2.heading span,h2.heading
+span{font-size:19px;font-family:'BrandonGrotesque-LightItalic',Arial,Helvetica,sans-serif;display:inline-block}.shopSection h2.heading span,h2.heading
+span{width:100%;letter-spacing:0;text-transform:capitalize}.shopSection.listingPage
+h2{margin-bottom:10px}.shopSection
+nav{float:left;width:100%;margin:5px
+0}.shopCategories,.shopEdits,.shopSection nav .formCell,p.filterShowHide{margin:0}.shopSection nav .formCell
+.inputCell{width:100%!important}.mobileMenuSelect,.productPage .pageTop
+figure{display:block}.mobileMenuSelect select,.shopBrands
+select{border:none;height:34px;background-color:#f7f7f7;font:19px 'BrandonGrotesque-Light',Arial,Helvetica,sans-serif;letter-spacing:.05em}nav.shopBrands{margin-bottom:15px}.shopSection .pageTop,.shopSection
+.shopHome{margin-bottom:30px}.shopSection
+.twoColumnWrapper{width:100%;background:0 0;margin:0}.productPage
+.flexslider{width:60%;margin:0
+auto}.shopSection .content,.shopSection
+.sideBar{width:100%}.shopSection
+.sideBar{margin-bottom:30px;border-top:1px solid #acacac;border-bottom:1px solid #acacac}.shopSection nav,.shopSection
+select{font-family:'BrandonGrotesque-Light',Arial,Helvetica,sans-serif;text-transform:inherit;font-size:19px;font-size:1.188rem;letter-spacing:.18em}.shopSection
+nav{padding:0}.shopSection
+select{padding-right:0}.filterShowHide
+a{color:#acacac;font-size:1.188rem;text-decoration:none;padding:15px
+20px 15px 10px;background:url(http://www.getthegloss.com/images/show-icon.svg) no-repeat 100% 53%;background-size:16px 16px}.filterShowHide
+a.hideLink{background-image:url(http://www.getthegloss.com/images/hide-icon.svg)}.search .formCell .inputCell input,.shopIntro,.shopSection p.intro,p.filterShowHide{text-align:center}.divider.desktop,.paginate li,.shopSection.listingPage
+.divider{display:none}.divider.tabletMobile{display:block;border:none}.productListing
+.divider.tabletMobile{display:none!important}.productListing{background:0 0}.productListing
+.listingItem{width:100%;padding:20px
+0;border-top:1px solid #acacac}.productListing .listingItem:first-of-type{padding-top:0;border:none}.itemTop{min-height:375px}.itemOne .itemTop,.itemTwo
+.itemTop{border:none}.productListing .paginate,.productListing .paginate:last-child{background-color:#fff;margin:0;padding:10px;text-align:center}.productListing .paginate:last-child{padding:20px
+10px 10px}.itemDetails{width:100%;margin:0}.itemDetails,.threeColumnRow,.twoColumnRow{background:0 0}.threeColumnRow .listingItem,.twoColumnRow
+.listingItem{width:100%;margin:25px
+0 0;padding-bottom:25px;text-align:center;border-bottom:1px solid #acacac;padding-top:25px;position:relative}p.image{position:initial}.shopSection.listingPage
+.paginate{padding:12px
+0;text-align:center;border-top:none}.paginate p,.paginate
+ul{display:inline-block;width:100%}.productPage
+.pageTop{width:100%;margin:0}.listingPage
+.paginate{border-bottom:1px solid #acacac;padding:15px
+0}.galleryPage #right .emailSignup,.listingPage .paginate p,p.loadMore,p.readMore{margin:0}.listingPage .oldListingPage
+.paginate{border-top:1px solid #acacac}.paginate
+li.previous{border-right:1px solid #acacac}.search .formCell
+.inputCell{width:100%!important}.divider,.home .more,.homeMid .inspiration span.clear,.rightNav .menuFollow,.rightNav .menuSubscribe,.sideBarLinks.productLinks,.slider{display:none}.smallLogo .logo
+a{margin-left:44%;height:40px}.rightNav .menuSearch
+a{margin-right:10px;margin-bottom:-15px}.home .popularVideos
+.sideBar.right{height:auto}.expertVideos img,.sideBar
+p.banner{width:100%}.home .more.topPicks,.jobPage .banner,.sideBarLinks
+p.tag{display:block}.jobPage
+.banner{text-align:center}.jobPage .banner
+img{width:auto!important}.greyBg{background-color:#fff}.content,.sideBar,.sideBarLinks,.twoColumnWrapper
+.content{float:left;width:100%}.content .listing h2.heading,.more h2.heading,.sideBar.right .inspiration h2.heading,.sideBar.right .sideBarLinks h2.heading,h2.heading{display:inline-block;width:80%;text-align:center;font-family:'BrandonGrotesque-Light',Arial,Helvetica,sans-serif;font-weight:100;font-size:25px;letter-spacing:.18em;line-height:1.2em;padding:0
+0 10px;margin:0
+10% 15px;background:0 0!important;border-bottom:1px solid #acacac}.popularVideos
+h2.heading{margin-bottom:25px}.more{padding:0;margin:20px
+0 0}.contentPage
+.more{padding-top:35px}.homeMid .inspiration .listingItem,.listingBlock .listing,.listingLatest .listingItem,.more
+li{width:100%!important;height:auto!important;padding:35px
+0 20px!important;border:none!important;border-bottom:1px solid #acacac!important;overflow:visible;text-align:center}.homeMid .inspiration .listingItem,.listingBlock .listing,.more
+li{margin:0
+0 20px}.listingLatest
+.listingItem{margin:0
+0 50px;position:relative}.expertWrapper
+.listing{text-align:left!important;margin:0;padding:0
+0 10px!important}.listingLatest .text,.listingLatest p.image,.more li .image,.more li
+.text{width:100%;padding:0;position:initial}.listingLatest{float:left;width:100%;border:none;border-bottom:1px solid #acacac;padding:0
+0 30px;margin:0
+0 35px}.listingBlock .listing:last-of-type,.listingLatest .listingItem:last-of-type{border:none!important}.listingPage
+.listingBlock{border:none;padding:0}.sideBarLinks{border:none!important;border-bottom:1px solid #acacac!important;padding-bottom:15px;margin-bottom:35px;box-shadow:none}.jobLinks{border-bottom:none!important;padding-bottom:0;margin-bottom:0}.sideBar .inspiration .listingItem,.sideBarLinks
+.listingItem{height:auto;overflow:visible;padding:10px
+20px!important;border:none}.listingPage .sideBarLinks .listingItem p.image,.sideBar .listingItem
+p.image{width:42%;margin:0}.sideBar .listingItem
+.text{width:58%;padding-left:10px}.listingPage .content .listing .listingItem:last-of-type{padding-bottom:65px}.listingPage
+.content{margin-bottom:35px}.brandArticle h1,.brandPage h1,.jobPage h1,h1{text-align:center;background:0 0!important;margin:15px
+0 10px;font-size:28px;font-size:1.75rem}.contentPage .content .details,.contentWide .newsletter .inputCell input,.jobSection .content
+.details{text-align:center}.jobSection,.shopSection{margin-top:20px}.jobSection .content .listing
+.details{text-align:left}.sideBarLinks
+h2{font-size:1rem;line-height:1.1em}.sideBarLinks .listing
+p.details{display:block}.expertVideos
+.left{width:100%;padding-left:0;text-align:center}.expertVideos
+.right{width:100%;padding:0}.expertVideos .right
+.listing{border:none!important}#nav-toggle{padding-left:10px}#right .emailSignup,.home .emailSignup,.sideBar
+.emailSignup{width:95%;margin:0
+2.5% 30px;background:0 0;background-color:#dab6ba}.articleCarousel,.newsletterDivider.topDivider{display:none}.home
+.newsletterDivider.topDivider{display:block}.home
+.emailSignup{margin-top:30px}.contentWide .newsletter
+.form{width:100%;padding-left:0}.more .image
+img{max-height:initial}.contentWide
+.newsletterContent{padding:20px;background-position:center top;min-height:100px!important;text-align:center}.contentWide .newsletterText,.sideBar.right{padding:0}.contentWide .newsletter
+.formCell{float:none;display:inline-block}.contentWide .newsletter .formCell
+.inputCell{padding:0;text-indent:0}.contentWide .newsletter
+.button{width:100%;padding:0;margin-bottom:0}.midPage{padding:20px
+0}}@media only screen and (max-width:900px) and (orientation:landscape){.galleryItem
+.imageContainer{height:280px;margin:0;overflow:hidden}.galleryItem .imageContainer
+img{width:auto;height:280px}}@media only screen and (max-width:640px){.ui-dialog{position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:0!important;border-radius:0}.ui-dialog,.ui-dialog-content{height:100%!important}.siteSearchModal
+.button{display:block;margin:0;padding:25px;border-top:3px double #ababab;text-align:center}.siteSearchModal
+fieldset{border:none}.siteSearchModal
+.searchNotice{display:none}.search .formCell
+.inputCell{width:100%!important}.search .formCell .inputCell
+input{text-align:center}.bookNote,.content
+.details{width:100%;text-align:center}.bookNote{margin-bottom:10px}.popUpCta
+h2{margin:0
+0 20px;font-size:28px;line-height:1.2em}.popUpCta
+p.newsletterSubHeading{margin:0
+0 30px;font-size:21px}.popUpCta .baseText
+p{margin:0
+0 10px;font-size:18px}}@media only screen and (max-width:568px){input{-webkit-appearance:none;border-radius:0}.search .formCell .inputCell input,.socialBar{text-align:center}.siteSearchModal
+.button{display:block;margin:0;padding:25px;border-top:3px double #ababab;text-align:center}.siteSearchModal
+fieldset{border:none}.siteSearchModal
+.searchNotice{display:none}.search .formCell
+.inputCell{width:100%!important}.sideBar .keyPeople .listingItem
+p.image{width:20%}.sideBar .keyPeople .listingItem
+.text{width:80%}.popUpCta .newsletterContent .formCell
+input{font-size:16px!important}}@media only screen and (max-width:480px){input{-webkit-appearance:none;border-radius:0}.galleryThumb{display:none}.galleryContainer .myImages
+img{max-height:250px;width:auto}.expertBadgeGenerator .left,.expertBadgeImage{width:100%}.expertBadgeImage{margin:10px
+0 0}.expertBadgeGenerator .formCell
+.textCell{width:100%;text-align:left}.expertBadgeGenerator
+textarea{margin-top:0}.expertRight{width:100%;margin:0;padding:0
+10px}.expert
+.twitter{width:70%;margin:0
+15%}.detailsLeft,.expertList .sort .formCell,.sort
+.formCell{width:100%}.detailsRight{width:100%;padding:10px}.glossWorld{width:100%;margin:0;height:4570px}.glossWorld
+div{transition:all 1s ease-in-out}.gwAccount,.gwTicket{width:305px;left:87.5px}.gwTicket{height:135px;top:0}.gwAccount{height:225px;top:150px}.gwSignup{width:226px;height:375px;top:390px;left:127px}.gwExpertsBook{width:390px;height:481px;top:785px;right:auto;left:45px}.gwPosts,.gwfeaturedExpert{width:226px;left:127px}.gwfeaturedExpert{height:466px;top:1280px}.gwPosts{height:816px;top:1762px}.gwChat,.gwExpertJoin,.gwForums{width:226px;left:127px}.gwForums{top:2595px}.gwChat,.gwExpertJoin{height:428px;right:auto}.gwExpertJoin{top:3430px}.gwChat{top:3873px}.gwVideo{top:2948px}.gwAsk,.gwAskNotLoggedIn,.gwReview,.gwVideo{width:466px;height:226px;right:7px}.gwReview{top:3189px}.gwAsk,.gwAskNotLoggedIn{top:4318px;left:0}.gwSignup .formCell .inputCell,.gwSignup .formCell .inputCell
+input{width:170px!important}.shelf{background-position:0 150px}.ui-dialog{top:0!important}.label{width:20%}.data{width:80%}.tabbedLinks{width:50%}.tabbedLinks
+.top{font-size:.875em}.newsletterContent{min-height:100px}.home
+.emailSignup{width:90%;margin-left:5%;margin-right:5%}.columnOne .banner,.columnOne
+.video{width:100%;margin:0}.emailSignup{margin-left:0;margin-right:0}.galleryItem
+.imageContainer{height:100%}.emailSignupTop{margin-top:5px}.jobSection .buttonLink
+a.forwardJob{margin-left:0}.jobDetails{padding:15px
+20px}.jobDetails
+p.image{margin:10px
+0;position:relative;bottom:auto;right:auto;width:100%}.jobPage
+hr{margin:10px
+0}.jobDetails
+span{float:none!important;width:auto!important;display:inline-block;padding-left:5px;padding-right:5px}.jobSection .carouselLite .brandCarouselStatic
+ul{margin:0
+0 10px}.siteSearchModal
+.button{display:block;margin:0;padding:25px;border-top:3px double #ababab;text-align:center}.siteSearchModal
+fieldset{border:none}.siteSearchModal
+.searchNotice{display:none}.search .formCell
+.inputCell{width:100%!important}.jobDetails,.search .formCell .inputCell
+input{text-align:center}}@media only screen and (max-width:480px) and (min-device-width:320px){input{-webkit-appearance:none;border-radius:0}.emailSignupTop
+.form{padding-left:10px}.emailSignupTop
+.inputCell{width:103%!important}.emailSignupTop
+.newsletterText{width:70%;font-size:12px;padding-bottom:5px;margin:5px
+0 0 10px}.emailSignupTop
+.newsletterContent{background-position:0 0;background-size:127%;padding:0}.emailSignupTop
+.button{width:40%}.emailSignupTop
+.formCell{width:40%;padding-left:10px}.galleryItem
+.imageContainer{height:100%}.emailSignupTop{margin-top:5px}header .mainNav li.first~li,header
+.menuText{display:none}header .mainNav
+li.first{margin-top:5px;display:block}}@media only screen and (max-width:414px){input{-webkit-appearance:none;border-radius:0}.emailSignupTop
+p{margin:0;padding-bottom:5px}.emailSignupTop
+h2{padding-left:0;font-size:22px}.jobsSignUp
+.pageTop{margin:0}.jobsSignUp .pageTop
+h1{float:left;width:100%;font-size:27px;margin:0
+0 20px;padding:0}.jobsSignUp .pageTop
+p{float:left;width:100%;margin:0;padding:0
+10px}.jobsHome .pageTopFilter
+.formCell{display:none}.jobSection
+.homeMid{margin:30px
+0 0}.jobSection
+.content{padding:0}.jobsHome
+.listingItem{width:100%}.jobsHome .left
+.listingItem{text-align:center;border-bottom:1px solid #acacac;margin:0;padding:30px
+0}.jobsHome .featuredJobs
+.listing{padding:0;background:0 0}.jobsHome .featuredJobs
+.listingItem{padding:15px
+0;border-bottom:1px solid #acacac}.jobsHome .featuredJobs .listingItem:last-child{border:none;padding-bottom:0}.jobsHome
+.left{margin-top:20px}.jobSection .carouselLite .brandCarouselStatic
+li{width:100%;margin:0
+0 10px;height:auto}.inspiration,.jobsHome
+.featuredJobs{padding-bottom:0}.threeColumnWrapper{padding-bottom:20px;margin-bottom:0;border-bottom:1px solid #acacac}.mainNav{margin:0!important}.picks{width:100%;margin:0
+0 20px}.product1,.product2,.product3,.product4,.product5{padding:35px
+30px 40px 5px}.headerLinks{width:36%}.userNav
+a{padding:0
+3px 0 8px}.formCell .inputCell,.formCell
+.textCell{width:100%;text-align:left!important}.formText,.login .checkbox,.registerLogin .login .button input,p.forgottenPassword{margin-left:0}.login .checkbox,p.forgottenPassword{width:100%}.shelf{background:0 0}.productList .featured
+.listing{width:100%;padding:10px
+0;margin:0}.categories
+li{height:160px}.slideshow .image,.slideshow .image
+img{width:320px!important;height:209px!important}.slideshow{height:300px}.filter{width:100%!important;margin-right:0;border-right:none;padding-right:0;margin-bottom:10px}.expertList .sort
+.checkbox{font-size:.75em}.expertListing{margin-left:0!important}.profile .galleria-container{height:420px!important}.data,.label{width:100%}.tabbedLinks{width:100%;margin-left:0;padding-left:0}.tabbedLinks
+.top{font-size:.875em}#left
+.emailSignup{width:100%;margin-left:0;margin-right:0}.listingPage .listing
+p.image{width:100%;padding-right:0}.homeNews,.homeNews .listing p.image img,.listingItemText{width:100%}.home
+.columnTwo{margin:0}.picks
+.top{padding:5px
+15px 10px}.homeNews{margin:0;border:none}.columnOne .video,.columnTwo .banner,.home
+p.banner{width:100%;margin:0
+0 20px}.authorList .listing,.homeNews .listing,.listingPage
+.listing{width:100%;padding:10px
+0;margin:0
+0 15px}.listingPage .listing:first-child{padding-top:0}.homeNews
+.clear{display:none}.slides
+.text{padding:10px
+0}.textWrapper{width:100%;padding:0
+70px;bottom:10px}.flex-control-nav,div.clear,span.clear{display:none}.contentWide .emailSignup .formCell,.productPage
+.flexslider{width:100%}.homeBaseLeft,.homeBaseLeft .homeBaseVideoWrapper,.homeBaseRight{width:100%;padding:0;margin:0}.homeBaseLeft
+.playIcon{width:69px;height:72px;top:50%;left:50%;margin-left:-35px;margin-top:-36px;background:url(http://www.getthegloss.com/images/play-icon.png) no-repeat 0 0}.homeBase
+p{float:left;width:100%!important;margin:0;text-align:center}.homeBase h3,.homeBaseLeft .homeBaseVideoWrapper
+h3{display:inline-block;width:100%;margin:13px
+0 15px!important;line-height:1.4em}footer{padding-top:15px}footer .column.left,footer .column.mid,footer
+.column.right{padding:10px
+0 0}.carouselLite{background:0 0;border-top:1px solid #999}.carouselWrapper{background:0 0;border-bottom:1px solid #999}.galleryItem
+.imageContainer{margin:0}.galleryItem .imageContainer
+img{width:100%;height:auto}.contentWide
+.newsletterText{font-size:14px}.contentWide .emailSignup
+h2{font-size:18px}.glossWorld{width:100%;margin:0;height:4185px}.gwAccount,.gwTicket{width:305px;left:0}.gwTicket{height:135px;top:0}.gwAccount{height:225px;top:150px}.gwSignup{width:226px;height:375px;top:390px;left:47px}.gwExpertsBook{width:305px;height:376px;top:775px;right:auto;left:0}.gwfeaturedExpert{height:466px;top:1160px}.gwForums,.gwPosts,.gwfeaturedExpert{width:226px;left:47px}.gwPosts{height:816px;top:1642px}.gwForums{top:2472px}.gwChat,.gwExpertJoin{width:226px;height:428px;right:auto;left:47px}.gwExpertJoin{top:3149px}.gwChat{top:3592px}.gwVideo{top:2823px;right:0;padding:20px
+30px 0 20px}.gwAsk,.gwAskNotLoggedIn,.gwReview,.gwVideo{width:305px;height:148px;background-size:100%}.gwReview{right:0;padding:20px
+10px 0 20px;top:2986px}.gwAsk,.gwAskNotLoggedIn{top:4035px;left:0}.gwAsk{padding:60px
+11px 0 70px}.gwSignup .formCell .inputCell,.gwSignup .formCell .inputCell
+input{width:170px!important}.gwVideo
+p.image{width:150px;height:100px;overflow:hidden}.gwVideo
+p.text{width:90px;height:60px;padding-left:20px;margin-top:45px;font-size:.5em}.gwReview
+p.image{width:94px;padding-right:10px;text-align:center}.gwReview
+p.text{width:135px;height:80px;padding-left:25px;margin:38px
+0 0;font-size:.5em}.gwReview
+.currentRating{width:170px;margin:10px
+0 0}.gwAsk
+.form{width:180px;height:60px}.gwAsk
+textarea{width:180px;height:35px;line-height:1.1em}#askAnyQuestionMessage{float:left;width:285px;margin:-55px -11px 0 -60px;font-size:.7em}.emailSignupTop
+.form{padding-left:10px}.emailSignupTop
+.inputCell{width:103%!important}.emailSignupTop
+.newsletterText{width:70%;font-size:12px;padding-bottom:5px;margin:5px
+0 0 10px}.emailSignupTop
+.newsletterContent{background-position:0 0;background-size:127%;padding:0}.emailSignupTop
+.button{width:40%}.emailSignupTop
+.formCell{width:40%;padding-left:10px}.galleryItem
+.imageContainer{height:100%}.emailSignupTop{margin-top:5px}.siteSearchModal
+.button{display:block;margin:0;padding:25px;border-top:3px double #ababab;text-align:center}.siteSearchModal
+fieldset{border:none}.siteSearchModal
+.searchNotice{display:none}.search .formCell
+.inputCell{width:100%!important}.search .formCell .inputCell
+input{text-align:center}}@media only screen and (max-width:400px){.emailSignupTop
+p{margin:0;padding-bottom:5px}.emailSignupTop
+h2{padding-left:0;font-size:22px}.emailSignupTop
+.form{padding-left:0}.emailSignupTop
+.inputCell{width:103%!important}.emailSignupTop
+.newsletterContent{background-position:0 0;background-size:127%}.galleryItem
+.imageContainer{height:100%}.siteSearchModal
+.button{display:block;margin:0;padding:25px;border-top:3px double #ababab;text-align:center}.siteSearchModal .remodal-close{top:0;right:5px}.siteSearchModal
+fieldset{border:none}.siteSearchModal
+.searchNotice{display:none}.search .formCell
+.inputCell{width:100%!important}.search .formCell .inputCell
+input{text-align:center;font-size:18px}.sideBar .keyPeople .listingItem
+p.image{width:25%}.sideBar .keyPeople .listingItem
+.text{width:75%}}@media only screen and (min-device-width:320px) and (max-device-width:568px){input{-webkit-appearance:none;border-radius:0}.mainNav{margin:0!important}.galleryItem
+.imageContainer{height:100%}}@media only screen and (max-width:320px){input{-webkit-appearance:none;border-radius:0}.picks{width:100%;margin:0
+0 20px}.product1,.product2,.product3,.product4,.product5{padding:35px
+30px 40px 5px}header
+.wrapper{height:165px}.headerLinks{width:36%}.userNav
+a{padding:0
+3px 0 8px}.formCell .inputCell,.formCell
+.textCell{width:100%;text-align:left!important}.formText,.login .checkbox,.registerLogin .login .button input,p.forgottenPassword{margin-left:0}.login .checkbox,p.forgottenPassword{width:100%}.shelf{background:0 0}.productList .featured
+.listing{width:100%;padding:10px
+0;margin:0}.categories
+li{height:160px}.slideshow .image,.slideshow .image
+img{width:320px!important;height:209px!important}.slideshow{height:300px}.filter{width:100%!important;margin-right:0;border-right:none;padding-right:0;margin-bottom:10px}.glossWorld{width:100%;margin:0;height:4185px}.gwAccount,.gwTicket{width:305px;left:0}.gwTicket{height:135px;top:0}.gwAccount{height:225px;top:150px}.gwSignup{width:226px;height:375px;top:390px;left:47px}.gwExpertsBook{width:305px;height:376px;top:775px;right:auto;left:0}.gwfeaturedExpert{height:466px;top:1160px}.gwForums,.gwPosts,.gwfeaturedExpert{width:226px;left:47px}.gwPosts{height:816px;top:1642px}.gwForums{top:2472px}.gwChat,.gwExpertJoin{width:226px;height:428px;right:auto;left:47px}.gwExpertJoin{top:3149px}.gwChat{top:3592px}.gwVideo{top:2823px;right:0;padding:20px
+30px 0 20px}.gwAsk,.gwAskNotLoggedIn,.gwReview,.gwVideo{width:305px;height:148px;background-size:100%}.gwReview{right:0;padding:20px
+10px 0 20px;top:2986px}.gwAsk,.gwAskNotLoggedIn{top:4035px;left:0}.gwAsk{padding:60px
+11px 0 70px}.gwSignup .formCell .inputCell,.gwSignup .formCell .inputCell
+input{width:170px!important}.gwVideo
+p.image{width:150px;height:100px;overflow:hidden}.gwVideo
+p.text{width:90px;height:60px;padding-left:20px;margin-top:45px;font-size:.5em}.gwReview
+p.image{width:94px;padding-right:10px;text-align:center}.gwReview
+p.text{width:135px;height:80px;padding-left:25px;margin:38px
+0 0;font-size:.5em}.gwReview
+.currentRating{width:170px;margin:10px
+0 0}.gwAsk
+.form{width:180px;height:60px}.gwAsk
+textarea{width:180px;height:35px;line-height:1.1em}#askAnyQuestionMessage{float:left;width:285px;margin:-55px -11px 0 -60px;font-size:.7em}.expertList .sort
+.checkbox{font-size:.75em}.expertListing{margin-left:0!important}.profile .galleria-container{height:420px!important}.expert .galleria-container{height:380px!important}.data,.label{width:100%}.tabbedLinks{width:100%;margin-left:0;padding-left:0}.tabbedLinks
+.top{font-size:.875em}#left
+.emailSignup{width:100%;margin-left:0;margin-right:0}.listingPage .listing
+p.image{width:100%;padding-right:0}.contentWide .emailSignup .formCell,.homeNews,.homeNews .listing p.image img,.listingItemText{width:100%}.picks
+.top{padding:5px
+15px 10px}.homeNews{margin:0;border:none}.columnOne .banner,.columnOne
+.video{width:100%;margin-left:0;margin-right:0}.authorList .listing,.homeNews .listing,.listingPage
+.listing{width:100%;padding:10px
+0;margin:0
+0 15px}.homeNews .clear,div.clear{display:none}footer{padding-top:15px}footer .column.left,footer .column.mid,footer
+.column.right{padding:10px
+0 0}.footerSocialLinks{float:left;width:100%;max-width:100%}.footerSocialLinks
+li{float:left;width:47%;padding:0;margin:0
+1.5% 6% 0}.footerSocialLinks li:nth-of-type(even){float:right;margin:0
+0 6% 1.5%}.footerSocialLinks li
+a{background-size:95%}.slides
+.text{padding:10px
+0}.textWrapper{width:100%;padding:0
+70px;bottom:10px}.flex-control-nav{display:none}.homeBaseLeft,.homeBaseLeft .homeBaseVideoWrapper,.homeBaseRight{width:100%;padding:0;margin:0}.homeBaseLeft
+.playIcon{width:69px;height:72px;top:50%;left:50%;margin-left:-35px;margin-top:-36px;background:url(http://www.getthegloss.com/images/play-icon.png) no-repeat 0 0}.homeBase
+p{float:left;width:100%!important;margin:0;text-align:center}.homeBase h3,.homeBaseLeft .homeBaseVideoWrapper
+h3{display:inline-block;width:100%;margin:13px
+0 15px!important;line-height:1.4em}.galleryItem
+.imageContainer{height:auto;margin:0}.galleryItem .imageContainer
+img{width:100%;height:auto}.contentWide
+.newsletterText{font-size:14px}.contentWide .emailSignup
+h2{font-size:18px}.jobDetails
+span{width:25%}.jobDetails
+span.itemData{width:73%}.more .image
+img{max-height:380px}.sideBar .keyPeople .listingItem
+p.image{width:30%}.sideBar .keyPeople .listingItem
+.text{width:70%}.homeMid .author,.picks
+.productIntro{display:none}.emailSignupTop
+.newsletterContent{background-position:25% 0;background-size:160%}.rightNav .menuSearch
+a{padding-top:2px!important;margin-bottom:-8px}}.mainNav li:hover .dropdown_1column, .mainNav li:hover .dropdown_2columns, .mainNav li:hover
+.dropdown_3columns{}.stArrow{margin-bottom:0!important}header{font-size:1em}.carousel
+li{height:260px}.expertListing{margin:0
+0 25px -38px}.expertListing, .expertCover, .expertTabs
+li{-webkit-box-shadow:none;border:2px
+solid #EEE;border-left:none}.checkbox
+input{-webkit-appearance:checkbox}.radio
+input{-webkit-appearance:radio}.mainNav li:hover .dropdown_1column, .mainNav li:hover .dropdown_2columns, .mainNav li:hover
+.dropdown_3columns{top:22px}.stArrow{margin-bottom:0!important}header, .search .inputCell
+input{font-size:1em}.carousel
+li{height:260px}.expertListing{margin:0
+0 25px -38px}.expertListing, .expertCover, .expertTabs
+li{-webkit-box-shadow:none;border:2px
+solid #EEE;border-left:none}
