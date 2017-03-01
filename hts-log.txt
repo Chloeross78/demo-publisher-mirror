@@ -1,0 +1,48 @@
+HTTrack3.48-21 launched on Wed, 01 Mar 2017 10:30:49 at http://www.londonbeautyqueen.com -www.londonbeautyqueen.com/search/*
+(httrack http://www.londonbeautyqueen.com -www.londonbeautyqueen.com/search/* -r2 -%e1 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:38:19	Warning: 	Moved Temporarily for ogp.me/ns/
+10:38:19	Warning: 	File has moved from ogp.me/ns/ to http://ogp.me/
+10:38:20	Warning: 	Found for ajax.googleapis.com/
+10:38:20	Warning: 	File has moved from ajax.googleapis.com/ to https://developers.google.com/speed/libraries/devguide
+10:38:21	Error: 	"Not Found" (404) at link fonts.googleapis.com/ (from www.londonbeautyqueen.com/)
+10:38:22	Warning: 	Moved Permanently for cdnjs.cloudflare.com/robots.txt
+10:38:22	Warning: 	File has moved from cdnjs.cloudflare.com/robots.txt to http://www.cdnjs.com/
+10:38:22	Warning: 	Moved Permanently for cdnjs.cloudflare.com/
+10:38:22	Warning: 	File has moved from cdnjs.cloudflare.com/ to http://www.cdnjs.com/
+10:38:22	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://pipdigz.co.uk/robots.txt (from www.londonbeautyqueen.com/)
+10:38:22	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://pipdigz.co.uk/ (from www.londonbeautyqueen.com/)
+10:38:26	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://pipdigz.co.uk/fonts/gaqweopfkgksdklfgjslfkhjdtyy/style.css (from www.londonbeautyqueen.com/)
+10:38:26	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://pipdigz.co.uk/icon_search_black.png (from www.londonbeautyqueen.com/)
+10:38:30	Warning: 	Found for https://api.instagram.com/robots.txt
+10:38:30	Warning: 	Warning moved treated for https://api.instagram.com/robots.txt (real one is https://www.instagram.com/robots.txt)
+10:38:30	Error: 	"Not Found" (404) at link https://api.instagram.com/v1 (from www.londonbeautyqueen.com/)
+10:38:31	Warning: 	Moved Permanently for https://instagram.com/robots.txt
+10:38:31	Warning: 	Redirected link is identical because of 'URL Hack' option: https://instagram.com/robots.txt and https://www.instagram.com/robots.txt
+10:38:31	Warning: 	Warning moved treated for https://instagram.com/robots.txt (real one is https://www.instagram.com/robots.txt)
+10:38:31	Warning: 	Moved Permanently for https://instagram.com/lbqblog/
+10:38:31	Warning: 	Redirected link is identical because of 'URL Hack' option: https://instagram.com/lbqblog/ and https://www.instagram.com/lbqblog/
+10:38:31	Warning: 	File has moved from https://instagram.com/lbqblog/ to https://www.instagram.com/lbqblog/
+10:38:33	Warning: 	Link feedburner.google.com/fb/a/mailverify?uri=londonbeautyqueen/wsSy not scanned (follow robots meta tag)
+10:38:36	Warning: 	Note: due to wearethirtyplus.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+10:38:36	Warning: 	Moved Temporarily for https://www.blogger.com/
+10:38:36	Warning: 	File has moved from https://www.blogger.com/ to https://accounts.google.com/ServiceLogin?service=blogger&hl=en_GB&passive=true&go=true&continue=https://www.blogger.com?rinli%3D1
+10:38:36	Warning: 	Found for googleads.g.doubleclick.net/pagead/viewthroughconversion/940248126/?guid=ON&script=0
+10:38:36	Warning: 	File has moved from googleads.g.doubleclick.net/pagead/viewthroughconversion/940248126/?guid=ON&script=0 to http://www.google.com/ads/user-lists/940248126/?script=0&random=2384342656&fpvtc=/940248126/%3Fguid%3DON%26script%3D0%26random%3D1796434367
+10:38:40	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://cdn001.milotree.com/container/005135milotree.js (from www.londonbeautyqueen.com/)
+10:38:40	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://pipdigz.co.uk/ (from www.londonbeautyqueen.com/)
+10:38:40	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://pipdigz.co.uk/fonts/gaqweopfkgksdklfgjslfkhjdtyy/style.css (from www.londonbeautyqueen.com/)
+10:38:40	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://pipdigz.co.uk/icon_search_black.png (from www.londonbeautyqueen.com/)
+10:38:40	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://cdn001.milotree.com/container/005135milotree.js (from www.londonbeautyqueen.com/)
+10:38:41	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://pipdigz.co.uk/ (from www.londonbeautyqueen.com/)
+10:38:41	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://pipdigz.co.uk/fonts/gaqweopfkgksdklfgjslfkhjdtyy/style.css (from www.londonbeautyqueen.com/)
+10:38:41	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://pipdigz.co.uk/icon_search_black.png (from www.londonbeautyqueen.com/)
+10:38:41	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://cdn001.milotree.com/container/005135milotree.js (from www.londonbeautyqueen.com/)
+
+HTTrack Website Copier/3.48-21 mirror complete in 7 minutes 52 seconds : 229 links scanned, 187 files written (46073397 bytes overall) [18959392 bytes received at 40168 bytes/sec], 34046819 bytes transferred using HTTP compression in 180 files, ratio 19%
+(7 errors, 30 warnings, 0 messages)

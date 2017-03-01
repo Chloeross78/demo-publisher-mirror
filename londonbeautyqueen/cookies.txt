@@ -1,0 +1,28 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+api.instagram.com	TRUE	/	FALSE	1999999999	mid	WLW4TQAEAAE9uMfTkwIVK40wogUc
+.twitter.com	TRUE	/	FALSE	1999999999	fm	0
+.twitter.com	TRUE	/	FALSE	1999999999	_twitter_sess	BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCHRP2oVaAToMY3NyZl9p%250AZCIlZjVhMDhiNzJmN2JlNjhhZTgxOTFhMTVlNzk2YWZhYmE6B2lkIiU0MGUy%250AY2E2OTU3ZTEzY2VlZWMzODU3YjU0ZmY1NTg5Zg%253D%253D--6a594d69b396af356d315f3544f19a62c9ecb234
+twitter.com	TRUE	/	FALSE	1999999999	external_referer	ZLhHHTiegr+HQoEaVTKs+oK7nUq4iBoUlKs4hgCXoNplH1JkKSUPLw==|0"
+.twitter.com	TRUE	/	FALSE	1999999999	ct0	3b19390d5f231b22ccba00b5cd6d77ac
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A148830436133154167
+.facebook.com	TRUE	/	FALSE	1999999999	fr	0vkEFSntoJMw9i78K..BYtbjq.T1.AAA.0.0.BYtbjq.AWWT74G8
+.bloglovin.com	TRUE	/	FALSE	1999999999	bloglovin[session]	ses_id58b5b8ebe59239.4570073008a43ae590a0bb82b2102ba69c3c64301739996eb8669895150630ac4e8ae71465fc8a
+.bloglovin.com	TRUE	/	FALSE	1999999999	bloglovin-auth	eyJhbGciOiJSUzI1NiJ9.eyJ0eXBlIjoiYXBwIiwidXNlciI6MCwibGV2ZWwiOjAsImlkZW50aWZpZXIiOiJmNWRmYzBkNzYxOGY1Njc5NDk3MTRmMDJjODhhNDVkNiIsImlhdCI6MTQ4ODMwNDM2MywiZXhwIjoxNDkwNzIzNTYzLCJhcHAiOiJoZmhzNnlnb2RmZHN0YXNmNWRmczY1NXNkc2Rkc2QifQ.ftzyiNxZi8C43bWPSRSjWWgqG01Lt3gknLAIK0e1ObQlMJbMgFy9PAFi892duc_sFAlwA2soIiT3oVDtQuZvty0CHKkTaCXFhZ7y21QqgHH9tT7TO6wvmzTbv_7_u-81KemQzHde_BexFWogyqYNqRkf7N4oJRQkppsZe-rlu57kDSonfrW7xyT3cPuz4XxxbZl_kdC4AnM0HJeCGD-A6AYKACq1pYF6GyH3n-B1hNDu-cTpjBc5uFGIyjNkBJFvUJq7MY4SW4L4ZMw-EuKQmYL4IgnuGy1n4d6mlVLv_u_P6czUc1FJZDDZzgsgA0InmF-IDphVjW0S74ys2ejRtauQ36z-LVBLarrAhOD6i9XPkdouo5sHv95YmtyuBFmOCNOvY7ZVnO8MYJz7-CzaLp6JDdOxSuXVEmdX1lsw5mmLK8b77xMyLw1fEBOYe0eE1Ma_VlzH5kutBSZnT0-h84ZdulSgbiYl6BY8FqI08aTJ22x1F4-8qM4Oi6HKwU38GKlBvMhQtgE6rlbNZw5uH06SvphZ7xIvNdajQXfYE6j16fZMFTkJZzFZpe-Bt-_GNDzsGGPxNx7n8rKLizHbp-x8tJw2TejDjxFh1wnkso0kiK5xowELSlG6iOFGZyJq6MgfuDsWK5vqjItcgkNZZkKu5evYgf1kJ5F9ca1L6Uw
+.bloglovin.com	TRUE	/	FALSE	1999999999	bloglovin[data]	%7B%22country%22%3A%22gb%22%2C%22version%22%3A1%7D
+.bloglovin.com	TRUE	/	FALSE	1999999999	bloglovin[visit_blog]	2158708
+.bloglovin.com	TRUE	/	FALSE	1999999999	bloglovin[page_type]	blog_profile
+.bloglovin.com	TRUE	/	FALSE	1999999999	bloglovin[referrer_page_type]	unknown
+.youtube.com	TRUE	/	FALSE	1999999999	VISITOR_INFO1_LIVE	5QAsfUV-nHU
+.youtube.com	TRUE	/	FALSE	1999999999	YSC	bvR8GmdyfK8
+.pinterest.com	TRUE	/	FALSE	1999999999	_pinterest_referrer	http://www.londonbeautyqueen.com/"
+.pinterest.com	TRUE	/	FALSE	1999999999	_auth	0
+www.pinterest.com	TRUE	/	FALSE	1999999999	csrftoken	KbI1n8f4mLEi7Eg0cRv5XeHmyLj8p3IQ
+.pinterest.com	TRUE	/	FALSE	1999999999	_pinterest_sess	TWc9PSZPUnRTaCtId0VxZnMwY25VK0N5QTd0cE9HT0ZQVUVUMzBIbjQ2QnF1NDBHSGdWbHhCYmZ1WWYyNW1JVWxPVlpTbm5FK1dldEpQc0xjVWRiT1dMclJiVUdOQVpCS2xwM0hTbXhKRVNld2Z6ZWx3VlIrVlpUL3hIUFZLY3U3S0pzSFRWUHNsUTZnZm55L0pzUXI4T0JmbUE9PSZ4K21qdTV5T1Rxc1pLOWxnbXFueHRFVXZ4Z2c9
+.youtube.com	TRUE	/	FALSE	1999999999	PREF	f1=50000000
+accounts.google.com	TRUE	/	FALSE	1999999999	GALX	rfTh2NNB_qQ
+.google.com	TRUE	/	FALSE	1999999999	S	feedburner-control-panel=p0sg6pTMuK--1hZkbgmUXWLzSFB0KfX-
+accounts.google.com	TRUE	/	FALSE	1999999999	GAPS	1:dTq2LdAz7D5Ch2eF0bVoWd0MGCUgeA:Gn5xUsPXOZFkt6nn
+accounts.google.com	TRUE	/	FALSE	1999999999	Priority	HIGH
+.pipdigz.co.uk	TRUE	/	FALSE	1999999999	__cfduid	db0f7c9a96140b956dd825bc8f29e63bb1488304582
+
