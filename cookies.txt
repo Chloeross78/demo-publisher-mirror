@@ -39,7 +39,6 @@ betteryou.com	TRUE	/	FALSE	1999999999	frontend_cid	H0LFzm0ckcgbdjrq
 www.aureliaskincare.com	TRUE	/	FALSE	1999999999	frontend_cid	lHUyLWadBrtMDZk3
 gtgloss.uk	TRUE	/	FALSE	1999999999	_bit	h21bD5-f973abf8dc07f31646-001
 www.thebyte9.com	TRUE	/	FALSE	1999999999	PHPSESSID	oel6suh2qu12l31eip2hm6dos0
-.skimresources.com	TRUE	/	FALSE	1999999999	skimSESS	82d90114158fbe1b787bd8a88449be85
 .pinterest.com	TRUE	/	FALSE	1999999999	_pinterest_referrer	http://www.getthegloss.com/listing/beauty-reviews-beauty-product-reviews"
 .twitter.com	TRUE	/	FALSE	1999999999	m5	off
 www.thebodycoach.com	TRUE	/	FALSE	1999999999	bccountry	United+Kingdom
@@ -86,7 +85,6 @@ betteryou.com	TRUE	/	FALSE	1999999999	frontend	m42ef2f406ldciqmpdv3sitb92
 .neomorganics.com	TRUE	/	FALSE	1999999999	frontend	36a2ec652e9b102b20698e3db5e594d9
 .neomorganics.com	TRUE	/	FALSE	1999999999	new_user_popup	4
 .neomorganics.com	TRUE	/	FALSE	1999999999	privacyPolicy	aF88iqYPQVA%3D
-www.getthegloss.com	TRUE	/	FALSE	1999999999	PHPSESSID	8nub63spef3fnp3tmm2h7baou4
 .doubleclick.net	TRUE	/	FALSE	1999999999	id	228c2135f42f00a2||t=1488368991|et=730|cs=002213fd482033a94c37ee93a5
 .doubleclick.net	TRUE	/	FALSE	1999999999	IDE	AHWqTUln7nwDLYUyQXzv_qkeInspc5L6k6ReevDFTHs0wEUk0VwwRxnUbg
 .awin1.com	TRUE	/	FALSE	1999999999	bId	tr12_58b6b5e6e8a4b7.88703681
@@ -109,4 +107,6 @@ bjorkandberries.com	TRUE	/	FALSE	1999999999	BIGipServer~sth2-lb01~png-web	rd1o00
 twitter.com	TRUE	/	FALSE	1999999999	external_referer	ZLhHHTiegr/PmAVpAp6k4iz44XY3B3w92Tpbs1pOA/GPg/mLMoW14vQGKdmaMFvSFBeEaI0HRNh6w9kCIZVPe4+PNcYIKA2z76GTJAZZb3siQz/OVhPKAPasjb5VRzD/9K6cumaFoJw=|0"
 .twitter.com	TRUE	/	FALSE	1999999999	ct0	d590182263c10e1a8e64b0361f1e81f8
 .twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A148836931679594541
+.skimresources.com	TRUE	/	FALSE	1999999999	skimSESS	82d90114158fbe1b787bd8a88449be85
+www.getthegloss.com	TRUE	/	FALSE	1999999999	PHPSESSID	qpabn9bq0sks2tkmeldp3egb37
 
