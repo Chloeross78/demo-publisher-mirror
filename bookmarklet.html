@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookmarklet</title>
+</head>
+<body>
+  <a href="javascript:(function () {
+      var newScript = document.createElement('script');
+      newScript.type = 'text/javascript';
+      newScript.src = 'http://localhost:3004/bookmarklet.js';
+      document.getElementsByTagName('body')[0].appendChild(newScript);
+    })();"
+  >
+    Bookmarklet
+  </a>
+</body>
+</html>
