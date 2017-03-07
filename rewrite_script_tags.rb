@@ -30,6 +30,12 @@ def remove_skimlinks(html)
   doc.to_html
 end
 
+def remove_google_tag_manager(html)
+  doc = Nokogiri::HTML(html)
+  doc.search('//script[text()[contains(.,"googletagmanager.com")]]').remove
+  doc.to_html
+end
+
 puts "undoing previous run"
 pages.each do |page|
   if File.exists?("#{page}#{ORIGINAL_EXT}")
@@ -52,6 +58,7 @@ puts "rewriting script tags"
 pages.map! do |page, html|
   html = add_showroom(html)
   html = remove_skimlinks(html)
+  html = remove_google_tag_manager(html)
 
   [page, html]
 end
